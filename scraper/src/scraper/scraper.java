@@ -40,7 +40,7 @@ public class scraper {
 				}
 				// System.out.println(p.id + ": " + p.name);
 				System.out.println(p.generateMarkdown());
-				writeToFile(("parts/" + p.id + ".md"), p.generateMarkdown());
+				// writeToFile(("parts/" + p.id + ".md"), p.generateMarkdown());
 
 				if (p.cat.equals("Electrical")) {
 					elec.add(p);
@@ -52,10 +52,10 @@ public class scraper {
 			catElec = catElec.concat("Electrical supplies and devices!\n\n");
 			
 			for(Part p : elec) {
-				catElec = catElec.concat("\n| [" + p.subcat
-						+ "](https://jgermita.github.io/frc-parts/parts/" + p.id + ".html) | "
+				catElec = catElec.concat("\n| " + p.subcat + "[" + p.id
+						+ "](https://jgermita.github.io/frc-parts/parts/" + ".html) | "
 						+ p.name + " | [" + p.pn + "]("
-						+ p.link + ") | " + p.vendor + " | \n");
+ + p.link + ") | " + p.vendor + " |");
 			}
 			
 			writeToFile("electrical.md", catElec);
