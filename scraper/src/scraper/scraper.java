@@ -44,6 +44,8 @@ public class scraper {
 
 				if (p.cat.equals("Electrical")) {
 					elec.add(p);
+				} else if (p.cat.equals("Gears")) {
+					gear.add(p);
 				}
 				// break;
 			}
@@ -59,6 +61,19 @@ public class scraper {
 			}
 			
 			writeToFile("electrical.md", catElec);
+
+			// ////////////////
+
+			String catGear = "# Gears\n";
+			catElec = catElec.concat("Gears of various bores, DPs, and tooth counts!\n\n");
+
+			for (Part p : gear) {
+				catGear = catGear.concat("\n| " + p.subcat + " | [" + p.name
+						+ "](https://jgermita.github.io/frc-parts/parts/" + p.id + ".html)"
+						+ " | [" + p.pn + "](" + p.link + ") | " + p.vendor + " |");
+			}
+
+			writeToFile("gears.md", catGear);
 
 		} catch (Exception e) {
 			e.printStackTrace();
