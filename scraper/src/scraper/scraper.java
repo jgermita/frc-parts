@@ -33,19 +33,19 @@ public class scraper {
 			
 			while ((s = br.readLine()) != null) {
 				
-				// // System.out.println(s);
-				// Part p = new Part(s);
-				// if (p.id.isEmpty() || p.name.isEmpty()) {
-				// continue;
-				// }
-				// // System.out.println(p.id + ": " + p.name);
-				// System.out.println(p.generateMarkdown());
-				// writeToFile(("parts/" + p.id + ".md"), p.generateMarkdown());
-				//
-				// if(p.cat.equals("Electrical")) {
-				// elec.add(p);
-				// }
-				// // break;
+				// System.out.println(s);
+				Part p = new Part(s);
+				if (p.id.isEmpty() || p.name.isEmpty()) {
+					continue;
+				}
+				// System.out.println(p.id + ": " + p.name);
+				System.out.println(p.generateMarkdown());
+				writeToFile(("parts/" + p.id + ".md"), p.generateMarkdown());
+
+				if (p.cat.equals("Electrical")) {
+					elec.add(p);
+				}
+				// break;
 			}
 			
 			String catElec = "# Electrical\n";
