@@ -1,3 +1,3 @@
 hello world.
 
-[partspage](partspage.md)
+[partspage](parts/00000.html)
