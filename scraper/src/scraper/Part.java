@@ -30,7 +30,7 @@ public class Part {
 		md = md.concat("## " + cat + "/" + subcat + "\n");
 		md = md.concat("Description: \t" + desc + " \n");
 
-		md = md.concat("| Vendor | " + vendor + " | \n");
+		md = md.concat("\n| Vendor | " + vendor + " | \n");
 		md = md.concat("| Part # | " + pn + " | \n");
 		md = md.concat("| Unit Price | " + price + " | \n");
 
