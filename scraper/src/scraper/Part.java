@@ -4,7 +4,7 @@ package scraper;
 public class Part {
 
 	public String	cat, subcat, name, desc, price, pn, vendor, link, id;
-	String			tags[];
+	String			tags[]	= new String[10];
 	
 	public Part(String in) {
 
@@ -20,6 +20,22 @@ public class Part {
 		link = split[7];
 		id = split[8];
 
+		// System.out.println((split.length) - 9);
+
+		for (int i = 0; i < 10; i++) {
+			tags[i] = "";
+		}
+		if (split.length > 9) {
+			for (int i = 0; i < ((split.length) - 9); i++) {
+				if (split[9 + i] == null) {
+					break;
+				}
+				tags[i] = split[9 + i];
+
+			}
+		}
+
+
 	}
 
 	public String generateMarkdown() {
@@ -27,12 +43,22 @@ public class Part {
 		String md = "";
 
 		md = md.concat("# " + name + "\n");
-		md = md.concat("## " + cat + "/" + subcat + "\n");
+		md = md.concat("## " + cat + " / " + subcat + "\n");
 		md = md.concat("Description: \t" + desc + " \n");
 
 		md = md.concat("\n| Vendor | " + vendor + " | \n");
 		md = md.concat("| Part # | [" + pn + "](" + link + ") | \n");
 		md = md.concat("| Unit Price | " + price + " | \n");
+		md = md.concat("| Tags: | ");
+
+		for (int i = 0; i < tags.length; i++) {
+			if (tags[i].isEmpty()) {
+				break;
+			}
+
+			md = md.concat(tags[i] + ", ");
+		}
+		md = md.concat(" | \n");
 
 		return md;
 
