@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.util.ArrayList;
 
 
 public class scraper {
@@ -18,6 +19,18 @@ public class scraper {
 			BufferedReader br = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
 
 			String s = "";
+			
+			ArrayList<Part> elec = new ArrayList<Part>();
+			ArrayList<Part> gear = new ArrayList<Part>();
+			ArrayList<Part> hard = new ArrayList<Part>();
+			ArrayList<Part> mate = new ArrayList<Part>();
+			ArrayList<Part> misc = new ArrayList<Part>();
+			ArrayList<Part> pneu = new ArrayList<Part>();
+			ArrayList<Part> pull = new ArrayList<Part>();
+			ArrayList<Part> spro = new ArrayList<Part>();
+			ArrayList<Part> too = new ArrayList<Part>();
+			ArrayList<Part> whee = new ArrayList<Part>();
+			
 			while ((s = br.readLine()) != null) {
 				// System.out.println(s);
 				Part p = new Part(s);
@@ -27,9 +40,21 @@ public class scraper {
 				// System.out.println(p.id + ": " + p.name);
 				System.out.println(p.generateMarkdown());
 				writeToFile(("parts/" + p.id + ".md"), p.generateMarkdown());
+				
+				if(p.cat.equals("Electrical")) {
+					elec.add(p);
+				}
 				// break;
-
 			}
+			
+			String catElec = "# Electrical\n";
+			catElec = catElec.concat("Electrical supplies and devices!\n");
+			
+			for(Part p : elec) {
+				catElec = catElec.concat("| " + p.subcat + " | " + p.name + " | [" + p.pn + "](" + p.link + ") | " + p.vendor + " | \n");
+			}
+			
+			writeToFile("electrical.md", catElec);
 
 		} catch (Exception e) {
 			e.printStackTrace();

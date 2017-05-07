@@ -1,5 +1,7 @@
 package scraper;
 
+import java.util.Date;
+
 
 public class Part {
 
@@ -58,7 +60,9 @@ public class Part {
 
 			md = md.concat(tags[i] + ", ");
 		}
-		md = md.concat(" | \n");
+		md = md.concat(" | \n\n");
+
+		md = md.concat("Last updated: " + (new Date(System.currentTimeMillis())));
 
 		return md;
 
