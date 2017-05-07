@@ -32,26 +32,30 @@ public class scraper {
 			ArrayList<Part> whee = new ArrayList<Part>();
 			
 			while ((s = br.readLine()) != null) {
-				// System.out.println(s);
-				Part p = new Part(s);
-				if (p.id.isEmpty() || p.name.isEmpty()) {
-					continue;
-				}
-				// System.out.println(p.id + ": " + p.name);
-				System.out.println(p.generateMarkdown());
-				writeToFile(("parts/" + p.id + ".md"), p.generateMarkdown());
 				
-				if(p.cat.equals("Electrical")) {
-					elec.add(p);
-				}
-				// break;
+				// // System.out.println(s);
+				// Part p = new Part(s);
+				// if (p.id.isEmpty() || p.name.isEmpty()) {
+				// continue;
+				// }
+				// // System.out.println(p.id + ": " + p.name);
+				// System.out.println(p.generateMarkdown());
+				// writeToFile(("parts/" + p.id + ".md"), p.generateMarkdown());
+				//
+				// if(p.cat.equals("Electrical")) {
+				// elec.add(p);
+				// }
+				// // break;
 			}
 			
 			String catElec = "# Electrical\n";
-			catElec = catElec.concat("Electrical supplies and devices!\n");
+			catElec = catElec.concat("Electrical supplies and devices!\n\n");
 			
 			for(Part p : elec) {
-				catElec = catElec.concat("| " + p.subcat + " | " + p.name + " | [" + p.pn + "](" + p.link + ") | " + p.vendor + " | \n");
+				catElec = catElec.concat("\n| [" + p.subcat
+						+ "](https://jgermita.github.io/frc-parts/parts/" + p.id + ".html) | "
+						+ p.name + " | [" + p.pn + "]("
+						+ p.link + ") | " + p.vendor + " | \n");
 			}
 			
 			writeToFile("electrical.md", catElec);
