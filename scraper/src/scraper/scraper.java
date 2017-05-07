@@ -52,9 +52,9 @@ public class scraper {
 			catElec = catElec.concat("Electrical supplies and devices!\n\n");
 			
 			for(Part p : elec) {
-				catElec = catElec.concat("\n| " + p.subcat + "[" + p.id
-						+ "](https://jgermita.github.io/frc-parts/parts/" + ".html) | "
-						+ p.name + " | [" + p.pn + "]("
+				catElec = catElec.concat("\n| " + p.subcat + " | [" + p.name
+						+ "](https://jgermita.github.io/frc-parts/parts/" + p.id + ".html)"
+						+ " | [" + p.pn + "]("
  + p.link + ") | " + p.vendor + " |");
 			}
 			
