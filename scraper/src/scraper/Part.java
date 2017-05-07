@@ -26,9 +26,9 @@ public class Part {
 
 		String md = "";
 
-		md = md.concat("#" + name + "\n");
-		md = md.concat("##" + cat + "/" + subcat + "\n");
-		md = md.concat(desc + "\n");
+		md = md.concat("# " + name + "\n");
+		md = md.concat("## " + cat + "/" + subcat + "\n");
+		md = md.concat(desc + " \n");
 
 		return md;
 
