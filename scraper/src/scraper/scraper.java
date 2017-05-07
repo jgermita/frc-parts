@@ -26,7 +26,7 @@ public class scraper {
 				}
 				// System.out.println(p.id + ": " + p.name);
 				System.out.println(p.generateMarkdown());
-				writeToFile((p.id + ".md"), p.generateMarkdown());
+				writeToFile(("parts/" + p.id + ".md"), p.generateMarkdown());
 				break;
 
 			}
@@ -39,7 +39,7 @@ public class scraper {
 
 	public static void writeToFile(String fname, String contents) {
 
-		fname = "parts/".concat(fname);
+
 		File out = new File(fname);
 		try {
 			BufferedWriter writer = new BufferedWriter(new FileWriter(out));
