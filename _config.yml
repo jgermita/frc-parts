@@ -5,3 +5,4 @@ description: a living database of common and uncommon parts for FRC robots.
 tipue_search:
   include:
     pages: true
+	files: [parts/00007.md]
