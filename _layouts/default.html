@@ -23,7 +23,20 @@
       <header>
 		<img src="https://jgermita.github.io/frc-parts/partslogo_small.png">
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-		<br>
+		
+		<script>
+		function process()
+		{
+		var url="https://jgermita.github.io/frc-parts/search/?q=" + document.getElementById("url").value;
+		location.href=url;
+		return false;
+		}
+		</script>
+		<form onSubmit="return process();">
+		URL: <input type="text" name="url" id="url"> <input type="submit" value="go">
+		</form>
+		
+		<br><br>
 		<a href="https://jgermita.github.io/frc-parts/electrical.html">Electrical</a>	<a href="https://jgermita.github.io/frc-parts/gears.html">Gears</a>	<a href="https://jgermita.github.io/frc-parts/hardware.html">Hardware</a>
 		<br>
 		<a href="https://jgermita.github.io/frc-parts/materials.html">Materials</a>	<a href="https://jgermita.github.io/frc-parts/misc.html">Misc</a>	<a href="https://jgermita.github.io/frc-parts/pneumatics.html">Pneumatics</a>
