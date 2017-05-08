@@ -64,7 +64,7 @@ public class Part {
 		md = md.concat("[suggest tags](https://docs.google.com/forms/d/e/1FAIpQLSeWyY8v3RgOty-MyWmh9U0iivNYN_molChYyS-0U-o-kOAv_g/viewform) | \n\n");
 
 		md = md.concat("Last updated: " + (new Date(System.currentTimeMillis())));
-		md = md.concat("\n [Incorrect/Incomplete information?](https://docs.google.com/forms/d/e/1FAIpQLSeWyY8v3RgOty-MyWmh9U0iivNYN_molChYyS-0U-o-kOAv_g/viewform)");
+		md = md.concat("\n\n [Incorrect/Incomplete information?](https://docs.google.com/forms/d/e/1FAIpQLSeWyY8v3RgOty-MyWmh9U0iivNYN_molChYyS-0U-o-kOAv_g/viewform)");
 
 		return md;
 
