@@ -169,3 +169,4 @@ exclude_from_search: true
 | Valves | [Large Buttom Pressure Release](https://jgermita.github.io/frc-parts/parts/00975.html) | [6790T46](https://www.mcmaster.com/#6790T46) | McMaster |
 | Valves | [Nitra - Quick Exhaust Valve](https://jgermita.github.io/frc-parts/parts/00972.html) | [QEU14-S](https://www.automationdirect.com) | Automation Direct |
 | Valves | [Valve, hand, 1/8 NPT, 1/4 push-in fitting](https://jgermita.github.io/frc-parts/parts/00878.html) | [am-2257](http://www.andymark.com/product-p/am-2257.htm) | Andymark |
+| Fittings | [90 deg elbow, 10-32 female](https://jgermita.github.io/frc-parts/parts/01019.html) | [5779K449](https://www.mcmaster.com/#5779K449) | Mcmaster |

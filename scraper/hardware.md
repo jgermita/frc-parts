@@ -243,3 +243,4 @@ exclude_from_search: true
 | Springs | [Constant Force Spring - 20lb](https://jgermita.github.io/frc-parts/parts/00363.html) | [9293K13](https://www.mcmaster.com/#9293K13) | Mcmaster |
 | Standoffs | [Standoff 1.00" (10-pack)](https://jgermita.github.io/frc-parts/parts/00364.html) | [275-1016](http://www.vexrobotics.com/standoffs-8-32.html) | Vex |
 | Standoffs | [Standoff 2.00" (10-pack)](https://jgermita.github.io/frc-parts/parts/00365.html) | [275-1018](http://www.vexrobotics.com/standoffs-8-32.html) | Vex |
+| 10-32 | [Vented cup-point set screw](https://jgermita.github.io/frc-parts/parts/01018.html) | [91979A601](https://www.mcmaster.com/#91979A601) | Mcmaster |

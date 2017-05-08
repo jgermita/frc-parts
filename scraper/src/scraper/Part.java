@@ -58,7 +58,8 @@ public class Part {
 				break;
 			}
 
-			md = md.concat(tags[i] + ", ");
+			
+			md = md.concat("[" + tags[i] + "](https://jgermita.github.io/frc-parts/search/?q=" + tags[i]+ ")" + ", ");
 		}
 		md = md.concat(" | \n\n");
 

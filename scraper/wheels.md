@@ -57,3 +57,4 @@ The wheels on the bot go round and round!
 | 6" | [WCP 6" aluminum hub assem - zigzag](https://jgermita.github.io/frc-parts/parts/00815.html) | [wcp-0050](http://www.wcproducts.net/pneumatic-wheels) | WCP |
 | 6" | [WCP 6" pneumatic - diamond](https://jgermita.github.io/frc-parts/parts/00816.html) | [wcp-0047](http://www.wcproducts.net/pneumatic-wheels) | WCP |
 | 6" | [WCP 6" pneumatic - zigzag](https://jgermita.github.io/frc-parts/parts/00817.html) | [wcp-0046](http://www.wcproducts.net/pneumatic-wheels) | WCP |
+| 2" | [2" OD shaft mount conveyor rollers](https://jgermita.github.io/frc-parts/parts/01017.html) | [60185K919](https://www.mcmaster.com/#60185K919) | Mcmaster |
