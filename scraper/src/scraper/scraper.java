@@ -40,7 +40,7 @@ public class scraper {
 				}
 				// System.out.println(p.id + ": " + p.name);
 				System.out.println(p.generateMarkdown());
-				writeToFile(("parts/" + p.id + ".md"), p.generateMarkdown());
+				// writeToFile(("parts/" + p.id + ".md"), p.generateMarkdown());
 
 				if (p.cat.equals("Electrical")) {
 					elec.add(p);
@@ -68,7 +68,7 @@ public class scraper {
 
 			// ////////////////
 			
-			String catElec = "# Electrical\n";
+			String catElec = "---\nexclude_from_search: true\n---\n\n" + "# Electrical\n";
 			catElec = catElec.concat("Electrical supplies and devices!\n\n");
 			
 			for(Part p : elec) {
@@ -82,7 +82,7 @@ public class scraper {
 
 			// ////////////////
 
-			String catGear = "# Gears\n";
+			String catGear = "---\nexclude_from_search: true\n---\n\n" + "# Gears\n";
 			catElec = catElec.concat("Gears of various bores, DPs, and tooth counts!\n\n");
 
 			for (Part p : gear) {
@@ -95,7 +95,7 @@ public class scraper {
 
 			// ////////////////
 
-			String catHard = "# Hardware\n";
+			String catHard = "---\nexclude_from_search: true\n---\n\n" + "# Hardware\n";
 			catElec = catElec.concat("Screws, nuts, bearings, bushings, etc!\n\n");
 
 			for (Part p : hard) {
@@ -108,7 +108,7 @@ public class scraper {
 
 			// ////////////////
 
-			String catMate = "# Materials\n";
+			String catMate = "---\nexclude_from_search: true\n---\n\n" + "# Materials\n";
 			catElec = catElec.concat("Raw materials in various shapes!\n\n");
 
 			for (Part p : mate) {
@@ -121,7 +121,7 @@ public class scraper {
 
 			// ////////////////
 
-			String catMisc = "# Miscellaneous\n";
+			String catMisc = "---\nexclude_from_search: true\n---\n\n" + "# Miscellaneous\n";
 			catElec = catElec.concat("Other odds and ends!\n\n");
 
 			for (Part p : misc) {
@@ -134,7 +134,7 @@ public class scraper {
 
 			// ////////////////
 
-			String catPneu = "# Pneumatics\n";
+			String catPneu = "---\nexclude_from_search: true\n---\n\n" + "# Pneumatics\n";
 			catElec = catElec.concat("Air powered!\n\n");
 
 			for (Part p : pneu) {
@@ -147,7 +147,7 @@ public class scraper {
 
 			// ////////////////
 
-			String catPull = "# Pulleys / Belts\n";
+			String catPull = "---\nexclude_from_search: true\n---\n\n" + "# Pulleys / Belts\n";
 			catElec = catElec.concat("HTD, GT2, etc belts and pulleys!\n\n");
 
 			for (Part p : pull) {
@@ -160,7 +160,7 @@ public class scraper {
 
 			// ////////////////
 
-			String catSpro = "# Sprockets / Chain\n";
+			String catSpro = "---\nexclude_from_search: true\n---\n\n" + "# Sprockets / Chain\n";
 			catElec = catElec.concat("25 and 35 chain and sprockets!\n\n");
 
 			for (Part p : spro) {
@@ -173,7 +173,7 @@ public class scraper {
 
 			// ////////////////
 
-			String catTool = "# Tools\n";
+			String catTool = "---\nexclude_from_search: true\n---\n\n" + "# Tools\n";
 			catElec = catElec.concat("Tools of the trade!\n\n");
 
 			for (Part p : tool) {
@@ -186,7 +186,7 @@ public class scraper {
 
 			// ////////////////
 
-			String catWhee = "# Wheels\n";
+			String catWhee = "---\nexclude_from_search: true\n---\n\n" + "# Wheels\n";
 			catWhee = catWhee.concat("The wheels on the bot go round and round!\n\n");
 
 			for (Part p : whee) {

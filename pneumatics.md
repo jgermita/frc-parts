@@ -1,3 +1,7 @@
+---
+exclude_from_search: true
+---
+
 # Pneumatics
 
 | Compressors | [1.1 Pump Compressor](https://jgermita.github.io/frc-parts/parts/00963.html) | [AM-3227](http://www.andymark.com/) | Andymark |

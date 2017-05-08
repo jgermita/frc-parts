@@ -1,3 +1,7 @@
+---
+exclude_from_search: true
+---
+
 # Miscellaneous
 
 | Pit Supplies | [8pk 18W LED flood light](https://jgermita.github.io/frc-parts/parts/01012.html) | [B01M58DARW](https://www.amazon.com/gp/product/B01M58DARW/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1) | Amazon |

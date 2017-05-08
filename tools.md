@@ -1,3 +1,7 @@
+---
+exclude_from_search: true
+---
+
 # Tools
 
 | Air Tools | [20pc Air Compressor starter kit](https://jgermita.github.io/frc-parts/parts/00890.html) | [68191](http://www.harborfreight.com/air-tools/air-accessory-kits/20-pc-air-compressor-starter-kit-68191.html) | Harbor Freight |

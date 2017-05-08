@@ -1,3 +1,7 @@
+---
+exclude_from_search: true
+---
+
 # Materials
 
 | Aluminum | [.375 OD .277 ID aluminum tube](https://jgermita.github.io/frc-parts/parts/00366.html) | [9056K64](https://www.mcmaster.com/#9056K64) | Mcmaster |

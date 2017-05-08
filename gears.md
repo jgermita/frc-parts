@@ -1,3 +1,7 @@
+---
+exclude_from_search: true
+---
+
 # Gears
 
 | 0.125" Round | [12T 32DP](https://jgermita.github.io/frc-parts/parts/00874.html) | [am-0928](http://www.andymark.com/product-p/am-0928.htm) | Andymark |

@@ -1,3 +1,7 @@
+---
+exclude_from_search: true
+---
+
 # Wheels
 The wheels on the bot go round and round!
 

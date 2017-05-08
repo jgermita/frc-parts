@@ -1,3 +1,7 @@
+---
+exclude_from_search: true
+---
+
 # Hardware
 
 | #10 | [#10 washer](https://jgermita.github.io/frc-parts/parts/00827.html) | [90107A011](https://www.mcmaster.com/#90107A011) | Mcmaster |

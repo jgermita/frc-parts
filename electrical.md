@@ -1,3 +1,7 @@
+---
+exclude_from_search: true
+---
+
 # Electrical
 Electrical supplies and devices!
 

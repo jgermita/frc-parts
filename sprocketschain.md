@@ -1,3 +1,7 @@
+---
+exclude_from_search: true
+---
+
 # Sprockets / Chain
 
 | #25 Chain | [#25 chain](https://jgermita.github.io/frc-parts/parts/00620.html) | [217-2775](http://www.vexrobotics.com/vexpro/motion/sprockets-and-chain/roller-chain.html) | Vex |

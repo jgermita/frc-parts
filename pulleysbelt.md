@@ -1,3 +1,7 @@
+---
+exclude_from_search: true
+---
+
 # Pulleys / Belts
 
 | GT2 Pulleys | [12T BAG pinion](https://jgermita.github.io/frc-parts/parts/00568.html) | [wcp-0016](http://www.wcproducts.net/gt2-timing-pulleys-belts) | WCP |
