@@ -14,6 +14,6 @@ A large majority of the parts presented in this project were battle-tested and v
 * FIRST Robotics Competition [Team 5012 Gryffingear](http://gryffingear.com) (2013 - Current)
 * FIRST Robotics Competition [Team 399 Eagle Robotics](http://team399.org) (2009 - 2014)
 * FIRST Tech Challenge Team 72 Garagebots (2010 - 2014)
-* FIRST Tech Challenge teams 5011 Bot Squad and 7328 (2013 - 2015)
+* FIRST Tech Challenge teams 5011 Bot Squad and 7328 ICE (2013 - 2015)
 
 Mentors involved in the East West Collaboration Project(EWCP) have been an incredible source of information and tremendous support. 
