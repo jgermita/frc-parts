@@ -42,7 +42,7 @@ public class Part {
 
 	public String generateMarkdown() {
 
-		String md = "";
+		String md = "---\n" + name + "\n---\n";
 
 		md = md.concat("# " + name + "\n");
 		md = md.concat("## " + cat + " / " + subcat + "\n");

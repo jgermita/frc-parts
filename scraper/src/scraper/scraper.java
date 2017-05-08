@@ -40,7 +40,7 @@ public class scraper {
 				}
 				// System.out.println(p.id + ": " + p.name);
 				System.out.println(p.generateMarkdown());
-				// writeToFile(("parts/" + p.id + ".md"), p.generateMarkdown());
+				writeToFile(("parts/" + p.id + ".md"), p.generateMarkdown());
 
 				if (p.cat.equals("Electrical")) {
 					elec.add(p);
