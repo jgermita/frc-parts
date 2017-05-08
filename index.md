@@ -9,6 +9,10 @@ This project is an extension the work that many FIRST teams do every year: docum
 
 This project aims to centralize the answers to these questions and more. 
 
+## usage notes
+Many products listed can be sourced from multiple vendors, or even local vendors. For the sake of simplicity, one vendor is listed. Part legality on FIRST robots is not guaranteed nor implied. Please refer to the current year's game manual and Q&A for final ruling. Products listed and team associations do not represent official endorsements by any team. 
+
+
 ## acknowledgements
 A large majority of the parts presented in this project were battle-tested and verified by my current and former FIRST teams. This project wouldn't have been possible without their contributions.
 * FIRST Robotics Competition [Team 5012 Gryffingear](http://gryffingear.com) (2013 - Current)
