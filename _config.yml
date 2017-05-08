@@ -1,3 +1,7 @@
 theme: jekyll-theme-minimal
 title: ![frc.parts](https://jgermita.github.io/frc-parts/partslogo.png)
 description: a living database of common and uncommon parts for FRC robots.
+
+tipue_search:
+  include:
+    pages: true
