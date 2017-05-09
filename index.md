@@ -12,6 +12,8 @@ This project aims to centralize the answers to these questions and more.
 ## usage notes
 Many products listed can be sourced from multiple vendors, or even local vendors. For the sake of simplicity, one vendor is listed. Part legality on FIRST robots is not guaranteed nor implied. Please refer to the current year's game manual and Q&A for final ruling. Products listed and team associations do not represent official endorsements by any team. 
 
+To suggest parts or corrections to information, use [this form!](https://docs.google.com/forms/d/e/1FAIpQLSeWyY8v3RgOty-MyWmh9U0iivNYN_molChYyS-0U-o-kOAv_g/viewform)
+
 
 ## acknowledgements
 A large majority of the parts presented in this project were battle-tested and verified by my current and former FIRST teams. This project wouldn't have been possible without their contributions.
