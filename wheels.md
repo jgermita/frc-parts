@@ -7,33 +7,33 @@ The wheels on the bot go round and round!
 
 
 | 1.625" | [1.625 Flex Wheel (Hubless)](https://jgermita.github.io/frc-parts/parts/01089.html) | [WCP-0130](http://www.wcproducts.net/WCP-0130) | WCP |
-| 1" | [1-3/8 Wheel, .4 Width, 1/2 Hex Mount, Blue](https://jgermita.github.io/frc-parts/parts/00826.html) | [T40P-145BA-HS4](http://www.banebots.com/category/T40P-1375.html) | Banebots |
-| 1" | [1-3/8 Wheel, .4 Width, 1/2 Hex Mount, Green](https://jgermita.github.io/frc-parts/parts/00824.html) | [T40P-143BG-HS4](http://www.banebots.com/category/T40P-1375.html) | Banebots |
-| 1" | [1-3/8 Wheel, .4 Width, 1/2 Hex Mount, Orange](https://jgermita.github.io/frc-parts/parts/00825.html) | [T40P-144BO-HS4](http://www.banebots.com/category/T40P-1375.html) | Banebots |
-| 1" | [1-5/8 Wheel, .4 Width, 1/2 Hex Mount, Blue](https://jgermita.github.io/frc-parts/parts/00911.html) | [T40P-175BA-HS4](http://www.banebots.com/category/T40P-1625.html) | Banebots |
-| 1" | [1-5/8 Wheel, .4 Width, 1/2 Hex Mount, Green](https://jgermita.github.io/frc-parts/parts/00909.html) | [T40P-173BG-HS4](http://www.banebots.com/category/T40P-1625.html) | Banebots |
-| 1" | [1-5/8 Wheel, .4 Width, 1/2 Hex Mount, Orange](https://jgermita.github.io/frc-parts/parts/00910.html) | [T40P-174BO-HS4](http://www.banebots.com/category/T40P-1625.html) | Banebots |
-| 2" | [1-7/8 Wheel, .4 Width, 1/2 Hex Mount, Blue](https://jgermita.github.io/frc-parts/parts/00914.html) | [T40P-195BA-HS4](http://www.banebots.com/category/T40P-1875.html) | Banebots |
-| 2" | [1-7/8 Wheel, .4 Width, 1/2 Hex Mount, Green](https://jgermita.github.io/frc-parts/parts/00912.html) | [T40P-193BG-HS4](http://www.banebots.com/category/T40P-1875.html) | Banebots |
-| 2" | [1-7/8 Wheel, .4 Width, 1/2 Hex Mount, Orange](https://jgermita.github.io/frc-parts/parts/00913.html) | [T40P-194BO-HS4](http://www.banebots.com/category/T40P-1875.html) | Banebots |
-| 2" | [1.9" Omni wheel](https://jgermita.github.io/frc-parts/parts/00783.html) | [2289T41](https://www.mcmaster.com/#2289T41) | Mcmaster |
-| 2" | [2-3/8 Wheel, .4 Width, 1/2 Hex Mount, Blue](https://jgermita.github.io/frc-parts/parts/00917.html) | [T40P-245BA-HS4](http://www.banebots.com/category/T40P-2375.html) | Banebots |
-| 2" | [2-3/8 Wheel, .4 Width, 1/2 Hex Mount, Green](https://jgermita.github.io/frc-parts/parts/00915.html) | [T40P-243BG-HS4](http://www.banebots.com/category/T40P-2375.html) | Banebots |
-| 2" | [2-3/8 Wheel, .4 Width, 1/2 Hex Mount, Orange](https://jgermita.github.io/frc-parts/parts/00916.html) | [T40P-244BO-HS4](http://www.banebots.com/category/T40P-2375.html) | Banebots |
-| 2" | [2.125 Mecanum Wheels](https://jgermita.github.io/frc-parts/parts/00784.html) | [ft-mecanum-set-v2](http://www.fingertechrobotics.com/proddetail.php?prod=ft-mecanum-set-v2) | Fingertech Robotics |
+| 1.375" | [1-3/8 Wheel, .4 Width, 1/2 Hex Mount, Blue](https://jgermita.github.io/frc-parts/parts/00826.html) | [T40P-145BA-HS4](http://www.banebots.com/category/T40P-1375.html) | Banebots |
+| 1.375" | [1-3/8 Wheel, .4 Width, 1/2 Hex Mount, Green](https://jgermita.github.io/frc-parts/parts/00824.html) | [T40P-143BG-HS4](http://www.banebots.com/category/T40P-1375.html) | Banebots |
+| 1.375" | [1-3/8 Wheel, .4 Width, 1/2 Hex Mount, Orange](https://jgermita.github.io/frc-parts/parts/00825.html) | [T40P-144BO-HS4](http://www.banebots.com/category/T40P-1375.html) | Banebots |
+| 1.625" | [1-5/8 Wheel, .4 Width, 1/2 Hex Mount, Blue](https://jgermita.github.io/frc-parts/parts/00911.html) | [T40P-175BA-HS4](http://www.banebots.com/category/T40P-1625.html) | Banebots |
+| 1.625" | [1-5/8 Wheel, .4 Width, 1/2 Hex Mount, Green](https://jgermita.github.io/frc-parts/parts/00909.html) | [T40P-173BG-HS4](http://www.banebots.com/category/T40P-1625.html) | Banebots |
+| 1.625" | [1-5/8 Wheel, .4 Width, 1/2 Hex Mount, Orange](https://jgermita.github.io/frc-parts/parts/00910.html) | [T40P-174BO-HS4](http://www.banebots.com/category/T40P-1625.html) | Banebots |
+| 1.875" | [1-7/8 Wheel, .4 Width, 1/2 Hex Mount, Blue](https://jgermita.github.io/frc-parts/parts/00914.html) | [T40P-195BA-HS4](http://www.banebots.com/category/T40P-1875.html) | Banebots |
+| 1.875" | [1-7/8 Wheel, .4 Width, 1/2 Hex Mount, Green](https://jgermita.github.io/frc-parts/parts/00912.html) | [T40P-193BG-HS4](http://www.banebots.com/category/T40P-1875.html) | Banebots |
+| 1.875" | [1-7/8 Wheel, .4 Width, 1/2 Hex Mount, Orange](https://jgermita.github.io/frc-parts/parts/00913.html) | [T40P-194BO-HS4](http://www.banebots.com/category/T40P-1875.html) | Banebots |
+| 1.9" | [1.9" Omni wheel](https://jgermita.github.io/frc-parts/parts/00783.html) | [2289T41](https://www.mcmaster.com/#2289T41) | Mcmaster |
+| 2.375" | [2-3/8 Wheel, .4 Width, 1/2 Hex Mount, Blue](https://jgermita.github.io/frc-parts/parts/00917.html) | [T40P-245BA-HS4](http://www.banebots.com/category/T40P-2375.html) | Banebots |
+| 2.375" | [2-3/8 Wheel, .4 Width, 1/2 Hex Mount, Green](https://jgermita.github.io/frc-parts/parts/00915.html) | [T40P-243BG-HS4](http://www.banebots.com/category/T40P-2375.html) | Banebots |
+| 2.375" | [2-3/8 Wheel, .4 Width, 1/2 Hex Mount, Orange](https://jgermita.github.io/frc-parts/parts/00916.html) | [T40P-244BO-HS4](http://www.banebots.com/category/T40P-2375.html) | Banebots |
+| 2.125" | [2.125 Mecanum Wheels](https://jgermita.github.io/frc-parts/parts/00784.html) | [ft-mecanum-set-v2](http://www.fingertechrobotics.com/proddetail.php?prod=ft-mecanum-set-v2) | Fingertech Robotics |
 | 2" | [2" OD abrasion resistant roller](https://jgermita.github.io/frc-parts/parts/01020.html) | [2475K63](https://www.mcmaster.com/#2475K63) | Mcmaster |
 | 2" | [2" OD shaft mount conveyor rollers](https://jgermita.github.io/frc-parts/parts/01017.html) | [60185K919](https://www.mcmaster.com/#60185K919) | Mcmaster |
 | 2" | [2" Spiral Flex wheel](https://jgermita.github.io/frc-parts/parts/01090.html) | [wcp-0133](http://www.wcproducts.net/catalog/product/view/id/1035/s/wcp-0133/) | WCP |
 | 2" | [AM 2" Stealth black](https://jgermita.github.io/frc-parts/parts/00785.html) | [am-3155_blk](http://www.andymark.com/product-p/am-3155_Blk.htm) | Andymark |
 | 2" | [AM 2" Stealth Blue](https://jgermita.github.io/frc-parts/parts/00786.html) | [am-3155_blue](http://www.andymark.com/product-p/am-3155_Blue.htm) | Andymark |
 | 2" | [AM 2" Stealth gray](https://jgermita.github.io/frc-parts/parts/00787.html) | [am-3155](https://www.andymark.com/product-p/am-3155.htm) | Andymark |
-| 2" | [Colson Performa (1.625" x 0.875", 1/2" Hex bore)](https://jgermita.github.io/frc-parts/parts/00788.html) | [217-4045](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/colsonperforma.html) | Vex |
-| 2" | [Colson Performa (2.5" x 1.25", 1/2" Hex bore)](https://jgermita.github.io/frc-parts/parts/00789.html) | [217-4046](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/colsonperforma.html) | Vex |
-| 3" | [2-7/8 Wheel, .4 Width, 1/2 Hex Mount, Blue](https://jgermita.github.io/frc-parts/parts/00920.html) | [T40P-295BA-HS4](http://www.banebots.com/category/T40P-2875.html) | Banebots |
-| 3" | [2-7/8 Wheel, .4 Width, 1/2 Hex Mount, Green](https://jgermita.github.io/frc-parts/parts/00918.html) | [T40P-293BG-HS4](http://www.banebots.com/category/T40P-2875.html) | Banebots |
-| 3" | [2-7/8 Wheel, .4 Width, 1/2 Hex Mount, Orange](https://jgermita.github.io/frc-parts/parts/00919.html) | [T40P-294BO-HS4](http://www.banebots.com/category/T40P-2875.html) | Banebots |
-| 3" | [3.25" Omni wheel](https://jgermita.github.io/frc-parts/parts/00790.html) | [217-4775](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/omni-wheels.html) | Vex |
-| 3" | [Colson Performa (3.5" x 1.25", 1/2" Hex bore)](https://jgermita.github.io/frc-parts/parts/00791.html) | [217-4048](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/colsonperforma.html) | Vex |
+| 1.625" | [Colson Performa (1.625" x 0.875", 1/2" Hex bore)](https://jgermita.github.io/frc-parts/parts/00788.html) | [217-4045](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/colsonperforma.html) | Vex |
+| 2.5 | [Colson Performa (2.5" x 1.25", 1/2" Hex bore)](https://jgermita.github.io/frc-parts/parts/00789.html) | [217-4046](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/colsonperforma.html) | Vex |
+| 2.875" | [2-7/8 Wheel, .4 Width, 1/2 Hex Mount, Blue](https://jgermita.github.io/frc-parts/parts/00920.html) | [T40P-295BA-HS4](http://www.banebots.com/category/T40P-2875.html) | Banebots |
+| 2.875" | [2-7/8 Wheel, .4 Width, 1/2 Hex Mount, Green](https://jgermita.github.io/frc-parts/parts/00918.html) | [T40P-293BG-HS4](http://www.banebots.com/category/T40P-2875.html) | Banebots |
+| 2.875" | [2-7/8 Wheel, .4 Width, 1/2 Hex Mount, Orange](https://jgermita.github.io/frc-parts/parts/00919.html) | [T40P-294BO-HS4](http://www.banebots.com/category/T40P-2875.html) | Banebots |
+| 3.25" | [3.25" Omni wheel](https://jgermita.github.io/frc-parts/parts/00790.html) | [217-4775](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/omni-wheels.html) | Vex |
+| 3.5" | [Colson Performa (3.5" x 1.25", 1/2" Hex bore)](https://jgermita.github.io/frc-parts/parts/00791.html) | [217-4048](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/colsonperforma.html) | Vex |
 | 3" | [Colson Performa (3" x 0.875", 1/2" Hex bore)](https://jgermita.github.io/frc-parts/parts/00792.html) | [217-4047](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/colsonperforma.html) | Vex |
 | 3" | [Colson Performa (3" x 1.5", 1/2" Hex bore)](https://jgermita.github.io/frc-parts/parts/00793.html) | [217-4050](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/colsonperforma.html) | Vex |
 | 4" | [4" DuraOmni wheel](https://jgermita.github.io/frc-parts/parts/00794.html) | [am-3047](http://www.andymark.com/product-p/am-3047.htm) | Andymark |
