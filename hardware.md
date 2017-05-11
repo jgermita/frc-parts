@@ -11,15 +11,17 @@ exclude_from_search: true
 | 1/2 Hex | [1/2" Hex Hub - KOP hub](https://jgermita.github.io/frc-parts/parts/00177.html) | [AM-2568](http://www.andymark.com/product-p/am-2568.htm) | Andymark |
 | 1/2 Hex | [1/2" Round tube](https://jgermita.github.io/frc-parts/parts/00178.html) | [217-2762](http://www.vexrobotics.com/vexpro/motion/shaft-stock.html) | Vex |
 | 1/2 Hex | [12 Hex 2 piece shaft collar](https://jgermita.github.io/frc-parts/parts/00823.html) | [SC1-HS8](http://www.banebots.com/product/SC1-HS8.html) | Banebots |
-| 1/2 Hex | [3/8 Hex to 1/2 hex adapter](https://jgermita.github.io/frc-parts/parts/00179.html) | [wcp-0063](http://www.wcproducts.net/WCP-0063) | WCP |
-| 1/2 Hex | [8mm to 1/2" Hex Adapter](https://jgermita.github.io/frc-parts/parts/00943.html) | [am-0588](http://www.andymark.com/8mm-Keyed-Bore-1-2-Inch-Hex-Adapter-p/am-0588.htm) | Andymark |
+| 1/2 Hex | [3/8" Hex to 1/2" Hex Adapter](https://jgermita.github.io/frc-parts/parts/01039.html) | [WCP-0063](http://www.wcproducts.net/WCP-0063) | WCP |
 | 1/2 Hex | [8mm to 1/2" Hex Adapter](https://jgermita.github.io/frc-parts/parts/00942.html) | [217-3255](http://www.vexrobotics.com/vexpro/hardware/217-3255.html) | Vex |
+| 1/2 Hex | [8mm to 1/2" Hex Adapter](https://jgermita.github.io/frc-parts/parts/00943.html) | [am-0588](http://www.andymark.com/8mm-Keyed-Bore-1-2-Inch-Hex-Adapter-p/am-0588.htm) | Andymark |
+| 1/2 Hex | [Clamping Split Shaft Collar - 1/2  Hex ID](https://jgermita.github.io/frc-parts/parts/01047.html) | [WCP-0071](http://www.wcproducts.net/WCP-0071) | WCP |
 | 1/2 Hex | [Colson live hub - 1/2" hex](https://jgermita.github.io/frc-parts/parts/00180.html) | [217-3430](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/colsonhubs-g.html) | Vex |
 | 1/2 Hex | [Flex head 1/2" ratchet](https://jgermita.github.io/frc-parts/parts/01010.html) | [B01F511X5E](https://www.amazon.com/gp/product/B01F511X5E/ref=oh_aui_detailpage_o03_s02?ie=UTF8&psc=1) | Amazon |
 | 1/2 Hex | [Hex Spacer](https://jgermita.github.io/frc-parts/parts/00882.html) | [am-1305](http://www.andymark.com/product-p/am-1305.htm) | Andymark |
 | 1/2 Hex | [Vex Hex Hub](https://jgermita.github.io/frc-parts/parts/00181.html) | [217-4009](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/versahubs.html) | Vex |
 | 1/2 round | [1/2 round shaft collar](https://jgermita.github.io/frc-parts/parts/00182.html) | [6435K14](https://www.mcmaster.com/#6435K14) | Mcmaster |
 | 1/2 Round | [1/2" ID one way needle bearing clutch](https://jgermita.github.io/frc-parts/parts/01015.html) | [2489K24](https://www.mcmaster.com/#2489K24) | Mcmaster |
+| 1/4 Round | [Flanged Bearing - 1/4"  Round ID x .500 OD](https://jgermita.github.io/frc-parts/parts/01048.html) | [WCP-0072](http://www.wcproducts.net/WCP-0072) | WCP |
 | 1/4-20 | [1/4 Washers](https://jgermita.github.io/frc-parts/parts/00183.html) | [90107A029](https://www.mcmaster.com/#90107A029) | Mcmaster |
 | 1/4-20 | [1/4-20 BHCS, 1 1/2" length](https://jgermita.github.io/frc-parts/parts/00184.html) | [91255A546](https://www.mcmaster.com/#91255A546) | Mcmaster |
 | 1/4-20 | [1/4-20 BHCS, 1 1/4" length](https://jgermita.github.io/frc-parts/parts/00185.html) | [91255A544](https://www.mcmaster.com/#91255A544) | Mcmaster |
@@ -114,12 +116,13 @@ exclude_from_search: true
 | 10-32 | [10-32 x 1/2 SHCS](https://jgermita.github.io/frc-parts/parts/00272.html) | [91251A342](https://www.mcmaster.com/#91251A342) | Mcmaster |
 | 10-32 | [CIM mounting screws](https://jgermita.github.io/frc-parts/parts/00273.html) | [91251A340](https://www.mcmaster.com/#91251A340) | Mcmaster |
 | 10-32 | [Vented 10-32 screws](https://jgermita.github.io/frc-parts/parts/00274.html) | [93235A242](https://www.mcmaster.com/#93235A242) | Mcmaster |
+| 10-32 | [Vented cup-point set screw](https://jgermita.github.io/frc-parts/parts/01018.html) | [91979A601](https://www.mcmaster.com/#91979A601) | Mcmaster |
 | 3/16 rivets | [3/16 dia, 3/8" grip rivets - steel](https://jgermita.github.io/frc-parts/parts/00275.html) | [97525A510](https://www.mcmaster.com/#97525A510) | Mcmaster |
 | 3/8 Hex | [3/8" hex bearing](https://jgermita.github.io/frc-parts/parts/00276.html) | [217-2735](http://www.vexrobotics.com/vexpro/hardware/bearings.html) | Vex |
 | 3/8 round | [3/8 round shaft collar](https://jgermita.github.io/frc-parts/parts/00277.html) | [6435K13](https://www.mcmaster.com/#6435K13) | Mcmaster |
 | 8-32 | [8-32 Nylock](https://jgermita.github.io/frc-parts/parts/00998.html) | [90631A009](https://www.mcmaster.com/#90631A009) | Mcmaster |
-| 8-32 | [8-32 x 0.250" (100-pack)](https://jgermita.github.io/frc-parts/parts/00279.html) | [91255A190](https://www.mcmaster.com/#91255A190) | Mcmaster |
 | 8-32 | [8-32 x 0.250" (100-pack)](https://jgermita.github.io/frc-parts/parts/00278.html) | [275-1002](http://www.vexrobotics.com/all-screws.html) | Vex |
+| 8-32 | [8-32 x 0.250" (100-pack)](https://jgermita.github.io/frc-parts/parts/00279.html) | [91255A190](https://www.mcmaster.com/#91255A190) | Mcmaster |
 | 8-32 | [8-32 x 1-1/4 SHCS](https://jgermita.github.io/frc-parts/parts/00280.html) | [91251A201](https://www.mcmaster.com/#91251A201) | Mcmaster |
 | 8-32 | [8-32 x 1-3/4 SHCS](https://jgermita.github.io/frc-parts/parts/00281.html) | [91251A184](https://www.mcmaster.com/#91251A184) | Mcmaster |
 | 8-32 | [8-32 x 2-1/4 SHCS](https://jgermita.github.io/frc-parts/parts/00282.html) | [91251A184](https://www.mcmaster.com/#91251A184) | Mcmaster |
@@ -235,6 +238,13 @@ exclude_from_search: true
 | Pins | [1/4 PIP pin, 2" Length](https://jgermita.github.io/frc-parts/parts/00355.html) | [92384A038](https://www.mcmaster.com/#92384A038) | Mcmaster |
 | Pins | [1/4 PIP pin, 3/4" Length](https://jgermita.github.io/frc-parts/parts/00356.html) | [92384A033](https://www.mcmaster.com/#92384A033) | Mcmaster |
 | Pins | [Hairpin Cotter pin for 1/4-5/16 shaft, qty 100](https://jgermita.github.io/frc-parts/parts/00357.html) | [92391A034](https://www.mcmaster.com/#92391A034) | Mcmaster |
+| Rollers | [WCP Aluminum Roller Tube - 1.25" OD x 1.125" ID x 5' Length](https://jgermita.github.io/frc-parts/parts/01087.html) | [WCP-0128](http://www.wcproducts.net/WCP-0128) | WCP |
+| Rollers | [WCP Roller Center Plate (2-Pack)](https://jgermita.github.io/frc-parts/parts/01066.html) | [WCP-0105](http://www.wcproducts.net/WCP-0105) | WCP |
+| Rollers | [WCP Roller End Plate (2-Pack)](https://jgermita.github.io/frc-parts/parts/01065.html) | [WCP-0104](http://www.wcproducts.net/WCP-0104) | WCP |
+| Rollers | [WCP Roller Plug - 1/2" Hex Straight](https://jgermita.github.io/frc-parts/parts/01062.html) | [WCP-0101](http://www.wcproducts.net/WCP-0101) | WCP |
+| Rollers | [WCP Roller Plug - 1/2" Hex w/ 5/16-18 Threaded Hole](https://jgermita.github.io/frc-parts/parts/01063.html) | [WCP-0102](http://www.wcproducts.net/WCP-0102) | WCP |
+| Rollers | [WCP Roller Plug - Plain w/ 5/16-18 Threaded Hole](https://jgermita.github.io/frc-parts/parts/01064.html) | [WCP-0103](http://www.wcproducts.net/WCP-0103) | WCP |
+| Rollers | [WCP Roller Shoulder Bolt (2-Pack)](https://jgermita.github.io/frc-parts/parts/01067.html) | [WCP-0106](http://www.wcproducts.net/WCP-0106) | WCP |
 | Shaft Couplers | [1/4"-1/4" shaft coupler](https://jgermita.github.io/frc-parts/parts/00358.html) | [6412K11](https://www.mcmaster.com/#6412K11) | Mcmaster |
 | Snap Rings | [1/2 E Clips](https://jgermita.github.io/frc-parts/parts/00359.html) | [97431A340](https://www.mcmaster.com/#97431A340) | Mcmaster |
 | Snap Rings | [1/2 snap rings](https://jgermita.github.io/frc-parts/parts/00360.html) | [97633A170](https://www.mcmaster.com/#97633A170) | Mcmaster |

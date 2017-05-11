@@ -91,6 +91,7 @@ exclude_from_search: true
 | Fittings | [3 Outlet Swivel](https://jgermita.github.io/frc-parts/parts/00979.html) | [5203K932](https://www.mcmaster.com/#5203K932) | McMaster |
 | Fittings | [4 Outlet Swivel](https://jgermita.github.io/frc-parts/parts/00978.html) | [5203K943](https://www.mcmaster.com/#5203K943) | McMaster |
 | Fittings | [6 Outlet Swivel](https://jgermita.github.io/frc-parts/parts/00977.html) | [5203K954](https://www.mcmaster.com/#5203K954) | McMaster |
+| Fittings | [90 deg elbow, 10-32 female](https://jgermita.github.io/frc-parts/parts/01019.html) | [5779K449](https://www.mcmaster.com/#5779K449) | Mcmaster |
 | Fittings | [90 Degree Elbow - Black](https://jgermita.github.io/frc-parts/parts/00522.html) | [5779K24](https://www.mcmaster.com/#5779K24) | Mcmaster |
 | Fittings | [90 Degree Swivel Elbow - 1/4" NPT -Black](https://jgermita.github.io/frc-parts/parts/00523.html) | [5779K152](https://www.mcmaster.com/#5779K152) | Mcmaster |
 | Fittings | [90 Degree Swivel Elbow - 1/8" NPT -Black](https://jgermita.github.io/frc-parts/parts/00524.html) | [5779K151](https://www.mcmaster.com/#5779K151) | Mcmaster |
@@ -128,6 +129,8 @@ exclude_from_search: true
 | Gauges | [Inline Gauge - 1/4-1/4](https://jgermita.github.io/frc-parts/parts/00540.html) | [PGU14](http://www.automationdirect.com/adc/Shopping/Catalog/Pneumatic_Components/Special_Purpose_Push-to-Connect_Pneumatic_Fittings/Pressure_Regulators_-z-_Gauges_-z-_Indicators/PGU14) | Automation Direct |
 | Gauges | [Mini Pressure Gauge - 0-160 Range](https://jgermita.github.io/frc-parts/parts/00541.html) | [38105K51](https://www.mcmaster.com/#38105K51) | Mcmaster |
 | Gauges | [Nitra - Inline Gauge](https://jgermita.github.io/frc-parts/parts/00969.html) | [PGU14](https://www.automationdirect.com) | Automation Direct |
+| Hardware | [Aluminum Female Rod End - #10-32](https://jgermita.github.io/frc-parts/parts/01033.html) | [WCP-0019](http://www.wcproducts.net/WCP-0019) | WCP |
+| Hardware | [Aluminum Female Rod End - 1/4"-28](https://jgermita.github.io/frc-parts/parts/01034.html) | [WCP-0020](http://www.wcproducts.net/WCP-0020) | WCP |
 | Hardware | [Loctite 545 for Hydraulics/pneumatics](https://jgermita.github.io/frc-parts/parts/00542.html) | [1810A78](https://www.mcmaster.com/#1810A78) | Mcmaster |
 | Hardware | [Rod Clevis X 1/2"-20](https://jgermita.github.io/frc-parts/parts/00543.html) | [6498K554 ](https://www.mcmaster.com/#6498K554 ) | Mcmaster |
 | Hardware | [Rod Clevis X 1/4"-28](https://jgermita.github.io/frc-parts/parts/00544.html) | [6498K42](https://www.mcmaster.com/#6498K42) | Mcmaster |

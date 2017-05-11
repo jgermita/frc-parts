@@ -6,6 +6,7 @@ exclude_from_search: true
 The wheels on the bot go round and round!
 
 
+| 1.625" | [1.625 Flex Wheel (Hubless)](https://jgermita.github.io/frc-parts/parts/01089.html) | [WCP-0130](http://www.wcproducts.net/WCP-0130) | WCP |
 | 1" | [1-3/8 Wheel, .4 Width, 1/2 Hex Mount, Blue](https://jgermita.github.io/frc-parts/parts/00826.html) | [T40P-145BA-HS4](http://www.banebots.com/category/T40P-1375.html) | Banebots |
 | 1" | [1-3/8 Wheel, .4 Width, 1/2 Hex Mount, Green](https://jgermita.github.io/frc-parts/parts/00824.html) | [T40P-143BG-HS4](http://www.banebots.com/category/T40P-1375.html) | Banebots |
 | 1" | [1-3/8 Wheel, .4 Width, 1/2 Hex Mount, Orange](https://jgermita.github.io/frc-parts/parts/00825.html) | [T40P-144BO-HS4](http://www.banebots.com/category/T40P-1375.html) | Banebots |
@@ -20,6 +21,9 @@ The wheels on the bot go round and round!
 | 2" | [2-3/8 Wheel, .4 Width, 1/2 Hex Mount, Green](https://jgermita.github.io/frc-parts/parts/00915.html) | [T40P-243BG-HS4](http://www.banebots.com/category/T40P-2375.html) | Banebots |
 | 2" | [2-3/8 Wheel, .4 Width, 1/2 Hex Mount, Orange](https://jgermita.github.io/frc-parts/parts/00916.html) | [T40P-244BO-HS4](http://www.banebots.com/category/T40P-2375.html) | Banebots |
 | 2" | [2.125 Mecanum Wheels](https://jgermita.github.io/frc-parts/parts/00784.html) | [ft-mecanum-set-v2](http://www.fingertechrobotics.com/proddetail.php?prod=ft-mecanum-set-v2) | Fingertech Robotics |
+| 2" | [2" OD abrasion resistant roller](https://jgermita.github.io/frc-parts/parts/01020.html) | [2475K63](https://www.mcmaster.com/#2475K63) | Mcmaster |
+| 2" | [2" OD shaft mount conveyor rollers](https://jgermita.github.io/frc-parts/parts/01017.html) | [60185K919](https://www.mcmaster.com/#60185K919) | Mcmaster |
+| 2" | [2" Spiral Flex wheel](https://jgermita.github.io/frc-parts/parts/01090.html) | [wcp-0133](http://www.wcproducts.net/catalog/product/view/id/1035/s/wcp-0133/) | WCP |
 | 2" | [AM 2" Stealth black](https://jgermita.github.io/frc-parts/parts/00785.html) | [am-3155_blk](http://www.andymark.com/product-p/am-3155_Blk.htm) | Andymark |
 | 2" | [AM 2" Stealth Blue](https://jgermita.github.io/frc-parts/parts/00786.html) | [am-3155_blue](http://www.andymark.com/product-p/am-3155_Blue.htm) | Andymark |
 | 2" | [AM 2" Stealth gray](https://jgermita.github.io/frc-parts/parts/00787.html) | [am-3155](https://www.andymark.com/product-p/am-3155.htm) | Andymark |
@@ -34,6 +38,8 @@ The wheels on the bot go round and round!
 | 3" | [Colson Performa (3" x 1.5", 1/2" Hex bore)](https://jgermita.github.io/frc-parts/parts/00793.html) | [217-4050](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/colsonperforma.html) | Vex |
 | 4" | [4" DuraOmni wheel](https://jgermita.github.io/frc-parts/parts/00794.html) | [am-3047](http://www.andymark.com/product-p/am-3047.htm) | Andymark |
 | 4" | [4" Magic Teardrop Wheel](https://jgermita.github.io/frc-parts/parts/00795.html) | [2498K12](https://www.mcmaster.com/#2498K12) | Mcmaster |
+| 4" | [4" OD abrasion Resistant Roller](https://jgermita.github.io/frc-parts/parts/00806.html) | [2477K36](https://www.mcmaster.com/#2477K36) | Mcmaster |
+| 4" | [Aluminum Wheel - 4" OD x 1.5" Tread Width w/ 1/2" Hex](https://jgermita.github.io/frc-parts/parts/01050.html) | [WCP-0075](http://www.wcproducts.net/WCP-0075) | WCP |
 | 4" | [AM 4" HiGrip - White](https://jgermita.github.io/frc-parts/parts/00796.html) | [am-2256](http://www.andymark.com/product-p/am-2256.htm) | Andymark |
 | 4" | [AM 4" Stealth black](https://jgermita.github.io/frc-parts/parts/00797.html) | [am-2647_blk](http://www.andymark.com/product-p/am-2647_Blk.htm) | Andymark |
 | 4" | [AM 4" Stealth blue](https://jgermita.github.io/frc-parts/parts/00798.html) | [am-2647_blue](http://www.andymark.com/product-p/am-2647_Blue.htm) | Andymark |
@@ -44,7 +50,6 @@ The wheels on the bot go round and round!
 | 4" | [Colson Performa (4" x 2", 1.1875" bore)](https://jgermita.github.io/frc-parts/parts/00803.html) | [217-4053](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/colsonperforma.html) | Vex |
 | 4" | [Colson Performa (4" x 2", 1/2" Hex bore)](https://jgermita.github.io/frc-parts/parts/00804.html) | [217-4054](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/colsonperforma.html) | Vex |
 | 4" | [Fairlane 4" wheels - 1.25 ID](https://jgermita.github.io/frc-parts/parts/00805.html) | [2476K37](https://www.mcmaster.com/#2476K37) | Mcmaster |
-| 4" | [Magic 2056 wheels](https://jgermita.github.io/frc-parts/parts/00806.html) | [2477K36](https://www.mcmaster.com/#2477K36) | Mcmaster |
 | 4" | [Mecanum wheels, set of 4](https://jgermita.github.io/frc-parts/parts/00807.html) | [am-3067](http://www.andymark.com/product-p/am-3067.htm) | Andymark |
 | 5" | [Entrapption star, 4.75 dia](https://jgermita.github.io/frc-parts/parts/00834.html) | [am-0619](http://www.andymark.com/product-p/am-0619.htm) | Andymark |
 | 6" | [6" pneumatic wheel](https://jgermita.github.io/frc-parts/parts/00808.html) | [2717T41](https://www.mcmaster.com/#2717T41) | Mcmaster |
@@ -57,3 +62,4 @@ The wheels on the bot go round and round!
 | 6" | [WCP 6" aluminum hub assem - zigzag](https://jgermita.github.io/frc-parts/parts/00815.html) | [wcp-0050](http://www.wcproducts.net/pneumatic-wheels) | WCP |
 | 6" | [WCP 6" pneumatic - diamond](https://jgermita.github.io/frc-parts/parts/00816.html) | [wcp-0047](http://www.wcproducts.net/pneumatic-wheels) | WCP |
 | 6" | [WCP 6" pneumatic - zigzag](https://jgermita.github.io/frc-parts/parts/00817.html) | [wcp-0046](http://www.wcproducts.net/pneumatic-wheels) | WCP |
+| 8" | [6" to 8" Pneumatic Wheel Adapter](https://jgermita.github.io/frc-parts/parts/01061.html) | [WCP-0100](http://www.wcproducts.net/WCP-0100) | WCP |

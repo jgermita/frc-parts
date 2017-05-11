@@ -24,6 +24,9 @@ Electrical supplies and devices!
 | Connectors | [45A powerpole housings](https://jgermita.github.io/frc-parts/parts/01007.html) | [8026K9](https://www.mcmaster.com/#8026K9) | Mcmaster |
 | Connectors | [6AWG compression lug connector](https://jgermita.github.io/frc-parts/parts/00819.html) | [am-0805](http://www.andymark.com/product-p/am-0805.htm) | Andymark |
 | Connectors | [Anderson Connector - SB50](https://jgermita.github.io/frc-parts/parts/00006.html) | [AM-0546](http://www.andymark.com/product-p/am-0546.htm) | Andymark |
+| Connectors | [Molex 2 Pin Header w/ Crimps  (10-Pack)](https://jgermita.github.io/frc-parts/parts/01068.html) | [WCP-0107](http://www.wcproducts.net/WCP-0107) | WCP |
+| Connectors | [Molex 3 Pin Header w/ Crimps (10-Pack)](https://jgermita.github.io/frc-parts/parts/01069.html) | [WCP-0108](http://www.wcproducts.net/WCP-0108) | WCP |
+| Connectors | [Molex 4 Pin Header w/ Crimps (10-Pack)](https://jgermita.github.io/frc-parts/parts/01070.html) | [WCP-0109](http://www.wcproducts.net/WCP-0109) | WCP |
 | Connectors | [Power pole PP45 kit - 16 Connectors](https://jgermita.github.io/frc-parts/parts/00007.html) | [AM-2198](http://www.andymark.com/product-p/am-2198.htm) | Andymark |
 | Connectors | [Powerpole kit PP45- 200 connectors](https://jgermita.github.io/frc-parts/parts/00008.html) | [am-2912](http://www.andymark.com/product-p/am-2912.htm) | Andymark |
 | Connectors | [PWM Connector - female](https://jgermita.github.io/frc-parts/parts/00009.html) | [AM-2814](http://www.andymark.com/product-p/am-2814.htm) | Andymark |
@@ -48,6 +51,7 @@ Electrical supplies and devices!
 | Driver Station | [Thrustmaster T16000M Flight stick](https://jgermita.github.io/frc-parts/parts/00026.html) | [B001S0RTU0](https://www.amazon.com/Hercules-2960706-Thrustmaster-T-16000M-Flight/dp/B001S0RTU0) | Amazon |
 | Driver Station | [USB Hub](https://jgermita.github.io/frc-parts/parts/00027.html) | [B00BWF5U0M](http://www.amazon.com/Sabrent-4-Port-Individual-Switches-HB-UMLS/dp/B00BWF5U0M?ie=UTF8&psc=1&redirect=true&ref_=oh_aui_detailpage_o05_s00) | Amazon |
 | Fans | [10mm fan with screws](https://jgermita.github.io/frc-parts/parts/00028.html) | [am-2831](http://www.andymark.com/product-p/am-2831.htm) | Andymark |
+| Heat Sink | [39/40mm motor heat sink, short](https://jgermita.github.io/frc-parts/parts/01026.html) | [HETHS3935](http://www.effluxrc.com/Axial-Finned-Heatsink-for-39-40mm-Motors-HETHS3935.htm) | efflux RC |
 | Heat Sink | [Axial Finned Heatsink for 39/40mm Motors (LONG)](https://jgermita.github.io/frc-parts/parts/00946.html) | [HET3965HS](http://www.effluxrc.com/Axial-Finned-Heatsink-for-39-40mm-Motors-LONG-HET3965HS.htm) | efflux RC |
 | Heat Sink | [CIM Motor Heat Sink](https://jgermita.github.io/frc-parts/parts/00029.html) | [AM-2865](http://www.andymark.com/product-p/am-2865.htm) | Andymark |
 | Heat Sink | [Heatsink - 40mm](https://jgermita.github.io/frc-parts/parts/00030.html) | [9107000185](http://hobbyking.com/hobbyking/store/__38007__Dr_Mad_Thrust_Series_Alloy_Motor_Heat_Sink_for_40mm_size_motor.html) | Hobbyking |
@@ -86,8 +90,8 @@ Electrical supplies and devices!
 | Sensors | [CIMCoder](https://jgermita.github.io/frc-parts/parts/00939.html) | [am-3314](http://www.andymark.com/encoder-p/am-3314.htm) | Andymark |
 | Sensors | [CTRE Mag encoder kit](https://jgermita.github.io/frc-parts/parts/00995.html) | [am-3445](http://www.andymark.com/SRX-MAG-Encoder-p/am-3445.htm) | Andymark |
 | Sensors | [Grayhill 63R256 encoder](https://jgermita.github.io/frc-parts/parts/00889.html) | [GH3070-ND](http://www.digikey.com/product-search/en?mpart=63R256&vendor=136) | Digikey |
-| Sensors | [Hall effect sensor](https://jgermita.github.io/frc-parts/parts/00055.html) | [am-3313](http://www.andymark.com/Electrical-p/am-3313.htm) | Andymark |
 | Sensors | [Hall effect sensor](https://jgermita.github.io/frc-parts/parts/00054.html) | [55110-3H-02-A](http://www.mouser.com/Search/ProductDetail.aspx?R=55110-3H-02-Avirtualkey58530000virtualkey934-551103H02A) | Mouser |
+| Sensors | [Hall effect sensor](https://jgermita.github.io/frc-parts/parts/00055.html) | [am-3313](http://www.andymark.com/Electrical-p/am-3313.htm) | Andymark |
 | Sensors | [LIDAR-lite 2 Rangefinder](https://jgermita.github.io/frc-parts/parts/00888.html) | [RB-Pli-03](http://www.robotshop.com/en/lidar-lite-2-laser-rangefinder-pulsedlight.html?gclid=CLi29bvg880CFQgzaQodcHAIUQ) | RobotShop |
 | Sensors | [Pigeon CAN IMU](https://jgermita.github.io/frc-parts/parts/00999.html) | [am-3556](http://www.andymark.com/product-p/am-3556.htm) | Andymark |
 | Sensors | [Pixy](https://jgermita.github.io/frc-parts/parts/00056.html) | [1906](https://www.adafruit.com/products/1906) | Adafruit |
@@ -100,8 +104,13 @@ Electrical supplies and devices!
 | Sensors | [Versaplanetary Integrated Encoder stage](https://jgermita.github.io/frc-parts/parts/00063.html) | [217-5046](http://www.vexrobotics.com/vexpro/all/new-for-2016/217-5046.html) | Vex |
 | Sensors | [Vex EDR Bump Switch](https://jgermita.github.io/frc-parts/parts/00064.html) | [276-2159](http://www.vexrobotics.com/vexedr/products/view-all/276-2159.html) | Vex |
 | Sensors | [Vex EDR Line sensor](https://jgermita.github.io/frc-parts/parts/00065.html) | [276-2154](http://www.vexrobotics.com/vexedr/products/view-all/276-2154.html) | Vex |
+| Sensors | [WCP Absolute Encoder](https://jgermita.github.io/frc-parts/parts/01072.html) | [WCP-0111](http://www.wcproducts.net/WCP-0111) | WCP |
+| Sensors | [WCP All in One SRX Breakout with PassThrough](https://jgermita.github.io/frc-parts/parts/01074.html) | [WCP-0115](http://www.wcproducts.net/WCP-0115) | WCP |
+| Sensors | [WCP Dual Output Encoder (Incremental/Absolute)](https://jgermita.github.io/frc-parts/parts/01071.html) | [WCP-0110](http://www.wcproducts.net/WCP-0110) | WCP |
 | Sensors | [WCP Hall Effect Sensor board](https://jgermita.github.io/frc-parts/parts/00066.html) | [WCP-0971](http://www.wcproducts.net/sensors) | WCP |
 | Sensors | [WCP Hall effect sensor magnet](https://jgermita.github.io/frc-parts/parts/00067.html) | [WCP-0030](http://www.wcproducts.net/sensors) | WCP |
+| Sensors | [WCP Roborio Gyro Breakout](https://jgermita.github.io/frc-parts/parts/01073.html) | [WCP-0112](http://www.wcproducts.net/WCP-0112) | WCP |
+| Sensors | [WCP Spartan Sensor Board with Gyro](https://jgermita.github.io/frc-parts/parts/01036.html) | [WCP-0045](http://www.wcproducts.net/WCP-0045) | WCP |
 | Wire | [12AWG Silicone wire - black](https://jgermita.github.io/frc-parts/parts/00068.html) | [217-4056](http://www.vexrobotics.com/vexpro/motors-electronics/siliconewire.html) | Vex |
 | Wire | [12AWG Silicone wire - red](https://jgermita.github.io/frc-parts/parts/00069.html) | [217-4055](http://www.vexrobotics.com/vexpro/motors-electronics/siliconewire.html) | Vex |
 | Wire | [12AWG Wire - bonded - 25ft](https://jgermita.github.io/frc-parts/parts/00070.html) | [AM-0904](http://www.andymark.com/product-p/am-0904.htm) | Andymark |

@@ -4,9 +4,16 @@ exclude_from_search: true
 
 # Pulleys / Belts
 
+| 1/4 Polycord | [1/4 Black Polycord](https://jgermita.github.io/frc-parts/parts/01088.html) | [WCP-0129](http://www.wcproducts.net/WCP-0129) | WCP |
+| 1/4 Polycord | [1/4" Double PolyCord Pulley](https://jgermita.github.io/frc-parts/parts/01058.html) | [WCP-0097](http://www.wcproducts.net/WCP-0097) | WCP |
+| 1/4 Polycord | [1/4" Single PolyCord Pulley](https://jgermita.github.io/frc-parts/parts/01057.html) | [WCP-0096](http://www.wcproducts.net/WCP-0096) | WCP |
+| 1/4 Polycord | [Polycord - 1/4 dia](https://jgermita.github.io/frc-parts/parts/00406.html) | [59725K732](https://www.mcmaster.com/#59725K732) | Mcmaster |
+| Flat Belt | [Polyurethane flat belt - 1" wide, 0.09" thick](https://jgermita.github.io/frc-parts/parts/00407.html) | [6075K15](https://www.mcmaster.com/#6075K15) | Mcmaster |
 | GT2 Pulleys | [12T BAG pinion](https://jgermita.github.io/frc-parts/parts/00568.html) | [wcp-0016](http://www.wcproducts.net/gt2-timing-pulleys-belts) | WCP |
 | GT2 Pulleys | [12T RS550 Pinion](https://jgermita.github.io/frc-parts/parts/00569.html) | [wcp-0014](http://www.wcproducts.net/gt2-timing-pulleys-belts) | WCP |
 | GT2 Pulleys | [12T RS775 Pinion](https://jgermita.github.io/frc-parts/parts/00570.html) | [wcp-0015](http://www.wcproducts.net/gt2-timing-pulleys-belts) | WCP |
+| GT2 Pulleys | [GT2 (3mm) - 36T 9mm Double Flange 1/2" Hex](https://jgermita.github.io/frc-parts/parts/01031.html) | [WCP-0017](http://www.wcproducts.net/WCP-0017) | WCP |
+| GT2 Pulleys | [GT2 (3mm) - 48T 9mm Double Flange 1/2" Hex](https://jgermita.github.io/frc-parts/parts/01032.html) | [WCP-0018](http://www.wcproducts.net/WCP-0018) | WCP |
 | GT2-3mm Belt | [100T](https://jgermita.github.io/frc-parts/parts/00571.html) | [wcp-0060](http://www.wcproducts.net/gt2-timing-pulleys-belts) | WCP |
 | GT2-3mm Belt | [110T](https://jgermita.github.io/frc-parts/parts/00572.html) | [wcp-0061](http://www.wcproducts.net/gt2-timing-pulleys-belts) | WCP |
 | GT2-3mm Belt | [120T](https://jgermita.github.io/frc-parts/parts/00573.html) | [wcp-0062](http://www.wcproducts.net/gt2-timing-pulleys-belts) | WCP |
@@ -14,6 +21,12 @@ exclude_from_search: true
 | GT2-3mm Belt | [60T](https://jgermita.github.io/frc-parts/parts/00575.html) | [wcp-0057](http://www.wcproducts.net/gt2-timing-pulleys-belts) | WCP |
 | GT2-3mm Belt | [70T](https://jgermita.github.io/frc-parts/parts/00576.html) | [wcp-0058](http://www.wcproducts.net/gt2-timing-pulleys-belts) | WCP |
 | GT2-3mm Belt | [85T](https://jgermita.github.io/frc-parts/parts/00577.html) | [wcp-0059](http://www.wcproducts.net/gt2-timing-pulleys-belts) | WCP |
+| GT2-3mm Belt | [Timing Belt (GT2 3mm) - 105T 9mm Wide](https://jgermita.github.io/frc-parts/parts/01045.html) | [WCP-0069](http://www.wcproducts.net/WCP-0069) | WCP |
+| GT2-3mm Belt | [Timing Belt (GT2 3mm) - 45T 9mm Wide](https://jgermita.github.io/frc-parts/parts/01042.html) | [WCP-0066](http://www.wcproducts.net/WCP-0066) | WCP |
+| GT2-3mm Belt | [Timing Belt (GT2 3mm) - 55T 9mm Wide](https://jgermita.github.io/frc-parts/parts/01043.html) | [WCP-0067](http://www.wcproducts.net/WCP-0067) | WCP |
+| GT2-3mm Belt | [Timing Belt (GT2 3mm) - 90T 9mm Wide](https://jgermita.github.io/frc-parts/parts/01044.html) | [WCP-0068](http://www.wcproducts.net/WCP-0068) | WCP |
+| GT2-3mm Pulleys | [GT2 (3mm) - 24T 9mm Double Flange 1/2" Hex](https://jgermita.github.io/frc-parts/parts/01040.html) | [WCP-0064](http://www.wcproducts.net/WCP-0064) | WCP |
+| GT2-3mm Pulleys | [GT2 (3mm) - 60T 9mm Double Flange 1/2" Hex](https://jgermita.github.io/frc-parts/parts/01041.html) | [WCP-0065](http://www.wcproducts.net/WCP-0065) | WCP |
 | HTD-5mm Belt | [100T](https://jgermita.github.io/frc-parts/parts/00578.html) | [217-3475](http://www.vexrobotics.com/vexpro/motion/belts-and-pulleys/htdbelts15.html) | Vex |
 | HTD-5mm Belt | [100T](https://jgermita.github.io/frc-parts/parts/00579.html) | [217-3458](http://www.vexrobotics.com/vexpro/motion/belts-and-pulleys/htdbelts9.html) | Vex |
 | HTD-5mm Belt | [104T](https://jgermita.github.io/frc-parts/parts/00580.html) | [217-3476](http://www.vexrobotics.com/vexpro/motion/belts-and-pulleys/htdbelts15.html) | Vex |
@@ -57,3 +70,4 @@ exclude_from_search: true
 | HTD-5mm Pulleys | [30T](https://jgermita.github.io/frc-parts/parts/00617.html) | [217-4102](http://www.vexrobotics.com/vexpro/motion/belts-and-pulleys/htdpulleys.html) | Vex |
 | HTD-5mm Pulleys | [36T](https://jgermita.github.io/frc-parts/parts/00618.html) | [217-3231](http://www.vexrobotics.com/vexpro/motion/belts-and-pulleys/htdpulleys.html) | Vex |
 | HTD-5mm Pulleys | [36T](https://jgermita.github.io/frc-parts/parts/00619.html) | [217-4103](http://www.vexrobotics.com/vexpro/motion/belts-and-pulleys/htdpulleys.html) | Vex |
+| HTD-5mm Pulleys | [Timing Pulley (HTD 5mm) - 12T 9mm Double Flange CIM Pulley](https://jgermita.github.io/frc-parts/parts/01051.html) | [WCP-0076](http://www.wcproducts.net/WCP-0076) | WCP |

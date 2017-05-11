@@ -18,8 +18,8 @@ exclude_from_search: true
 | Broach | [2mm keyway broach](https://jgermita.github.io/frc-parts/parts/00820.html) | [8805A11](https://www.mcmaster.com/#8805A11) | Mcmaster |
 | Broach | [3/8" hex broach](https://jgermita.github.io/frc-parts/parts/00707.html) | [AM-2203](http://www.andymark.com/product-p/am-2203.htm) | Andymark |
 | Broach | [8mm keyway broach bushing](https://jgermita.github.io/frc-parts/parts/00821.html) | [8804A71](https://www.mcmaster.com/#8804A71) | Mcmaster |
-| Chain | [#35 chain breaker tool](https://jgermita.github.io/frc-parts/parts/00887.html) | [600100K](http://www.bmikarts.com/35-Deluxe-Chain-Tool_p_648.html) | BMI Karts |
 | Chain | [#35 chain breaker tool](https://jgermita.github.io/frc-parts/parts/00708.html) | [TDKMCTM](https://www.ombwarehouse.com/-35-Chain-Breaker.html) | OMB Warehouse |
+| Chain | [#35 chain breaker tool](https://jgermita.github.io/frc-parts/parts/00887.html) | [600100K](http://www.bmikarts.com/35-Deluxe-Chain-Tool_p_648.html) | BMI Karts |
 | Chain | [Dark Soul #25 Chain Breaker](https://jgermita.github.io/frc-parts/parts/00709.html) | [70](http://www.team221.com/viewproduct.php?id=70) | Team 221 Robotics |
 | Cleco | [1/2" clamping cleco](https://jgermita.github.io/frc-parts/parts/00710.html) | [5099A41](https://www.mcmaster.com/#5099A41) | Mcmaster |
 | Cleco | [1/4 cleco](https://jgermita.github.io/frc-parts/parts/00711.html) | [5099A31](https://www.mcmaster.com/#5099A31) | Mcmaster |
@@ -101,6 +101,9 @@ exclude_from_search: true
 | Pneumatics | [Legris - Tubing Cutter](https://jgermita.github.io/frc-parts/parts/00962.html) | [48671416](http://www.mscdirect.com/) | MSC |
 | Rivet | [Hand Rivet puller](https://jgermita.github.io/frc-parts/parts/00776.html) | [AM-2834](http://www.andymark.com/product-p/am-2834.htm) | Andymark |
 | Rivet | [Pneumatic rivet puller](https://jgermita.github.io/frc-parts/parts/00777.html) | [3CRH4](http://www.grainger.com/product/SPEEDAIRE-Air-Riveter-3CRH4?s_pp=false&picUrl=//static.grainger.com/rp/s/is/image/Grainger/3CRH4_AS01?$smthumb$) | Grainger |
+| Router | [Single edge O Flute - 1/4" dia](https://jgermita.github.io/frc-parts/parts/01024.html) | [5630a](https://www.vortextool.com/index.cfm?fuseaction=category.display&category_id=131&CFID=30090535&CFTOKEN=1062b9515972b6ae-8116CC0E-A1E6-2AF7-8ED6A26BDAE9CC94) | Vortex Tool |
+| Router | [Single edge O Flute - 1/8" dia](https://jgermita.github.io/frc-parts/parts/01022.html) | [5610a](https://www.vortextool.com/index.cfm?fuseaction=category.display&category_id=131&CFID=30090535&CFTOKEN=1062b9515972b6ae-8116CC0E-A1E6-2AF7-8ED6A26BDAE9CC94) | Vortex Tool |
+| Router | [Single edge O Flute - 3/16" dia](https://jgermita.github.io/frc-parts/parts/01023.html) | [5620a](https://www.vortextool.com/index.cfm?fuseaction=category.display&category_id=131&CFID=30090535&CFTOKEN=1062b9515972b6ae-8116CC0E-A1E6-2AF7-8ED6A26BDAE9CC94) | Vortex Tool |
 | Tap | [1/4-20 Tap](https://jgermita.github.io/frc-parts/parts/00778.html) | [2521A621](https://www.mcmaster.com/#2521A621) | Mcmaster |
 | Tap | [1/4-28 tap](https://jgermita.github.io/frc-parts/parts/00940.html) | [2535A33](https://www.mcmaster.com/#2535A33) | Mcmaster |
 | Tap | [10-24 Tap](https://jgermita.github.io/frc-parts/parts/00779.html) | [2522A719](https://www.mcmaster.com/#2522A719) | Mcmaster |

@@ -63,10 +63,9 @@ exclude_from_search: true
 | Grip Material | [3M 2228 Mastic tape 0.065 thick](https://jgermita.github.io/frc-parts/parts/00403.html) | [75735A71](https://www.mcmaster.com/#75735A71) | Mcmaster |
 | Grip Material | [3M 2229 Mastic tape .125 thick](https://jgermita.github.io/frc-parts/parts/00404.html) | [75735A72](https://www.mcmaster.com/#75735A72) | Mcmaster |
 | Grip Material | [3M grip tape](https://jgermita.github.io/frc-parts/parts/00405.html) | [6243T721](https://www.mcmaster.com/#6243T721) | Mcmaster |
-| Grip Material | [Polycord - 1/4 dia](https://jgermita.github.io/frc-parts/parts/00406.html) | [59725K732](https://www.mcmaster.com/#59725K732) | Mcmaster |
-| Grip Material | [Polyurethane flat belt - 1" wide, 0.09" thick](https://jgermita.github.io/frc-parts/parts/00407.html) | [6075K15](https://www.mcmaster.com/#6075K15) | Mcmaster |
 | Grip Material | [Roughtop Tread - Orange](https://jgermita.github.io/frc-parts/parts/00408.html) | [AM-0566](http://www.andymark.com/product-p/am-0566.htm) | Andymark |
 | Grip Materials | [3M GM400 Grip material](https://jgermita.github.io/frc-parts/parts/00835.html) | [am-2454](http://www.andymark.com/product-p/am-2454.htm) | Andymark |
+| Grip Materials | [Silicone Rubber Opaque tubing, white](https://jgermita.github.io/frc-parts/parts/01021.html) | [5236K529](https://www.mcmaster.com/#5236K529) | Mcmaster |
 | Plastic | [3mm Thick Euroboard](https://jgermita.github.io/frc-parts/parts/00836.html) | [am-euroboard](http://www.andymark.com/product-p/am-euroboard.htm) | Andymark |
 | Plastic | [ABS sheet, 1/4 thick](https://jgermita.github.io/frc-parts/parts/00409.html) | [8586K571](https://www.mcmaster.com/#8586K571) | Mcmaster |
 | Polycarbonate | [1.25OD 1.125ID polycarb tubing](https://jgermita.github.io/frc-parts/parts/00410.html) | [8585K63](https://www.mcmaster.com/#8585K63) | Mcmaster |
