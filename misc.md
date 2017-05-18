@@ -17,3 +17,6 @@ exclude_from_search: true
 |  | [Canned Air](https://jgermita.github.io/frc-parts/parts/00436.html) | [IM1DQ2809](http://www.staples.com/Maxell-CA-4-Blast-Away-Canned-Air-Duster/product_IM1DQ2809) | Staples |
 |  | [Instabench - 3 seater](https://jgermita.github.io/frc-parts/parts/00437.html) | [B001TL1UD0](http://www.amazon.com/Insta-Bench-IBC3-Classic-3-Seater-Bench/dp/B001TL1UD0) | Amazon |
 |  | [Sharpies](https://jgermita.github.io/frc-parts/parts/00438.html) | [30001](http://www.amazon.com/Sharpie-Point-Permanent-Markers-30001/dp/B00006IFHD/ref=sr_1_1?s=office-products&ie=UTF8&qid=1446016324&sr=1-1&keywords=sharpies) | Amazon |
+| Safety | [Flexible side shields for eyeglasses](https://jgermita.github.io/frc-parts/parts/01091.html) | [2571T1](https://www.mcmaster.com/#2571T1) | Mcmaster |
+| Safety | [Flexible side shields for eyeglasses](https://jgermita.github.io/frc-parts/parts/01092.html) | [2571T2](https://www.mcmaster.com/#2571T2) | Mcmaster |
+| Safety | [Flexible side shields for eyeglasses](https://jgermita.github.io/frc-parts/parts/01093.html) | [2571T3](https://www.mcmaster.com/#2571T3) | Mcmaster |
