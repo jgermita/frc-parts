@@ -15,5 +15,4 @@ sleep 1
 %GIT_PATH% pull %BRANCH%
 %GIT_PATH% push %BRANCH%
 
-pause
 exit
