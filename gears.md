@@ -4,9 +4,9 @@ exclude_from_search: true
 
 # Gears
 
-| 0.125" Round | [12T 32DP](https://jgermita.github.io/frc-parts/parts/00874.html) | [am-0928](http://www.andymark.com/product-p/am-0928.htm) | Andymark |
-| 0.125" Round | [15T 32DP](https://jgermita.github.io/frc-parts/parts/00875.html) | [am-0896](http://www.andymark.com/product-p/am-0896.htm) | Andymark |
-| 0.125" Round | [19T 32DP](https://jgermita.github.io/frc-parts/parts/00872.html) | [am-0604](http://www.andymark.com/product-p/am-0604.htm) | Andymark |
+| 1.125 Round | [12T 32DP](https://jgermita.github.io/frc-parts/parts/00874.html) | [am-0928](http://www.andymark.com/product-p/am-0928.htm) | Andymark |
+| 1.125 Round | [15T 32DP](https://jgermita.github.io/frc-parts/parts/00875.html) | [am-0896](http://www.andymark.com/product-p/am-0896.htm) | Andymark |
+| 1.125 Round | [19T 32DP](https://jgermita.github.io/frc-parts/parts/00872.html) | [am-0604](http://www.andymark.com/product-p/am-0604.htm) | Andymark |
 | 1.125 Round | [48T / Versakey](https://jgermita.github.io/frc-parts/parts/00115.html) | [217-3338](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/bearing-bore-gears.html) | Vex |
 | 1.125 Round | [54T / Versakey](https://jgermita.github.io/frc-parts/parts/00116.html) | [217-3339](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/bearing-bore-gears.html) | Vex |
 | 1.125 Round | [60T / Versakey](https://jgermita.github.io/frc-parts/parts/00117.html) | [217-3342](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/bearing-bore-gears.html) | Vex |
@@ -14,16 +14,16 @@ exclude_from_search: true
 | 1.125 Round | [66T / Versakey](https://jgermita.github.io/frc-parts/parts/00119.html) | [217-3340](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/bearing-bore-gears.html) | Vex |
 | 1.125 Round | [70T / Versakey](https://jgermita.github.io/frc-parts/parts/00120.html) | [217-3341](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/bearing-bore-gears.html) | Vex |
 | 1.125 Round | [72T / Versakey](https://jgermita.github.io/frc-parts/parts/00121.html) | [217-3996](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/bearing-bore-gears.html) | Vex |
-| 1/2 Hex | [28T Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01049.html) | [WCP-0073](http://www.wcproducts.net/WCP-0073) | WCP |
-| 1/2 Hex | [40T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01075.html) | [WCP-0116](http://www.wcproducts.net/WCP-0116) | WCP |
-| 1/2 Hex | [42T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01076.html) | [WCP-0117](http://www.wcproducts.net/WCP-0117) | WCP |
-| 1/2 Hex | [44T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01077.html) | [WCP-0118](http://www.wcproducts.net/WCP-0118) | WCP |
-| 1/2 Hex | [50T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01078.html) | [WCP-0119](http://www.wcproducts.net/WCP-0119) | WCP |
-| 1/2 Hex | [54T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01079.html) | [WCP-0120](http://www.wcproducts.net/WCP-0120) | WCP |
-| 1/2 Hex | [60T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01080.html) | [WCP-0121](http://www.wcproducts.net/WCP-0121) | WCP |
-| 1/2 Hex | [64T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01081.html) | [WCP-0122](http://www.wcproducts.net/WCP-0122) | WCP |
-| 1/2 Hex | [72T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01082.html) | [WCP-0123](http://www.wcproducts.net/WCP-0123) | WCP |
-| 1/2 Hex | [84T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01083.html) | [WCP-0124](http://www.wcproducts.net/WCP-0124) | WCP |
+| 1/2" Hex | [28T Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01049.html) | [WCP-0073](http://www.wcproducts.net/WCP-0073) | WCP |
+| 1/2" Hex | [40T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01075.html) | [WCP-0116](http://www.wcproducts.net/WCP-0116) | WCP |
+| 1/2" Hex | [42T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01076.html) | [WCP-0117](http://www.wcproducts.net/WCP-0117) | WCP |
+| 1/2" Hex | [44T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01077.html) | [WCP-0118](http://www.wcproducts.net/WCP-0118) | WCP |
+| 1/2" Hex | [50T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01078.html) | [WCP-0119](http://www.wcproducts.net/WCP-0119) | WCP |
+| 1/2" Hex | [54T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01079.html) | [WCP-0120](http://www.wcproducts.net/WCP-0120) | WCP |
+| 1/2" Hex | [60T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01080.html) | [WCP-0121](http://www.wcproducts.net/WCP-0121) | WCP |
+| 1/2" Hex | [64T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01081.html) | [WCP-0122](http://www.wcproducts.net/WCP-0122) | WCP |
+| 1/2" Hex | [72T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01082.html) | [WCP-0123](http://www.wcproducts.net/WCP-0123) | WCP |
+| 1/2" Hex | [84T Pocketed Gear with 1/2" Hex Bore](https://jgermita.github.io/frc-parts/parts/01083.html) | [WCP-0124](http://www.wcproducts.net/WCP-0124) | WCP |
 | 1/2" Hex | [18T](https://jgermita.github.io/frc-parts/parts/00122.html) | [217-3209](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/1-2-hex-bore.html) | Vex |
 | 1/2" Hex | [20T](https://jgermita.github.io/frc-parts/parts/00123.html) | [217-2702](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/1-2-hex-bore.html) | Vex |
 | 1/2" Hex | [24T](https://jgermita.github.io/frc-parts/parts/00124.html) | [217-2704](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/1-2-hex-bore.html) | Vex |
@@ -50,7 +50,7 @@ exclude_from_search: true
 | 1/2" Hex | [84T](https://jgermita.github.io/frc-parts/parts/00144.html) | [217-3577](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/1-2-hex-bore.html) | Vex |
 | 1/2" Hex | [84T / Versakey](https://jgermita.github.io/frc-parts/parts/00145.html) | [217-2717](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/1-2-hex-bore.html) | Vex |
 | 1/4 Round | [24T](https://jgermita.github.io/frc-parts/parts/00881.html) | [am-2632](http://www.andymark.com/product-p/am-2632.htm) | Andymark |
-| 3/8 Hex | [28T Gear with 3/8" Hex Bore](https://jgermita.github.io/frc-parts/parts/01035.html) | [WCP-0044](http://www.wcproducts.net/WCP-0044) | WCP |
+| 3/8" Hex | [28T Gear with 3/8" Hex Bore](https://jgermita.github.io/frc-parts/parts/01035.html) | [WCP-0044](http://www.wcproducts.net/WCP-0044) | WCP |
 | 3/8" Hex | [100T Gear with 3/8" Hex Bore - 32DP](https://jgermita.github.io/frc-parts/parts/01030.html) | [WCP-0012](http://www.wcproducts.net/WCP-0012) | WCP |
 | 3/8" Hex | [14T](https://jgermita.github.io/frc-parts/parts/00146.html) | [217-2699](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/3-8-hex-bore.html) | Vex |
 | 3/8" Hex | [14T Steel](https://jgermita.github.io/frc-parts/parts/00147.html) | [217-3100](http://www.vexrobotics.com/vexpro/motion/vexpro-gears/3-8-hex-bore.html) | Vex |
@@ -114,3 +114,5 @@ exclude_from_search: true
 | Versaplanetary | [dual motor input](https://jgermita.github.io/frc-parts/parts/00112.html) | [217-3141](http://www.vexrobotics.com/versaplanetary.html) | Vex |
 | Versaplanetary | [integrated encoder kit](https://jgermita.github.io/frc-parts/parts/00113.html) | [217-5046](http://www.vexrobotics.com/versaplanetary.html) | Vex |
 | Versaplanetary | [Ring gear kit](https://jgermita.github.io/frc-parts/parts/00114.html) | [217-2816](http://www.vexrobotics.com/versaplanetary.html) | Vex |
+| 8mm key | [17T](https://jgermita.github.io/frc-parts/parts/01097.html) | [am-2357](http://www.andymark.com/product-p/am-2357.htm) | Andymark |
+| 8mm key | [35T](https://jgermita.github.io/frc-parts/parts/01098.html) | [am-2460](http://www.andymark.com/product-p/am-2460.htm) | Andymark |

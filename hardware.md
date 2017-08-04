@@ -19,7 +19,7 @@ exclude_from_search: true
 | 1/2 Hex | [Flex head 1/2" ratchet](https://jgermita.github.io/frc-parts/parts/01010.html) | [B01F511X5E](https://www.amazon.com/gp/product/B01F511X5E/ref=oh_aui_detailpage_o03_s02?ie=UTF8&psc=1) | Amazon |
 | 1/2 Hex | [Hex Spacer](https://jgermita.github.io/frc-parts/parts/00882.html) | [am-1305](http://www.andymark.com/product-p/am-1305.htm) | Andymark |
 | 1/2 Hex | [Vex Hex Hub](https://jgermita.github.io/frc-parts/parts/00181.html) | [217-4009](http://www.vexrobotics.com/vexpro/motion/wheels-and-hubs/versahubs.html) | Vex |
-| 1/2 round | [1/2 round shaft collar](https://jgermita.github.io/frc-parts/parts/00182.html) | [6435K14](https://www.mcmaster.com/#6435K14) | Mcmaster |
+| 1/2 Round | [1/2 round shaft collar](https://jgermita.github.io/frc-parts/parts/00182.html) | [6435K14](https://www.mcmaster.com/#6435K14) | Mcmaster |
 | 1/2 Round | [1/2" ID one way needle bearing clutch](https://jgermita.github.io/frc-parts/parts/01015.html) | [2489K24](https://www.mcmaster.com/#2489K24) | Mcmaster |
 | 1/4 Round | [Flanged Bearing - 1/4"  Round ID x .500 OD](https://jgermita.github.io/frc-parts/parts/01048.html) | [WCP-0072](http://www.wcproducts.net/WCP-0072) | WCP |
 | 1/4-20 | [1/4 Washers](https://jgermita.github.io/frc-parts/parts/00183.html) | [90107A029](https://www.mcmaster.com/#90107A029) | Mcmaster |

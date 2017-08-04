@@ -63,3 +63,5 @@ The wheels on the bot go round and round!
 | 6" | [WCP 6" pneumatic - diamond](https://jgermita.github.io/frc-parts/parts/00816.html) | [wcp-0047](http://www.wcproducts.net/pneumatic-wheels) | WCP |
 | 6" | [WCP 6" pneumatic - zigzag](https://jgermita.github.io/frc-parts/parts/00817.html) | [wcp-0046](http://www.wcproducts.net/pneumatic-wheels) | WCP |
 | 8" | [6" to 8" Pneumatic Wheel Adapter](https://jgermita.github.io/frc-parts/parts/01061.html) | [WCP-0100](http://www.wcproducts.net/WCP-0100) | WCP |
+| 4" | [Yellow Fairlane Durasoft](https://jgermita.github.io/frc-parts/parts/01095.html) | [DR-9502-35UR-EX500](https://www.fixtureworks.net/store/pc/1-2-in-ID-Inch-c1690.htm) | fixtureworks |
+| 1.5" | [1.5" dia Fairlane roller](https://jgermita.github.io/frc-parts/parts/01096.html) | [RR-215-20-EX500](https://www.fixtureworks.net/store/pc/1-2-in-ID-Inch-c1643.htm) | fixtureworks |
