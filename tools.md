@@ -44,7 +44,7 @@ exclude_from_search: true
 | Drill | [Short Length 1/8 drill bit](https://jgermita.github.io/frc-parts/parts/00722.html) | [2416A15](https://www.mcmaster.com/#2416A15) | Mcmaster |
 | Drill | [short length 3/16 drill bit](https://jgermita.github.io/frc-parts/parts/00723.html) | [28765A19](https://www.mcmaster.com/#28765A19) | Mcmaster |
 | Electrical | [Anderson PowerPole - Crimper](https://jgermita.github.io/frc-parts/parts/00724.html) | [TRIcrimp](http://www.powerwerx.com/) | Powerwerx |
-| Electrical | [Bench vise](https://jgermita.github.io/frc-parts/parts/00725.html) | [4935505](http://www.lowes.com/pd_552526-281-4935505_1z11pbc__?productId=50168505&pl=1) | Lowes |
+| Work Holding | [Bench vise](https://jgermita.github.io/frc-parts/parts/00725.html) | [4935505](http://www.lowes.com/pd_552526-281-4935505_1z11pbc__?productId=50168505&pl=1) | Lowes |
 | Electrical | [Crimper for Wire Ferrules](https://jgermita.github.io/frc-parts/parts/00726.html) | [10178](http://www.amazon.com/Aven-10178-12-22-Crimping-Ferrules/dp/B00F0TPOWA) | Amazon |
 | Electrical | [Crimping tool for insulated terminals](https://jgermita.github.io/frc-parts/parts/00727.html) | [AM-2215](http://www.andymark.com/product-p/am-2215.htm) | Andymark |
 | Electrical | [Hakko Flush Cutters](https://jgermita.github.io/frc-parts/parts/00728.html) | [TOL-11952](https://www.sparkfun.com/products/11952) | Sparkfun |
@@ -90,7 +90,7 @@ exclude_from_search: true
 | Lathe | [AR - 3/8](https://jgermita.github.io/frc-parts/parts/00989.html) | [3367A862](https://www.mcmaster.com/#3367A862) | Mcmaster |
 | Lathe | [ER - 5/16](https://jgermita.github.io/frc-parts/parts/00990.html) | [3367A886](https://www.mcmaster.com/#3367A886) | Mcmaster |
 | Machines | [2 speed Benchtop mill](https://jgermita.github.io/frc-parts/parts/00767.html) | [44991](http://www.harborfreight.com/two-speed-variable-bench-mill-drill-machine-44991.html) | Harbor Freight |
-| Machines | [4" Drill Press Vise](https://jgermita.github.io/frc-parts/parts/00768.html) | [30999](http://www.harborfreight.com/4-inch-jaw-capacity-drill-press-vise-30999.html) | Harbor Freight |
+| Work Holding | [4" Drill Press Vise](https://jgermita.github.io/frc-parts/parts/00768.html) | [30999](http://www.harborfreight.com/4-inch-jaw-capacity-drill-press-vise-30999.html) | Harbor Freight |
 | Machines | [7x10 Benchtop Mini Lathe](https://jgermita.github.io/frc-parts/parts/00769.html) | [93212](http://www.harborfreight.com/7-inch-x-10-inch-precision-mini-lathe-93212.html) | Harbor Freight |
 | Machines | [Milwaukee Deep Cut portable bandaw blades](https://jgermita.github.io/frc-parts/parts/00770.html) | [48-39-0524](http://www.homedepot.com/p/Milwaukee-44-7-8-in-18-TPI-Deep-Cut-Portable-Band-Saw-Blades-2-Pack-48-39-0524/100532342?fbtLinkClicked=1446687028982%7C203261029) | Home Depot |
 | Machines | [Ryobi drills](https://jgermita.github.io/frc-parts/parts/00771.html) | [205152814](http://www.homedepot.com/p/Ryobi-12-Volt-Cordless-Lithium-Ion-Drill-Driver-Kit-HJP004/205152814) | Home Depot |
@@ -113,6 +113,6 @@ exclude_from_search: true
 | Wrenches | [1/2 ratcheting wrench](https://jgermita.github.io/frc-parts/parts/00905.html) | [5163A16](https://www.mcmaster.com/#5163A16) | Mcmaster |
 | Wrenches | [1/2 reversible ratcheting wrench](https://jgermita.github.io/frc-parts/parts/00904.html) | [5160A5](https://www.mcmaster.com/#5160A5) | Mcmaster |
 | Wrenches | [7/16" wratcheting combination wrench](https://jgermita.github.io/frc-parts/parts/00782.html) | [5163A15](https://www.mcmaster.com/#5163A15) | Mcmaster |
-| Router | [Precise Toolmakers Vise - 202-1121](https://jgermita.github.io/frc-parts/parts/01094.html) | [202-1121](http://www.penntoolco.com/precise-toolmakers-vise-202-1121/) | Penn Tool |
-| Ream | [0.1950 Reamer](https://jgermita.github.io/frc-parts/parts/01099.html) | [8307A355](https://www.mcmaster.com/#8307A355) | Mcmaster |
-| Ream | [0.1955 Reamer](https://jgermita.github.io/frc-parts/parts/01100.html) | [8307A356](https://www.mcmaster.com/#8307A356) | Mcmaster |
+| Work Holding | [Precise Toolmakers Vise - 202-1121](https://jgermita.github.io/frc-parts/parts/01094.html) | [202-1121](http://www.penntoolco.com/precise-toolmakers-vise-202-1121/) | Penn Tool |
+| Reamers | [0.1950 Reamer](https://jgermita.github.io/frc-parts/parts/01099.html) | [8307A355](https://www.mcmaster.com/#8307A355) | Mcmaster |
+| Reamers | [0.1955 Reamer](https://jgermita.github.io/frc-parts/parts/01100.html) | [8307A356](https://www.mcmaster.com/#8307A356) | Mcmaster |

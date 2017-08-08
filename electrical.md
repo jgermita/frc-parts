@@ -126,13 +126,13 @@ Electrical supplies and devices!
 | Wire Management | [4" zip ties - black](https://jgermita.github.io/frc-parts/parts/00080.html) | [7130K52](https://www.mcmaster.com/#7130K52) | Mcmaster |
 | Wire Management | [8" zip ties - black](https://jgermita.github.io/frc-parts/parts/00081.html) | [80005K51](https://www.mcmaster.com/#80005K51) | Mcmaster |
 | Wire Management | [Black Electrical Tape - 3/4 Wide](https://jgermita.github.io/frc-parts/parts/00082.html) | [76455A22](https://www.mcmaster.com/#76455A22) | Mcmaster |
-| Wire Management | [Black heat shrink kit](https://jgermita.github.io/frc-parts/parts/00083.html) | [am-2773](http://www.andymark.com/product-p/am-2773.htm) | Andymark |
+| Heat Shrink | [Black heat shrink kit](https://jgermita.github.io/frc-parts/parts/00083.html) | [am-2773](http://www.andymark.com/product-p/am-2773.htm) | Andymark |
 | Wire Management | [Fray Resistant expandable sleeving](https://jgermita.github.io/frc-parts/parts/00951.html) | [2837K12](https://www.mcmaster.com/#2837K12) | Mcmaster |
 | Wire Management | [Grommet, 3/4 hole dia](https://jgermita.github.io/frc-parts/parts/00084.html) | [9600K21](https://www.mcmaster.com/#9600K21) | Mcmaster |
-| Wire Management | [Polyolefin Heat Shrink Tubing 1/2 to 1/4](https://jgermita.github.io/frc-parts/parts/00085.html) | [7496K45](https://www.mcmaster.com/#7496K45) | Mcmaster |
-| Wire Management | [Polyolefin Heat Shrink Tubing 1/4 to 1/8](https://jgermita.github.io/frc-parts/parts/00086.html) | [7496K43](https://www.mcmaster.com/#7496K43) | Mcmaster |
-| Wire Management | [Polyolefin Heat Shrink Tubing 1/8 to 1/16](https://jgermita.github.io/frc-parts/parts/00087.html) | [7856K63](https://www.mcmaster.com/#7856K63) | Mcmaster |
-| Wire Management | [Red heat shrink kit](https://jgermita.github.io/frc-parts/parts/00088.html) | [am-2861](http://www.andymark.com/product-p/am-2861.htm) | Andymark |
+| Heat Shrink | [Polyolefin Heat Shrink Tubing 1/2 to 1/4](https://jgermita.github.io/frc-parts/parts/00085.html) | [7496K45](https://www.mcmaster.com/#7496K45) | Mcmaster |
+| Heat Shrink | [Polyolefin Heat Shrink Tubing 1/4 to 1/8](https://jgermita.github.io/frc-parts/parts/00086.html) | [7496K43](https://www.mcmaster.com/#7496K43) | Mcmaster |
+| Heat Shrink | [Polyolefin Heat Shrink Tubing 1/8 to 1/16](https://jgermita.github.io/frc-parts/parts/00087.html) | [7856K63](https://www.mcmaster.com/#7856K63) | Mcmaster |
+| Heat Shrink | [Red heat shrink kit](https://jgermita.github.io/frc-parts/parts/00088.html) | [am-2861](http://www.andymark.com/product-p/am-2861.htm) | Andymark |
 | Wire Management | [Zip tie holder - 3/4" ](https://jgermita.github.io/frc-parts/parts/00089.html) | [7582K11](https://www.mcmaster.com/#7582K11) | Mcmaster |
 |  | [12v to 5v regulator](https://jgermita.github.io/frc-parts/parts/00090.html) | [B00A71CMDU](http://www.amazon.com/Nextrox-Converter-Power-Supply-Module/dp/B00A71CMDU) | Amazon |
 |  | [Digital Voltmeter](https://jgermita.github.io/frc-parts/parts/00899.html) | [B00C2NQ83Q](https://www.amazon.com/gp/product/B00C2NQ83Q/ref=oh_aui_detailpage_o06_s02?ie=UTF8&psc=1) | Amazon |
@@ -141,3 +141,8 @@ Electrical supplies and devices!
 |  | [Panel mount digital voltmeter](https://jgermita.github.io/frc-parts/parts/00093.html) | [am-2761](http://www.andymark.com/product-p/am-2761.htm) | Andymark |
 |  | [Panel Mount Ethernet](https://jgermita.github.io/frc-parts/parts/00094.html) | [909](https://www.adafruit.com/products/909) | Adafruit |
 |  | [Panel Mount USB](https://jgermita.github.io/frc-parts/parts/00095.html) | [907](https://www.adafruit.com/products/907) | Adafruit |
+| Connectors | [4AWG 1/4" Screw Compression Lug](https://jgermita.github.io/frc-parts/parts/01101.html) | [6926K51](https://www.mcmaster.com/#6926K51) | Mcmaster |
+| Heat Shrink | [0.8" ID / 0.2 Shrink extra thick moisture seal](https://jgermita.github.io/frc-parts/parts/01102.html) | [7270K2](https://www.mcmaster.com/#7270K2) | Mcmaster |
+| Connectors | [Passive PoE Injector](https://jgermita.github.io/frc-parts/parts/01103.html) | [B01HMNJHII](https://www.amazon.com/gp/product/B01HMNJHII) | Amazon |
+| Connectors | [2.1x5.5 DC power pigtail](https://jgermita.github.io/frc-parts/parts/01108.html) | [B00XTY8WUY](https://www.amazon.com/gp/product/B00XTY8WUY/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1) | Amazon |
+| Network | [TP-Link 5 port switch](https://jgermita.github.io/frc-parts/parts/01109.html) | [B00A128S24](https://www.amazon.com/TP-Link-TL-SG105-Gigabit-Ethernet-Unmanaged/dp/B00A128S24/ref=sr_1_3?ie=UTF8&qid=1501921072&sr=8-3&keywords=5+port+switch) | Amazon |

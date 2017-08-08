@@ -253,3 +253,7 @@ exclude_from_search: true
 | Springs | [Constant Force Spring - 20lb](https://jgermita.github.io/frc-parts/parts/00363.html) | [9293K13](https://www.mcmaster.com/#9293K13) | Mcmaster |
 | Standoffs | [Standoff 1.00" (10-pack)](https://jgermita.github.io/frc-parts/parts/00364.html) | [275-1016](http://www.vexrobotics.com/standoffs-8-32.html) | Vex |
 | Standoffs | [Standoff 2.00" (10-pack)](https://jgermita.github.io/frc-parts/parts/00365.html) | [275-1018](http://www.vexrobotics.com/standoffs-8-32.html) | Vex |
+| #10 | [Internal Tooth Lock Washer - #10](https://jgermita.github.io/frc-parts/parts/01104.html) | [97527A005](https://www.mcmaster.com/#97527A005) | Mcmaster |
+| 1/4-20 | [Internal Tooth Lock Washer - 1/4](https://jgermita.github.io/frc-parts/parts/01105.html) | [97527A007](https://www.mcmaster.com/#97527A005) | Mcmaster |
+| Lubricant | [Oatey 30200 Clear Cutting Oil](https://jgermita.github.io/frc-parts/parts/01106.html) | [B0069KPMGW](https://www.amazon.com/Oatey-30200-Cutting-Threads-16-Ounce/dp/B0069KPMGW/ref=sr_1_3?ie=UTF8&qid=1502165716&sr=8-3&keywords=Cutting%20oil) | Amazon |
+| Lubricant | [A9 Aluminum Cutting Fluid](https://jgermita.github.io/frc-parts/parts/01107.html) | [B0000DD2EX](https://www.amazon.com/A9-04z-Aluminum-Cutting-Fluid/dp/B0000DD2EX) | Amazon |
