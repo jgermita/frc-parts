@@ -13,13 +13,3 @@ This project aims to centralize the answers to these questions and more.
 Many products listed can be sourced from multiple vendors, or even local vendors. For the sake of simplicity, one vendor is listed. Part legality on FIRST robots is not guaranteed nor implied. Please refer to the current year's game manual and Q&A for final ruling. Products listed and team associations do not represent official endorsements by any team. 
 
 To suggest parts or corrections to information, use [this form!](https://docs.google.com/forms/d/e/1FAIpQLSeWyY8v3RgOty-MyWmh9U0iivNYN_molChYyS-0U-o-kOAv_g/viewform)
-
-
-## acknowledgements
-A large majority of the parts presented in this project were battle-tested and verified by my current and former FIRST teams. This project wouldn't have been possible without their contributions.
-* FIRST Robotics Competition [Team 5012 Gryffingear](http://gryffingear.com) (2013 - Current)
-* FIRST Robotics Competition [Team 399 Eagle Robotics](http://team399.org) (2009 - 2014)
-* FIRST Tech Challenge Team 72 Garagebots (2010 - 2014)
-* FIRST Tech Challenge teams 5011 Bot Squad and 7328 ICE (2013 - 2015)
-
-Mentors involved in the East West Collaboration Project(EWCP) have been an incredible source of information and tremendous support. 
