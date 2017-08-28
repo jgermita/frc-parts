@@ -82,7 +82,7 @@ Electrical supplies and devices!
 | Network | [Ethernet cable - 6ft](https://jgermita.github.io/frc-parts/parts/00048.html) | [2357344](https://www.cdw.com/shop/products/StarTech.com-Snagless-Cat-5e-UTP-Patch-Cable-patch-cable-6-ft-black/2357344.aspx?enkwrd=startech.com%206ft%20black%20snagless&pfm=gln) | CDW |
 | Network | [Ethernet port saver](https://jgermita.github.io/frc-parts/parts/00049.html) | [CBL-EJX001-3](https://www.estoprobotics.com/estore/index.php?_a=viewProd&productId=28) | E-Stop Robotics |
 | Network | [Panel mount RJ45 jack](https://jgermita.github.io/frc-parts/parts/01011.html) | [B00R3B0BP8](https://www.amazon.com/gp/product/B00R3B0BP8/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) | Amazon |
-| Networking | [5 port ethernet switch](https://jgermita.github.io/frc-parts/parts/00908.html) | [B000M2TAN4](https://www.amazon.com/TRENDnet-Unmanaged-GREENnet-Ethernet-TE100-S5/dp/B000M2TAN4/ref=sr_1_9?s=electronics&ie=UTF8&qid=1467927447&sr=1-9&keywords=tp+link+5+port+switch) | Amazon |
+| Network | [5 port ethernet switch](https://jgermita.github.io/frc-parts/parts/00908.html) | [B000M2TAN4](https://www.amazon.com/TRENDnet-Unmanaged-GREENnet-Ethernet-TE100-S5/dp/B000M2TAN4/ref=sr_1_9?s=electronics&ie=UTF8&qid=1467927447&sr=1-9&keywords=tp+link+5+port+switch) | Amazon |
 | Sensors | [10 turn pot](https://jgermita.github.io/frc-parts/parts/00050.html) | [AM-2619](http://www.andymark.com/product-p/am-2619.htm) | Andymark |
 | Sensors | [27" length string pot](https://jgermita.github.io/frc-parts/parts/00051.html) | [am-2674built](http://www.andymark.com/product-p/am-2674built.htm) | Andymark |
 | Sensors | [Absolute encoder](https://jgermita.github.io/frc-parts/parts/00052.html) | [am-2899](http://www.andymark.com/product-p/am-2899.htm) | Andymark |
@@ -137,7 +137,7 @@ Electrical supplies and devices!
 |  | [12v to 5v regulator](https://jgermita.github.io/frc-parts/parts/00090.html) | [B00A71CMDU](http://www.amazon.com/Nextrox-Converter-Power-Supply-Module/dp/B00A71CMDU) | Amazon |
 |  | [Digital Voltmeter](https://jgermita.github.io/frc-parts/parts/00899.html) | [B00C2NQ83Q](https://www.amazon.com/gp/product/B00C2NQ83Q/ref=oh_aui_detailpage_o06_s02?ie=UTF8&psc=1) | Amazon |
 |  | [Flash Drive](https://jgermita.github.io/frc-parts/parts/00091.html) | [B007JR532M](http://www.amazon.com/SanDisk-Cruzer-Frustration-Free-Packaging--SDCZ36-032G-AFFP/dp/B007JR532M/ref=sr_1_4/184-8691838-0573153?s=pc&ie=UTF8&qid=1464978802&sr=1-4&keywords=flash+drive) | Amazon |
-|  | [Inspection Camera](https://jgermita.github.io/frc-parts/parts/00092.html) | [B017KJBC4Q](http://www.amazon.com/dp/B017KJBC6O/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2XT0GWNE6P95G&coliid=I22HQW092I6L7E&psc=1) | Amazon |
+| Camera | [Inspection Camera](https://jgermita.github.io/frc-parts/parts/00092.html) | [B017KJBC4Q](http://www.amazon.com/dp/B017KJBC6O/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2XT0GWNE6P95G&coliid=I22HQW092I6L7E&psc=1) | Amazon |
 |  | [Panel mount digital voltmeter](https://jgermita.github.io/frc-parts/parts/00093.html) | [am-2761](http://www.andymark.com/product-p/am-2761.htm) | Andymark |
 |  | [Panel Mount Ethernet](https://jgermita.github.io/frc-parts/parts/00094.html) | [909](https://www.adafruit.com/products/909) | Adafruit |
 |  | [Panel Mount USB](https://jgermita.github.io/frc-parts/parts/00095.html) | [907](https://www.adafruit.com/products/907) | Adafruit |
@@ -146,3 +146,6 @@ Electrical supplies and devices!
 | Connectors | [Passive PoE Injector](https://jgermita.github.io/frc-parts/parts/01103.html) | [B01HMNJHII](https://www.amazon.com/gp/product/B01HMNJHII) | Amazon |
 | Connectors | [2.1x5.5 DC power pigtail](https://jgermita.github.io/frc-parts/parts/01108.html) | [B00XTY8WUY](https://www.amazon.com/gp/product/B00XTY8WUY/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1) | Amazon |
 | Network | [TP-Link 5 port switch](https://jgermita.github.io/frc-parts/parts/01109.html) | [B00A128S24](https://www.amazon.com/TP-Link-TL-SG105-Gigabit-Ethernet-Unmanaged/dp/B00A128S24/ref=sr_1_3?ie=UTF8&qid=1501921072&sr=8-3&keywords=5+port+switch) | Amazon |
+| Camera | [360 Deg Birds Eye View camera kit](https://jgermita.github.io/frc-parts/parts/01110.html) | [B00ZR65O2G](https://www.amazon.com/Weivision-Universal-Degree-System-Panoramic/dp/B00ZR65O2G/ref=sr_1_2?ie=UTF8&qid=1502467610&sr=8-2&keywords=bird+eye+camera) | Amazon |
+| Camera | [Samsung 1CH H.264 Network Video Encoder SPE-101](https://jgermita.github.io/frc-parts/parts/01111.html) | [B007THK58O](https://www.amazon.com/Samsung-H-264-Network-Encoder-SPE-101/dp/B007THK58O/ref=sr_1_1?ie=UTF8&qid=1502467884&sr=8-1&keywords=spe101) | Amazon |
+| Camera | [Logitech C920](https://jgermita.github.io/frc-parts/parts/01112.html) | [B006JH8T3S](https://www.amazon.com/Logitech-Widescreen-Calling-Recording-Desktop/dp/B006JH8T3S) | B006JH8T3S |

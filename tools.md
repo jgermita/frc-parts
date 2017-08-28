@@ -20,7 +20,7 @@ exclude_from_search: true
 | Broach | [8mm keyway broach bushing](https://jgermita.github.io/frc-parts/parts/00821.html) | [8804A71](https://www.mcmaster.com/#8804A71) | Mcmaster |
 | Chain | [#35 chain breaker tool](https://jgermita.github.io/frc-parts/parts/00708.html) | [TDKMCTM](https://www.ombwarehouse.com/-35-Chain-Breaker.html) | OMB Warehouse |
 | Chain | [#35 chain breaker tool](https://jgermita.github.io/frc-parts/parts/00887.html) | [600100K](http://www.bmikarts.com/35-Deluxe-Chain-Tool_p_648.html) | BMI Karts |
-| Chain | [Dark Soul #25 Chain Breaker](https://jgermita.github.io/frc-parts/parts/00709.html) | [70](http://www.team221.com/viewproduct.php?id=70) | Team 221 Robotics |
+| Chain | [Dark Soul #25 Chain Breaker](https://jgermita.github.io/frc-parts/parts/00709.html) | [gg220](http://www.davesmotors.com/DarkSoul-25-Chain-Breaker-Tool-3466.html) | Dave's Motors |
 | Cleco | [1/2" clamping cleco](https://jgermita.github.io/frc-parts/parts/00710.html) | [5099A41](https://www.mcmaster.com/#5099A41) | Mcmaster |
 | Cleco | [1/4 cleco](https://jgermita.github.io/frc-parts/parts/00711.html) | [5099A31](https://www.mcmaster.com/#5099A31) | Mcmaster |
 | Cleco | [1/8" cleco](https://jgermita.github.io/frc-parts/parts/00712.html) | [5099A32](https://www.mcmaster.com/#5099A32) | Mcmaster |
