@@ -6,6 +6,8 @@ and open the template in the editor.
 -->
 
 <html>
+    <jsp:useBean id="partsbean" scope="session" class="com.frcparts.PartsDbHandler" />
+    
     <head>
         <title>TODO supply a title</title>
         
@@ -14,8 +16,7 @@ and open the template in the editor.
     </head>
     
     <body>
-        <jsp:useBean id="partsbean" scope="session" class="com.frcparts.PartsDbHandler" />
-        <jsp:setProperty name="partsbean" property="contents" />
+        
         <div><jsp:getProperty name="partsbean" property="contents" /></div>
     </body>
 </html>
