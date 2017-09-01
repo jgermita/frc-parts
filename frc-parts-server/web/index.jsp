@@ -7,6 +7,7 @@ and open the template in the editor.
 
 <html>
     <jsp:useBean id="partsbean" scope="session" class="com.frcparts.PartsDbHandler" />
+    <jsp:setProperty name="partsbean" property="query" value="<%= request.getQueryString() %>" />
     
     <head>
         <title>TODO supply a title</title>
@@ -16,7 +17,6 @@ and open the template in the editor.
     </head>
     
     <body>
-        
         <div><jsp:getProperty name="partsbean" property="contents" /></div>
     </body>
 </html>
