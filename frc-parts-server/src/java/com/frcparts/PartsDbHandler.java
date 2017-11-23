@@ -17,56 +17,64 @@ import javax.servlet.http.HttpServletRequest;
  * @author Jeremy
  */
 public class PartsDbHandler {
-    String contents;
-    private ArrayList<String> line;
+    public SheetsData data = null;
+    
+    String results;
     String query;
     
     public PartsDbHandler() {
-        this.line = new ArrayList<String>();
-        contents = null;
-    }
+        data = new SheetsData(new SheetsFetcher("https://docs.google.com/spreadsheets/d/1x07PQ0yxtrQXogLbfGt5_W_RXgm1O1TL-T5Hijq8WTM/pub?gid=0&single=true&output=tsv"));
+        
+    } 
     
-    public String getContents() {
-        String url = "https://docs.google.com/spreadsheets/d/1x07PQ0yxtrQXogLbfGt5_W_RXgm1O1TL-T5Hijq8WTM/pub?gid=0&single=true&output=tsv";
-        contents = "";
-        try {
-            BufferedReader br = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
-            String s = "";
-            
-            while ((s = br.readLine()) != null) {
-                line.add(s);
-                contents = contents.concat(s + "<br>");
-            }
-        } catch(Exception e) {
-            
-        }
-			
-        //contents = System.currentTimeMillis() + "\t";
-        if(query ==(null)) {
-            query = "0";
+    public String getResults() {
+        
+        String answer = "";
+        
+        ArrayList<Part> res = data.search(query);
+        
+        for(Part p : res) {
+            answer = answer + p.toString() + " <br>\n";
         }
         
-        if(query.equals("0")) {
-            return contents;
-        } else {
-            return line.get(Integer.parseInt(query)).replace("\t", "\n<br>\n");
+        if(res.size() == 0 || res.get(0).equals(data.empty)) {
+            answer = "Nothing found!";
         }
         
-        //return line.get(Integer.parseInt(query));
-        //return contents;
+        this.results = answer;
+        
+        return results;
     }
     
-    public void setContents(String contents) {
-        this.contents = contents;
+    public void setResults(String results) {
+        
+        this.results = results;
     }
     
     public void setQuery(String id) {
-        this.query = id;
+        
+        this.query = id.trim();
+        
+        
     }
     
     public String getQuery() {
         return query;
     }
     
+    public String getIds() {
+        String answer = "";
+        
+        for(Part p : data.get()) {
+            answer = answer + p.getId() + "\n";
+        }
+        
+        return answer;
+    }
+    
+    public String toTable() {
+        
+        return HtmlHelper.toTable(data.search(query));
+    }
     
 }
