@@ -23,9 +23,9 @@ and open the template in the editor.
         <center>
 	<img src="https://github.com/jgermita/frc-parts/raw/gh-pages/partslogo_small.png">
 	<br>
-	<h>soon?</h>
+	<h>soon&trade;</h>
         <div><form action="results.jsp" method="post"> 
-                Search: <input type="text" name="query" value=" ">
+                Search: <input type="text" name="query" value="">
                 <input type="submit" value="Search"> 
         </form> </div>
         </center>
