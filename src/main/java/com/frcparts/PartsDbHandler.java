@@ -33,7 +33,8 @@ public class PartsDbHandler {
         return this.toString(data.search(query));
     }
     
-    public String getCategory() {
+    public String getCategory(String cat) {
+        this.setCategory(cat);
         return this.toTable(data.getCategory(category));
         //return "test";
     }

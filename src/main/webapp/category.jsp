@@ -23,8 +23,7 @@
         
         <div>
             
-            '<%= partsbean.setCategory(request.getParameter("cat")) %>'
-            <%= partsbean.getCategory() %>
+            <%= partsbean.getCategory(request.getParameter("cat")) %>
             </div>
             
     </body>
