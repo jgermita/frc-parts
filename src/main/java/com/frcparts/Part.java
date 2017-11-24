@@ -11,7 +11,7 @@ public class Part {
 	private String vendor	= "";
 	private String url		= "";
 	private String id		= "";
-	private String tags		= "";
+	private String[] tags;
 	
 	private String s		= "";
 	
@@ -32,9 +32,7 @@ public class Part {
 			url		= params[7];
 			id		= params[8];
 			
-			for(int i = 9; i < params.length; i++) {
-				tags.concat(params[i] + ", ");
-			}
+			System.arraycopy(params, 9, tags, 0, params.length - 9);
 		}
 	}
 	
@@ -79,13 +77,16 @@ public class Part {
 		return id;
 	}
 
-	public String getTags() {
+	public String[] getTags() {
 		return tags;
 	}
 	
 	public String toString() {
-                
-		return getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink() + "\t" + getId() + "\t" + getTags();
+                String answer = getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink() + "\t" + getId() + "\t";
+                for(String s : tags) {
+                    answer = answer + ", ";
+                }
+		return answer;
 	}
 
 }
