@@ -34,7 +34,8 @@ public class PartsDbHandler {
     }
     
     public String getCategory() {
-        return this.toTable(data.getCategory(category));
+        //return this.toTable(data.getCategory(category));
+        return "test";
     }
     
     
