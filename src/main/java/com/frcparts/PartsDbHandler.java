@@ -34,7 +34,7 @@ public class PartsDbHandler {
     }
     
     public String getCategory() {
-        return this.toString(data.getCategory(category));
+        return this.toTable(data.getCategory(category));
     }
     
     
@@ -75,6 +75,10 @@ public class PartsDbHandler {
         return HtmlHelper.toTable(data.search(query));
     }
     
+    public String toTable(ArrayList<Part> p) {
+        
+        return HtmlHelper.toTable(p);
+    }
     public String toString(ArrayList<Part> res) {
         
         String answer = "";
