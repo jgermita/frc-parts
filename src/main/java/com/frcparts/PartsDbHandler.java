@@ -34,7 +34,7 @@ public class PartsDbHandler {
     }
     
     public String getCategory() {
-        return this.toString(data.getCategory("electrical"));
+        return this.toString(data.getCategory(category));
     }
     
     
