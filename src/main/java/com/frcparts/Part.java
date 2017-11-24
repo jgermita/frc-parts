@@ -33,6 +33,10 @@ public class Part {
 			id		= params[8];
 			
 			System.arraycopy(params, 9, tags, 0, params.length - 9);
+                        
+                        if(tags == null) {
+                            tags = new String[0];
+                        }
 		}
 	}
 	
