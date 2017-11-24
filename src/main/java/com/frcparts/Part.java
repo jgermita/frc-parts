@@ -34,9 +34,6 @@ public class Part {
 			
 			System.arraycopy(params, 9, tags, 0, params.length - 9);
                         
-                        if(tags == null) {
-                            tags = new String[0];
-                        }
 		}
 	}
 	
@@ -88,9 +85,9 @@ public class Part {
 	public String toString() {
                 String answer = getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink() + "\t" + getId() + "\t";
                 if(tags != null) {
-                for(String s : tags) {
-                    answer = answer + ", ";
-                }
+                    for(String s : tags) {
+                        answer = answer + ", ";
+                    }
                 }
 		return answer;
 	}
