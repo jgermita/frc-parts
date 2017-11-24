@@ -18,7 +18,7 @@
     </head>
     <body>
         <center>
-            <a href="index.jsp"><img src="https://github.com/jgermita/frc-parts/raw/gh-pages/partslogo_small.png"></a>
+            <a href="index.jsp"><img src="https://github.com/jgermita/frc-parts/raw/master/partslogo_small.png"></a>
 	
         <br><br>
         <div><form action="results.jsp" method="post"> 
