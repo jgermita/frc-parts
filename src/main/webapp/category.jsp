@@ -24,9 +24,8 @@
         <div>
             
             <%
-                
                 String param = request.getParameter("cat");
-                partsbean.setCategory(request.getParameter("cat"));
+                partsbean.setCategory(param);
                 partsbean.getCategory();
             %>
             </div>

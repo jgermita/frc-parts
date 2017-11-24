@@ -82,6 +82,8 @@ public class SheetsData {
         public ArrayList<Part> getCategory(String category) {
             ArrayList<Part> answer = new ArrayList<Part>();
             
+            category = category.toLowerCase();
+            
             if(sheet.isCacheStale()) {
                 sheet.update();			
             }
@@ -89,7 +91,7 @@ public class SheetsData {
             cache = this.sheet.getCache();
             
             for(Part p : cache) {
-                if(p.getCat().toLowerCase().equals(category.toLowerCase())) {
+                if(p.getCat().toLowerCase().equals(category)) {
                     answer.add(p);
                 }
             }
