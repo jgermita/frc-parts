@@ -7,7 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    
+    <link rel="shortcut icon" href="/favicon.ico" />
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
     
     

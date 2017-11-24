@@ -7,6 +7,7 @@ and open the template in the editor.
 
 <html>
     <link rel="stylesheet" href="https://github.com/jgermita/frc-parts/assets/css/style.css?v=d8139605b0dd90d55894c44d25f8b60968487693">
+    <link rel="shortcut icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width">
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
     
