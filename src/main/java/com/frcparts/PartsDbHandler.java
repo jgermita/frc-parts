@@ -21,29 +21,26 @@ public class PartsDbHandler {
     
     String results;
     String query;
+    String category;
     
     public PartsDbHandler() {
         data = new SheetsData(new SheetsFetcher("https://docs.google.com/spreadsheets/d/1x07PQ0yxtrQXogLbfGt5_W_RXgm1O1TL-T5Hijq8WTM/pub?gid=0&single=true&output=tsv"));
         
     } 
     
-    public String getResults() {
+    public String getSearchResults() {
         
-        String answer = "";
+        return this.toString(data.search(query));
+    }
+    
+    public String getCategory() {
+        return this.toString(data.getCategory("electrical"));
+    }
+    
+    
+    public void setCategory(String cat) {
         
-        ArrayList<Part> res = data.search(query);
-        
-        for(Part p : res) {
-            answer = answer + p.toString() + " <br>\n";
-        }
-        
-        if(res.size() == 0 || res.get(0).equals(data.empty)) {
-            answer = "Nothing found!";
-        }
-        
-        this.results = answer;
-        
-        return results;
+        this.category = cat;
     }
     
     public void setResults(String results) {
@@ -55,8 +52,9 @@ public class PartsDbHandler {
         
         this.query = id.trim();
         
-        
     }
+    
+    
     
     public String getQuery() {
         return query;
@@ -65,7 +63,7 @@ public class PartsDbHandler {
     public String getIds() {
         String answer = "";
         
-        for(Part p : data.get()) {
+        for(Part p : data.getSearchResults()) {
             answer = answer + p.getId() + "\n";
         }
         
@@ -75,6 +73,23 @@ public class PartsDbHandler {
     public String toTable() {
         
         return HtmlHelper.toTable(data.search(query));
+    }
+    
+    public String toString(ArrayList<Part> res) {
+        
+        String answer = "";
+        
+        for(Part p : res) {
+            answer = answer + p.toString() + " <br>\n";
+        }
+        
+        if(res.size() == 0 || res.get(0).equals(data.empty)) {
+            answer = "Nothing found!";
+        }
+        
+        
+        
+        return answer;
     }
     
 }

@@ -75,8 +75,27 @@ public class SheetsData {
 		return results;
 	}
         
-        public ArrayList<Part> get() {
+        public ArrayList<Part> getSearchResults() {
             return results;
         }
+        
+        public ArrayList<Part> getCategory(String category) {
+            ArrayList<Part> answer = new ArrayList<Part>();
+            
+            if(sheet.isCacheStale()) {
+                sheet.update();			
+            }
+
+            cache = this.sheet.getCache();
+            
+            for(Part p : cache) {
+                if(p.getCat().toLowerCase().equals(category.toLowerCase())) {
+                    answer.add(p);
+                }
+            }
+            
+            return answer;
+        }
+        
 
 }

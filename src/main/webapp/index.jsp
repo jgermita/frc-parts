@@ -24,6 +24,11 @@ and open the template in the editor.
 	<img src="https://github.com/jgermita/frc-parts/raw/gh-pages/partslogo_small.png">
 	<br>
 	<h>soon&trade;</h><br><br>
+        
+        <a href="category.jsp?cat=electrical">Electrical</a>
+        
+        
+        <br><br>
         <div><form action="results.jsp" method="post"> 
                 <input type="text" name="query" value="" autocomplete="off">
                 <input type="submit" value="Search"> 
