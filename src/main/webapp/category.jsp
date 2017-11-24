@@ -23,10 +23,10 @@
         
         <div>
             
-            <%
+            <%=
                 //String param = request.getParameter("cat");
                 //partsbean.setCategory(param);
-                partsbean.getCategory();
+                partsbean.getCategory()
             %>
             </div>
             
