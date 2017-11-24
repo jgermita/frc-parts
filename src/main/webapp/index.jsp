@@ -21,7 +21,7 @@ and open the template in the editor.
     
     <body>
         <center>
-	<img src="https://github.com/jgermita/frc-parts/raw/gh-pages/partslogo_small.png">
+            <a href="index.jsp"><img src="https://github.com/jgermita/frc-parts/raw/gh-pages/partslogo_small.png"></a>
 	<br>
 	<h>soon&trade;</h><br><br>
         

@@ -13,10 +13,14 @@
     
     
     <head>
-        <title>frcparts - search results</title>
+        <title>frcparts - category - <%= request.getParameter("cat") %></title>
         
     </head>
     <body>
+        <center>
+            <a href="index.jsp"><img src="https://github.com/jgermita/frc-parts/raw/gh-pages/partslogo_small.png"></a>
+	<br>
+        </center>
         
         
         <br><br>
