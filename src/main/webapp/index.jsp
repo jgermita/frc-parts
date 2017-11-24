@@ -35,7 +35,7 @@ and open the template in the editor.
         </form> </div>
         
         <footer>
-            This page was last updated at: <%= partsbean.getCacheTimestamp() %>
+            This page was last updated at: <%= partsbean.getCacheTimestamp() %> UTC
             
         </footer>
         </center>

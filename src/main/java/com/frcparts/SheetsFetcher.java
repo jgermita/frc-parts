@@ -24,7 +24,7 @@ public class SheetsFetcher {
     String url = null;
     
     long lastGet = 0;
-    long timeout = 10000;	// do not update sheet within timeout ms of last update. 
+    long timeout = 600000;	// do not update sheet within timeout ms of last update. 
     
     // "https://docs.google.com/spreadsheets/d/1x07PQ0yxtrQXogLbfGt5_W_RXgm1O1TL-T5Hijq8WTM/pub?gid=0&single=true&output=tsv";
     
@@ -77,7 +77,7 @@ public class SheetsFetcher {
     }
     
     public String getCacheTimestamp() {
-        SimpleDateFormat sdf = new SimpleDateFormat("MMM dd,yyyy HH:mm");    
+        SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy HH:mm");    
         Date resultdate = new Date(lastGet);
         return (sdf.format(resultdate));
     }
