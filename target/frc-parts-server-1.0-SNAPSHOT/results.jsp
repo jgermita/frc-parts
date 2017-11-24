@@ -30,6 +30,7 @@
         <div>
             <jsp:setProperty property="*" name="partsbean"/> 
             <%= partsbean.toTable() %>
+            <jsp:setProperty property="query" value="" name="partsbean"/> 
             </div>
             
     </body>
