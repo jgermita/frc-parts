@@ -19,14 +19,14 @@
     <body>
         <center>
             <a href="index.jsp"><img src="https://github.com/jgermita/frc-parts/raw/gh-pages/partslogo_small.png"></a>
-	<br>
-        </center>
-        
+	
         <br><br>
         <div><form action="results.jsp" method="post"> 
                 <input type="text" name="query" value="" autocomplete="off">
                 <input type="submit" value="Search"> 
         </form> </div> <br>
+        
+        </center>
         <div>
             <jsp:setProperty property="*" name="partsbean"/> 
             <%= partsbean.toTable() %>
