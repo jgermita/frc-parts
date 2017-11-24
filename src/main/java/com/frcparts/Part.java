@@ -1,9 +1,6 @@
 package com.frcparts;
 
-
 public class Part {
-	
-	
 
 	private String cat 		= "";
 	private String subcat	= "";
@@ -72,6 +69,11 @@ public class Part {
 	public String getUrl() {
 		return url;
 	}
+        
+        public String getUrlLink() {
+            
+            return "<a href=\"" + this.getUrl() + "\">Link</a>";
+        }
 
 	public String getId() {
 		return id;
@@ -82,7 +84,7 @@ public class Part {
 	}
 	
 	public String toString() {
-		return s;
+		return getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink();
 	}
 
 }
