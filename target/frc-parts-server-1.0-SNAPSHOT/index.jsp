@@ -33,6 +33,11 @@ and open the template in the editor.
                 <input type="text" name="query" value="" autocomplete="off">
                 <input type="submit" value="Search"> 
         </form> </div>
+        
+        <footer>
+            This page was last updated at: <%= partsbean.getCacheTimestamp() %>
+            
+        </footer>
         </center>
         
     </body>

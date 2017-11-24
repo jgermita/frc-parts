@@ -99,5 +99,8 @@ public class SheetsData {
             return answer;
         }
         
+        public String getCacheTimestamp() {
+            return sheet.getCacheTimestamp();
+        }
 
 }

@@ -98,4 +98,8 @@ public class PartsDbHandler {
         return answer;
     }
     
+    public String getCacheTimestamp() {
+        return data.getCacheTimestamp();
+    }
+    
 }
