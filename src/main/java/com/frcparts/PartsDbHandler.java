@@ -45,6 +45,10 @@ public class PartsDbHandler {
         this.category = cat;
     }
     
+    public String getCategory() {
+        return this.category;
+    }
+    
     public void setResults(String results) {
         
         this.results = results;

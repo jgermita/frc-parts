@@ -8,33 +8,37 @@
 <!DOCTYPE html>
 <html>
     
-    <jsp:useBean id="partsbean" scope="session" class="com.frcparts.PartsDbHandler" />
-    
-    
+    <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
     
     <head>
-        <title>frcparts - category - <%= request.getParameter("cat") %></title>
-        
-    </head>
-    <body>
+        <title>frcparts - category - <%= partsbean.getCategory() %></title>
         <center>
             <a href="index.jsp"><img src="https://github.com/jgermita/frc-parts/raw/master/partslogo_small.png"></a>
-	
+	<br>
+	<h>soon&trade;</h><br><br>
+        
+        <a href="category.jsp?cat=electrical">Electrical</a>
+        
         <br><br>
-        <div><form action="results.jsp" method="post"> 
+        <div>
+            <form action="results.jsp" method="post"> 
                 <input type="text" name="query" value="" autocomplete="off">
                 <input type="submit" value="Search"> 
-        </form> </div> <br>
+            </form> 
+        </div>
+        
         </center>
-        
-        
+    </head>
+    
+    <body>
         
         <br><br>
         
         <div>
             
             <%= partsbean.getCategory(request.getParameter("cat")) %>
-            </div>
+            
+        </div>
             
     </body>
 </html>
