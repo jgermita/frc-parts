@@ -84,11 +84,11 @@ public class Part {
 	
 	public String toString() {
                 String answer = getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink() + "\t" + getId() + "\t";
-                if(tags != null) {
-                    for(String s : tags) {
-                        answer = answer + ", ";
-                    }
-                }
+//                if(tags != null) {
+//                    for(String s : tags) {
+//                        answer = answer + ", ";
+//                    }
+//                }
 		return answer;
 	}
 
