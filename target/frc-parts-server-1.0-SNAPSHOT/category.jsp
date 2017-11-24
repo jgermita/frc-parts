@@ -22,7 +22,8 @@
         <br><br>
         
         <div>
-            <%= partsbean.setCategory(request.getParameter("cat")) %>
+            
+            '<%= partsbean.setCategory(request.getParameter("cat")) %>'
             <%= partsbean.getCategory() %>
             </div>
             
