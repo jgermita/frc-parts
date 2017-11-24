@@ -25,7 +25,7 @@ and open the template in the editor.
 	<br>
 	<h>soon&trade;</h><br><br>
         <div><form action="results.jsp" method="post"> 
-                <input type="text" name="query" value="">
+                <input type="text" name="query" value="" autocomplete="off">
                 <input type="submit" value="Search"> 
         </form> </div>
         </center>
