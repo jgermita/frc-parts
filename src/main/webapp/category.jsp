@@ -22,7 +22,7 @@
         <br><br>
         
         <div>
-            <jsp:setProperty property="*" name="partsbean"/> 
+            <jsp:setProperty property="category" name="partsbean" value="<%= request.getParameter("myparam") %>"/> 
             
             <%= partsbean.setCategory(request.getParameter("cat")) %>
             </div>
