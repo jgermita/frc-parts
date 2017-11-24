@@ -6,8 +6,8 @@ and open the template in the editor.
 -->
 
 <html>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://github.com/jgermita/frc-parts/assets/css/style.css?v=d8139605b0dd90d55894c44d25f8b60968487693">
+    <meta name="viewport" content="width=device-width">
     <jsp:useBean id="partsbean" scope="session" class="com.frcparts.PartsDbHandler" />
     
     
@@ -20,10 +20,15 @@ and open the template in the editor.
     </head>
     
     <body>
+        <center>
+	<img src="https://github.com/jgermita/frc-parts/raw/gh-pages/partslogo_small.png">
+	<br>
+	<h>soon?</h>
         <div><form action="results.jsp" method="post"> 
                 Search: <input type="text" name="query" value=" ">
                 <input type="submit" value="Search"> 
         </form> </div>
+        </center>
         
     </body>
 </html>
