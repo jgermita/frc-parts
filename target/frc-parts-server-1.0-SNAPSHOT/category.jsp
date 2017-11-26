@@ -7,35 +7,18 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width">
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
-	
-	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     
+	<jsp:include page="header.html" />
+	
     <head>
         <title>frcparts - category - <%= partsbean.getCategory() %></title>
-        <center>
-            <a href="index.jsp"><img src="https://github.com/jgermita/frc-parts/raw/master/partslogo_small.png"></a>
-	<br>
-	<h>soon&trade;</h><br><br>
-        
-        <a href="category.jsp?cat=electrical">Electrical</a>
-        
-        <br><br>
-        <div>
-            <form action="results.jsp" method="post"> 
-                <input type="text" name="query" value="" autocomplete="off">
-                <input type="submit" value="Search"> 
-            </form> 
-        </div>
-        
-        </center>
     </head>
     
-    <body>
-        
-        <br><br>
-        
+    <body>        
         <div>
             
             <%= partsbean.getCategory(request.getParameter("cat")) %>
@@ -43,4 +26,6 @@
         </div>
             
     </body>
+	
+	<jsp:include page="footer.html" />
 </html>

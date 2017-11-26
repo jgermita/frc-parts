@@ -21,11 +21,11 @@
 
 	<body>
 
-	<div>
-		<jsp:setProperty property="*" name="partsbean"/> 
-		<%= partsbean.getSearchListings()%>
-		<jsp:setProperty property="query" value="" name="partsbean"/> 
-	</div>
+		<div>
+			<jsp:setProperty property="*" name="partsbean"/> 
+			<%= partsbean.getSearchListings()%>
+			<jsp:setProperty property="query" value="" name="partsbean"/> 
+		</div>
 
 	</body>
 	
