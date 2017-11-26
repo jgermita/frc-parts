@@ -39,6 +39,10 @@ public class Part {
                         }
                         
                         tags = Arrays.copyOfRange(params, 9, params.length);
+                        
+                        if(tags == null) { 
+                            tags = new String[0];
+                        }
 
                         
 		}
@@ -93,6 +97,9 @@ public class Part {
                 String answer = getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink() + "\t" + getId() + "\t";
 
                 for(String s : tags) {
+                    if(s.isEmpty()) {
+                        continue;
+                    }
                     answer = answer + s + ", ";
                 }
 
