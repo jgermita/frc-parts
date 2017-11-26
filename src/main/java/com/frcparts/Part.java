@@ -127,7 +127,7 @@ public class Part {
 		if(this.getSource().isEmpty()) {
 			return "";
 		}
-		return "<a href=\"" + this.getSource() + "\">Link</a>";
+		return "<a href=\"" + this.getSource() + "\">Source</a>";
 	}
 
 	public String[] getTags() {
