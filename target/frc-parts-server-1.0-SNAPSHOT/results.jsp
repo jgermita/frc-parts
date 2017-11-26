@@ -20,15 +20,17 @@
 
 	<body>
 
-		<div class="pure-u-1-6"></div>
-		<div class="pure-u-2-3">
-			<jsp:include page="header.html" />
-			
-			<jsp:setProperty property="*" name="partsbean"/> 
-			<%= partsbean.getSearchListings()%>
-			<jsp:setProperty property="query" value="" name="partsbean"/> 
+		<div class="pure-g">
+			<div class="pure-u-1-6"></div>
+			<div class="pure-u-2-3">
+				<jsp:include page="header.html" />
+
+				<jsp:setProperty property="*" name="partsbean"/> 
+				<%= partsbean.getSearchListings()%>
+				<jsp:setProperty property="query" value="" name="partsbean"/> 
+			</div>
+			<div class="pure-u-1-6"></div>
 		</div>
-		<div class="pure-u-1-6"></div>
 
 	</body>
 	

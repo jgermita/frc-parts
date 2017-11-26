@@ -18,22 +18,23 @@
     </head>
     
     <body>
-			
-		<div class="pure-u-1-6"></div>
-		<div class="pure-u-2-3">
-			<jsp:include page="header.html" />
-			<style scoped>
-				th {
-					text-align: left;
-				}
-				table {
-					table-layout: fixed;
-					width: 100%;
-				}
-			</style>
-            <%= partsbean.getCategory(request.getParameter("cat")) %>
+		<div class="pure-g">
+			<div class="pure-u-1-6"></div>
+			<div class="pure-u-2-3">
+				<jsp:include page="header.html" />
+				<style scoped>
+					th {
+						text-align: left;
+					}
+					table {
+						table-layout: fixed;
+						width: 100%;
+					}
+				</style>
+				<%= partsbean.getCategory(request.getParameter("cat")) %>
+			</div>
+			<div class="pure-u-1-6"></div>
 		</div>
-		<div class="pure-u-1-6"></div>
             
     </body>
 	
