@@ -26,17 +26,15 @@ and open the template in the editor.
         
     </body>
     
-    <footer>
-        <div id="footer"/>
-		<center>
-			This page was last updated at: <%= partsbean.getCacheTimestamp() %> UTC
-		</center>
-    </footer>
+	<div id="footer"/>
+	<center>
+		This page was last updated at: <%= partsbean.getCacheTimestamp() %> UTC
+	</center>
 		
 	<script> 
 		$(function(){
-			$("#header").load("header.html"); 
 			$("#footer").load("footer.html"); 
+			$("#header").load("header.html"); 
 		});
 	</script> 
 </html>
