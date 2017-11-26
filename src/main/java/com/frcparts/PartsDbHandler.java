@@ -119,14 +119,14 @@ public class PartsDbHandler {
 				for(Part p : results) {
 					answer = answer + "<h2>" + p.getName() + "</h2>\n";
 					answer = answer + "<h3>" + p.getCat() + " / " + p.getSubcat() + "</h3>\n";
-					answer = answer + "<i>" + p.getDesc() + "</i><br>\n";
+					answer = answer + "<i>" + p.getDesc() + "</i><br><hr>\n";
 				}
 			}
             
             answer = answer + "\n";
         }
         
-        answer = answer + "</div> <hr>";
+        answer = answer + "</div>";
         
         return answer;
         
