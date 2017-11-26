@@ -18,7 +18,7 @@ and open the template in the editor.
 	<br>
 	<h>soon&trade;</h><br><br>
         
-        <a href="category.jsp?cat=electrical">Electrical</a>
+        <a href="category.jsp?cat=all">all parts</a>
         
         <br><br>
         <div>

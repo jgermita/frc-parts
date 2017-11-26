@@ -92,12 +92,17 @@ public class SheetsData {
             }
 
             cache = this.sheet.getCache();
+			
+			if(category.toLowerCase().equals("all")) {
+				answer.addAll(cache);
             
-            for(Part p : cache) {
-                if(p.getCat().toLowerCase().equals(category)) {
-                    answer.add(p);
-                }
-            }
+			} else {
+				for(Part p : cache) {
+					if(p.getCat().toLowerCase().equals(category)) {
+						answer.add(p);
+					}
+				}
+			}
             
             return answer;
         }
