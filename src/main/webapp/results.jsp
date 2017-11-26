@@ -9,7 +9,7 @@
 <html>
     <link rel="shortcut icon" href="/favicon.ico" />
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
-
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
 
 
     <head>
