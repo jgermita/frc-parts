@@ -55,6 +55,7 @@ public class SheetsDataTest {
         
         for(String s : data.sheet.line) {
             contents = contents + s;
+			System.out.println(s);
         }
         
         if(contents.isEmpty()) {
@@ -76,13 +77,13 @@ public class SheetsDataTest {
             
             int testIndex = i;
             
-            System.out.println("Testing index " + testIndex);
+            //System.out.println("Testing index " + testIndex);
 			//System.out.println(data.sheet.line.get(testIndex));
             
             int actual = data.sheet.line.get(testIndex).split("\t", 19).length;
             
-            System.out.println("Expected size: " + min);
-            System.out.println("Actual   size: " + actual + "\n\n");
+            //System.out.println("Expected size: " + min);
+            //System.out.println("Actual   size: " + actual + "\n\n");
 			
 			//System.out.println(data.sheet.line.get(testIndex).split("\t"));
 			
