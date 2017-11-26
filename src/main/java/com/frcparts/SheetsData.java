@@ -96,7 +96,7 @@ public class SheetsData {
             cache = this.sheet.getCache();
 			
 			if(category.toLowerCase().equals("all")) {
-				answer = cache;
+				return cache;
 				
 			} else {
 				for(Part p : cache) {
