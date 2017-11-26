@@ -110,7 +110,7 @@ public class PartsDbHandler {
     public String getSearchListings() {
         ArrayList<Part> results = data.search(query);
         String answer = "<div id=\"searchresults\">";
-        if(results.size() == 0) {
+        if(results.size() == 0 || results.get(1).equals(data.empty)) {
             answer = answer + "<b>Nothing found!</b>";
         } else {
             for(Part p : results) {
