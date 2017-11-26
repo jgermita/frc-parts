@@ -28,7 +28,7 @@ public class HtmlHelper {
                 answer = answer + "<td>" + s + "</td> ";
 				i++;
             }
-			i = 11-i;
+			i = 7-i;
 			i = Math.max(0, i);
 			
 			for(int j = 0; j < i; j++) {
