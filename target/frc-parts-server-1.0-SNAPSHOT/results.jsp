@@ -12,8 +12,7 @@
     <meta name="viewport" content="width=device-width">
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
     
-	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-	
+	<jsp:include page="header.html" />
 
     <head>
         <title>frcparts - search results - <%= partsbean.getQuery()%><></title>
@@ -30,14 +29,5 @@
 
 	</body>
 	
-	<footer>
-        <div id="footer"/>
-	</footer>
-		
-	<script> 
-		$(function(){
-			$("#header").load("header.html"); 
-			$("#footer").load("footer.html"); 
-		});
-	</script> 
+	<jsp:include page="footer.html" />
 </html>
