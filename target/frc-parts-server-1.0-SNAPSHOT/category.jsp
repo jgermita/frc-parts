@@ -19,18 +19,17 @@
     
     <body>
 			
-		<div class="pure-u-1-4"></div>
-		<div class="pure-u-1-2">
+		<div class="pure-u-1-6"></div>
+		<div class="pure-u-1-3">
 			<jsp:include page="header.html" />
 			<style scoped>
 				th {
 					text-align: left;
-					padding: 10px;
 				}
 			</style>
             <%= partsbean.getCategory(request.getParameter("cat")) %>
 		</div>
-		<div class="pure-u-1-4"></div>
+		<div class="pure-u-1-6"></div>
             
     </body>
 	

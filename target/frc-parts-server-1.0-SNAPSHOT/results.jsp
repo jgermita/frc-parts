@@ -19,15 +19,15 @@
 
 	<body>
 
-		<div class="pure-u-1-4"></div>
-		<div class="pure-u-1-2">
+		<div class="pure-u-1-6"></div>
+		<div class="pure-u-1-3">
 			<jsp:include page="header.html" />
 			
 			<jsp:setProperty property="*" name="partsbean"/> 
 			<%= partsbean.getSearchListings()%>
 			<jsp:setProperty property="query" value="" name="partsbean"/> 
 		</div>
-		<div class="pure-u-1-4"></div>
+		<div class="pure-u-1-6"></div>
 
 	</body>
 	
