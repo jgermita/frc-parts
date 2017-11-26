@@ -13,12 +13,6 @@
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
     
 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-	<script> 
-		$(function(){
-			$("#header").load("header.html"); 
-			$("#footer").load("footer.html"); 
-		});
-	</script> 
 	
 
     <head>
@@ -39,4 +33,11 @@
 	<footer>
         <div id="footer"/>
 	</footer>
+		
+	<script> 
+		$(function(){
+			$("#header").load("header.html"); 
+			$("#footer").load("footer.html"); 
+		});
+	</script> 
 </html>
