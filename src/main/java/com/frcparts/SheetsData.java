@@ -46,9 +46,11 @@ public class SheetsData {
 			
 			for(Part p : cache) {
 				String s = p.getCat() + "\t" + p.getSubcat() + "\t" + p.getVendor() + "\t" + p.getName() + "\t" + p.getDesc() + "\t";
-                                for(String t : p.getTags()) {
-                                    s = s + t + "\t";
-                                }
+				if(p.getTags() != null) {
+					for(String t : p.getTags()) {
+						s = s + t + "\t";
+					}
+				}
 				
 				//System.out.println(s);
 				if(s.toLowerCase().contains(query.toLowerCase())) {
