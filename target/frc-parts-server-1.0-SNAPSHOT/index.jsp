@@ -31,5 +31,8 @@ and open the template in the editor.
     
     <footer>
         <div id="footer"/>
+		<center>
+			This page was last updated at: <%= partsbean.getCacheTimestamp() %> UTC
+		</center>
     </footer>
 </html>
