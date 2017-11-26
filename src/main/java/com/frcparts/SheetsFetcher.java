@@ -48,13 +48,19 @@ public class SheetsFetcher {
             String s = "";
             
             while ((s = br.readLine()) != null) {
-                line.add(s);
+                
+				if(s.split("\t")[0].isEmpty()) {
+					continue;
+				}
+				
+				line.add(s);
                 
                 //System.out.println(s);
                 contents = contents.concat(s + "\n");
             }
             
             for(String s1 : line) {
+				
             	parts.add(new Part(s1));
             }
 			parts.remove(1);
