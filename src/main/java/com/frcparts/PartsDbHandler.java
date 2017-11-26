@@ -113,7 +113,7 @@ public class PartsDbHandler {
         if(results.size() == 0) {
             answer = answer + "<b>Nothing found!</b>";
         } else {
-			if(results.get(1).equals(data.empty)) {
+			if(results.get(0).equals(data.empty)) {
 				answer = answer + "<b>Nothing found!</b>";
 			} else {
 				for(Part p : results) {
