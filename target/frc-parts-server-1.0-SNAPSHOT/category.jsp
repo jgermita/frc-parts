@@ -28,6 +28,7 @@
 				}
 				table {
 					table-layout: fixed;
+					width: 100%;
 				}
 			</style>
             <%= partsbean.getCategory(request.getParameter("cat")) %>
