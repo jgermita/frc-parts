@@ -21,7 +21,7 @@
     <body>        
         <div>
             <style scoped>
-				th {text-align: right;}
+				th {text-align: left;}
 			</style>
             <%= partsbean.getCategory(request.getParameter("cat")) %>
             
