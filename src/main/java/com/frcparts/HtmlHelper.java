@@ -21,9 +21,16 @@ public class HtmlHelper {
             answer = answer + "\t<tr> ";
             String[] split = p.toString().split("\t");
             
+			int i = 0;
+			
             for(String s : split) {
                 answer = answer + "<td>" + s + "</td> ";
+				i++;
             }
+			
+			for(int j = 0; j < i; j++) {
+				answer = answer + "<td>-</td>";
+			}
             
             answer = answer + "</tr>\n	";
         }
