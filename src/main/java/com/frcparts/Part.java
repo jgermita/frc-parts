@@ -96,11 +96,11 @@ public class Part {
 	public String toString() {
                 String answer = getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink() + "\t" + getId() + "\t";
 
-                for(String s : tags) {
-                    if(s.isEmpty()) {
-                        continue;
+                if(!s.isEmpty()) {
+                    for(String s : tags) {
+
+                        answer = answer + s + ", ";
                     }
-                    answer = answer + s + ", ";
                 }
 
 		return answer;
