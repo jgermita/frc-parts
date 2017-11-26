@@ -114,8 +114,8 @@ public class PartsDbHandler {
             answer = answer + "<b>Nothing found!</b>";
         } else {
             for(Part p : results) {
-                answer = answer + "<h2>" + p.getName() + "</h2><br>";
-                answer = answer + "<h3>" + p.getCat() + " / " + p.getSubcat() + "</h3><br>";
+                answer = answer + "<h2>" + p.getName() + "</h2>";
+                answer = answer + "<h3>" + p.getCat() + " / " + p.getSubcat() + "</h3>";
                 answer = answer + "<i>" + p.getDesc() + "</i><br>";
             }
             
