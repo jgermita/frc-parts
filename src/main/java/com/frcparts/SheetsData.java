@@ -95,7 +95,7 @@ public class SheetsData {
 			
 			if(category.toLowerCase().equals("all")) {
 				answer = cache;
-            
+				
 			} else {
 				for(Part p : cache) {
 					if(p.getCat().toLowerCase().equals(category)) {

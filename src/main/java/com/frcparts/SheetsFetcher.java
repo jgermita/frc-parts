@@ -57,6 +57,7 @@ public class SheetsFetcher {
             for(String s1 : line) {
             	parts.add(new Part(s1));
             }
+			parts.remove(1);
         } catch(Exception e) {
             
         }
