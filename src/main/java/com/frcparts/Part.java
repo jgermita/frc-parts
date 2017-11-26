@@ -102,11 +102,15 @@ public class Part {
 	}
 
 	public String getUrl() {
+		
+		
 		return url;
 	}
         
 	public String getUrlLink() {
-
+		if(this.getUrl().isEmpty()) {
+			return "";
+		}
 		return "<a href=\"" + this.getUrl() + "\">Link</a>";
 	}
 
@@ -120,6 +124,9 @@ public class Part {
 	
 	public String getSourceLink() {
 
+		if(this.getSource().isEmpty()) {
+			return "";
+		}
 		return "<a href=\"" + this.getSource() + "\">Link</a>";
 	}
 
