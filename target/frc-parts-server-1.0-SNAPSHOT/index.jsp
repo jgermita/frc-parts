@@ -21,7 +21,7 @@ and open the template in the editor.
 			<div class="pure-u-2-3">
 				<jsp:include page="header.html" />
 				<center><small>
-					This page was last updated at: <%= partsbean.getCacheTimestamp() %> UTC
+					Cache was last updated at: <%= partsbean.getCacheTimestamp() %> UTC
 				</small></center>
 
 			</div>
