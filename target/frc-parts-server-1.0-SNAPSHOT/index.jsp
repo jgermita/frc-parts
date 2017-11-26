@@ -18,7 +18,7 @@ and open the template in the editor.
         <title>frcparts</title>
 		
 		<div class="pure-u-1-6"></div>
-		<div class="pure-u-1-3"><jsp:include page="header.html" /></div>
+		<div class="pure-u-2-3"><jsp:include page="header.html" /></div>
 		<div class="pure-u-1-6"></div>
         
     </head>

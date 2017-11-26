@@ -20,7 +20,7 @@
 	<body>
 
 		<div class="pure-u-1-6"></div>
-		<div class="pure-u-1-3">
+		<div class="pure-u-2-3">
 			<jsp:include page="header.html" />
 			
 			<jsp:setProperty property="*" name="partsbean"/> 
