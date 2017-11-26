@@ -16,16 +16,20 @@
 
     <head>
         <title>frcparts - search results - <%= partsbean.getQuery()%><></title>
-		<div id="header"/>
+		<div class="pure-u-1-4"></div>
+		<div class="pure-u-1-2"><jsp:include page="header.html" /></div>
+		<div class="pure-u-1-4"></div>
 	</head>
 
 	<body>
 
-		<div>
+		<div class="pure-u-1-4"></div>
+		<div class="pure-u-1-2">
 			<jsp:setProperty property="*" name="partsbean"/> 
 			<%= partsbean.getSearchListings()%>
 			<jsp:setProperty property="query" value="" name="partsbean"/> 
 		</div>
+		<div class="pure-u-1-4"></div>
 
 	</body>
 	

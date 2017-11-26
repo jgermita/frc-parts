@@ -18,15 +18,16 @@
         <title>frcparts - category - <%= partsbean.getCategory() %></title>
     </head>
     
-    <body>        
-        <div>
-            <style scoped>
+    <body>
+			
+		<div class="pure-u-1-4"></div>
+		<div class="pure-u-1-2">
+			<style scoped>
 				th {text-align: left;}
 			</style>
             <%= partsbean.getCategory(request.getParameter("cat")) %>
-            
-			
-        </div>
+		</div>
+		<div class="pure-u-1-4"></div>
             
     </body>
 	
