@@ -56,7 +56,7 @@ public class SheetsFetcher {
 				
 				line.add(s);
                 
-                //System.out.println(s);
+                //System.out.println(s.split("\t").length);
                 contents = contents.concat(s + "\n");
             }
             

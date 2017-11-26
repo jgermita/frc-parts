@@ -26,34 +26,40 @@ public class Part {
          * @param in line from the parsed tsv file from the google sheet
          */
 	public Part(String in) {
-		s = in;
-		
-		String[] params = in.split("\t");
-		
-		//System.out.println(params.length + "\t" + s);;
-		if(params.length > 0) {
-			cat		= params[0];
-			subcat	= params[1];
-			name	= params[2];
-			desc	= params[3];
-			cost	= params[4];
-			pn		= params[5];
-			vendor	= params[6];
-			url		= params[7];
-			id		= params[8];
-			source	= params[9];
-                        
-			if(id.equals("id")) {
-				id = "-1";
+		try {
+			s = in;
+
+			String[] params = in.split("\t");
+
+			//System.out.println(params.length + "\t" + s);;
+			if(params.length > 0) {
+				cat		= params[0];
+				subcat	= params[1];
+				name	= params[2];
+				desc	= params[3];
+				cost	= params[4];
+				pn		= params[5];
+				vendor	= params[6];
+				url		= params[7];
+				id		= params[8];
+				
+
+				if(id.equals("id")) {
+					id = "-1";
+				}
 			}
+			
+			// extra part metadata
+			if(params.length > 9) {
+				source	= params[9];
+				tags = Arrays.copyOfRange(params, 9, params.length-1);
 
-			tags = Arrays.copyOfRange(params, 10, params.length-1);
-
-			if(tags == null) { 
-				tags = new String[0];
+				if(tags == null) { 
+					tags = new String[0];
+				}
 			}
-
-                        
+		} catch(Exception e) {
+			e.printStackTrace();
 		}
 	}
 	
@@ -120,7 +126,7 @@ public class Part {
 	}
 	
 	public String toString() {
-                String answer = getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink() + "\t" + getId() + "\t";
+                String answer = getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink() + "\t" + getId() + "\t" + getSource() + "\t";
 
                 if(tags != null) {
                     for(String s : tags) {

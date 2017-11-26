@@ -1,0 +1,8 @@
+#surefire
+#Sun Nov 26 01:05:15 PST 2017
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.2\\java\\maven-nblib\\netbeans-eventspy.jar
+user.dir=C\:\\Users\\Jeremy\\Documents\\GitHub\\frc-parts
+file.encoding=UTF-8
+localRepository=C\:\\Users\\Jeremy\\.m2\\repository
+basedir=C\:\\Users\\Jeremy\\Documents\\GitHub\\frc-parts
+test=SheetsDataTest

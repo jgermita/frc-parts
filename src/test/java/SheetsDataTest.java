@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
+import com.frcparts.Part;
 import com.frcparts.SheetsData;
 import com.frcparts.SheetsFetcher;
-import java.util.Arrays;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -55,7 +55,7 @@ public class SheetsDataTest {
         
         for(String s : data.sheet.line) {
             contents = contents + s;
-			System.out.println(s);
+			//System.out.println(s);
         }
         
         if(contents.isEmpty()) {
@@ -65,6 +65,17 @@ public class SheetsDataTest {
         
         assert(true);
     }
+	
+	
+	@Test 
+	public void partsToStringTest() {
+		
+		for(Part p : data.sheet.getCache()) {
+			System.out.println(p.getId() + "\t" + p.getSource());
+		}
+		
+		assert(true);
+	}
     
     @Test
     public void minEntrySizeTest() {
