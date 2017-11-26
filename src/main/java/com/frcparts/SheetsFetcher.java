@@ -19,7 +19,7 @@ import java.util.Date;
  */
 public class SheetsFetcher {
     String contents;
-    private ArrayList<String> line;
+    public ArrayList<String> line;
     private ArrayList<Part> parts;
     String url = null;
     

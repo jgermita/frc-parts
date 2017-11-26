@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class SheetsData {
 	private ArrayList<Part> cache;
 	
-	private SheetsFetcher sheet = null;
+	public SheetsFetcher sheet = null;
 	public Part empty = new Part("\t\t\t\t\t\t\t\t");
 	
 	

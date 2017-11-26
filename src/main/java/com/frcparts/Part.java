@@ -1,5 +1,7 @@
 package com.frcparts;
 
+import java.util.Arrays;
+
 public class Part {
 
 	private String cat 		= "";
@@ -31,12 +33,13 @@ public class Part {
 			vendor	= params[6];
 			url		= params[7];
 			id		= params[8];
-//			
-//                        if(params.length > 9) {
-//                            System.arraycopy(params, 9, tags, 0, params.length - 9);
-//                        } else {
-//                            tags = new String[0];
-//                        }
+                        
+                        if(id.equals("id")) {
+                            id = "-1";
+                        }
+                        
+                        tags = Arrays.copyOfRange(params, 9, params.length);
+
                         
 		}
 	}
@@ -88,11 +91,11 @@ public class Part {
 	
 	public String toString() {
                 String answer = getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink() + "\t" + getId() + "\t";
-//                if(tags != null) {
-//                    for(String s : tags) {
-//                        answer = answer + ", ";
-//                    }
-//                }
+
+                for(String s : tags) {
+                    answer = answer + ", ";
+                }
+
 		return answer;
 	}
 
