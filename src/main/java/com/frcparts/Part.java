@@ -111,7 +111,7 @@ public class Part {
 		if(this.getUrl().isEmpty()) {
 			return "";
 		}
-		return "<a href=\"" + this.getUrl() + "\">Link</a>";
+		return "<a href=\"" + this.getUrl() + "\">" + this.getPn() + "</a>";
 	}
 
 	public String getId() {
@@ -135,7 +135,7 @@ public class Part {
 	}
 	
 	public String toString() {
-                String answer = getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink() + "\t" + getId() + "\t" + getSourceLink() + "\t";
+                String answer = getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getUrlLink() + "\t" + getSourceLink() + "\t";
 
                 if(tags != null) {
                     for(String s : tags) {
