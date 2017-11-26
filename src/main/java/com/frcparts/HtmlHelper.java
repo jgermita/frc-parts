@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class HtmlHelper {
     
     public static String toTable(ArrayList<Part> in) {
-        String answer =  "<table>\n";
+        String answer =  "<table class=\"pure-table pure-table-horizontal\" pure-table-odd>\n";
         answer =  answer + "\t<tr> <th>Category</th> <th>Subcat</th> <th>Name</th> <th>Description</th> <th>$</th> <th>P/N</th> <th>Vendor</th> <th>URL</th> <th>ID</th> <th>Tags</th> <tr>\n";
         
         for(Part p : in) {
