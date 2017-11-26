@@ -76,14 +76,18 @@ public class SheetsDataTest {
             
             int testIndex = i;
             
-            //System.out.println("Testing index " + testIndex);
+            System.out.println("Testing index " + testIndex);
+			//System.out.println(data.sheet.line.get(testIndex));
             
-            int actual = data.sheet.line.get(testIndex).split("\t").length;
+            int actual = data.sheet.line.get(testIndex).split("\t", 19).length;
             
-            //System.out.println("Expected size: " + min);
-            //System.out.println("Actual   size: " + actual + "\n\n");
+            System.out.println("Expected size: " + min);
+            System.out.println("Actual   size: " + actual + "\n\n");
+			
+			//System.out.println(data.sheet.line.get(testIndex).split("\t"));
+			
             assert(actual >= min);
-        
+			//assert(true);
         }
     }
     

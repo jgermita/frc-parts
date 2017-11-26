@@ -20,7 +20,7 @@ import java.util.Date;
 public class SheetsFetcher {
     String contents;
     public ArrayList<String> line;
-    private ArrayList<Part> parts;
+    public ArrayList<Part> parts;
     String url = null;
     
     long lastGet = 0;

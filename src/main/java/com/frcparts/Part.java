@@ -14,8 +14,12 @@ public class Part {
 	private String url		= "";
 	private String id		= "";
 	private String[] tags;
+	private String source	= "";
+	
 	
 	private String s		= "";
+	
+	
 	
         /**
          * Constructor. 
@@ -37,16 +41,17 @@ public class Part {
 			vendor	= params[6];
 			url		= params[7];
 			id		= params[8];
+			source	= params[9];
                         
-                        if(id.equals("id")) {
-                            id = "-1";
-                        }
-                        
-                        tags = Arrays.copyOfRange(params, 9, params.length);
-                        
-                        if(tags == null) { 
-                            tags = new String[0];
-                        }
+			if(id.equals("id")) {
+				id = "-1";
+			}
+
+			tags = Arrays.copyOfRange(params, 10, params.length-1);
+
+			if(tags == null) { 
+				tags = new String[0];
+			}
 
                         
 		}
@@ -99,6 +104,10 @@ public class Part {
 
 	public String getId() {
 		return id;
+	}
+	
+	public String getSource() {
+		return source;
 	}
 
 	public String[] getTags() {
