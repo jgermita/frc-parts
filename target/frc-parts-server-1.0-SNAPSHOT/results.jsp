@@ -12,19 +12,17 @@
     <meta name="viewport" content="width=device-width">
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
     
-	<jsp:include page="header.html" />
 
     <head>
         <title>frcparts - search results - <%= partsbean.getQuery()%><></title>
-		<div class="pure-u-1-4"></div>
-		<div class="pure-u-1-2"><jsp:include page="header.html" /></div>
-		<div class="pure-u-1-4"></div>
 	</head>
 
 	<body>
 
 		<div class="pure-u-1-4"></div>
 		<div class="pure-u-1-2">
+			<jsp:include page="header.html" />
+			
 			<jsp:setProperty property="*" name="partsbean"/> 
 			<%= partsbean.getSearchListings()%>
 			<jsp:setProperty property="query" value="" name="partsbean"/> 

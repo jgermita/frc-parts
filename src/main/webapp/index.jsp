@@ -12,7 +12,6 @@ and open the template in the editor.
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width">
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
-	<jsp:include page="header.html" />
     
     <head>
 		

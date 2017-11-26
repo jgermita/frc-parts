@@ -12,7 +12,6 @@
     <meta name="viewport" content="width=device-width">
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
     
-	<jsp:include page="header.html" />
 	
     <head>
         <title>frcparts - category - <%= partsbean.getCategory() %></title>
@@ -22,6 +21,7 @@
 			
 		<div class="pure-u-1-4"></div>
 		<div class="pure-u-1-2">
+			<jsp:include page="header.html" />
 			<style scoped>
 				th {text-align: left;}
 			</style>
