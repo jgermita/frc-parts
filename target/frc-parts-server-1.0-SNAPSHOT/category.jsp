@@ -26,6 +26,9 @@
 				th {
 					text-align: left;
 				}
+				table {
+					table-layout: fixed;
+				}
 			</style>
             <%= partsbean.getCategory(request.getParameter("cat")) %>
 		</div>
