@@ -109,24 +109,24 @@ public class PartsDbHandler {
     
     public String getSearchListings() {
         ArrayList<Part> results = data.search(query);
-        String answer = "<div id=\"searchresults\">";
+        String answer = "<section class=\"post\">";
         if(results.size() == 0) {
-            answer = answer + "<b>Nothing found!</b>";
+            answer = answer + "<h2>Nothing found!</h2>";
         } else {
 			if(results.get(0).equals(data.empty)) {
-				answer = answer + "<b>Nothing found!</b>";
+				answer = answer + "<h2 class=\"post-title\">Nothing found!</h2>";
 			} else {
 				for(Part p : results) {
-					answer = answer + "<h2>" + p.getName() + "</h2>\n";
-					answer = answer + "<h3>" + p.getCat() + " / " + p.getSubcat() + "</h3>\n";
-					answer = answer + "<i>" + p.getDesc() + "</i><br><hr>\n";
+					answer = answer + "<h2 class=\"post-title\">" + p.getName() + "</h2>\n";
+					answer = answer + "<p class=\"post-meta\">" + p.getCat() + " / " + p.getSubcat() + "</p>\n";
+					answer = answer + "<div class=\"post-description\"><p>" + p.getDesc() + "</p></div><br>\n";
 				}
 			}
             
             answer = answer + "\n";
         }
         
-        answer = answer + "</div>";
+        answer = answer + "</section>";
         
         return answer;
         
