@@ -126,7 +126,7 @@ public class PartsDbHandler {
             answer = answer + "\n";
         }
         
-        answer = answer + "</div>";
+        answer = answer + "</div> <hr>";
         
         return answer;
         
