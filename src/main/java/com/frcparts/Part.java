@@ -52,10 +52,12 @@ public class Part {
 			// extra part metadata
 			if(params.length > 9) {
 				source	= params[9];
-				tags = Arrays.copyOfRange(params, 9, params.length-1);
+				if(params.length > 10) {
+					tags = Arrays.copyOfRange(params, 9, params.length-1);
 
-				if(tags == null) { 
-					tags = new String[0];
+					if(tags == null) { 
+						tags = new String[0];
+					}
 				}
 			}
 		} catch(Exception e) {
@@ -126,7 +128,7 @@ public class Part {
 	}
 	
 	public String toString() {
-                String answer = getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink() + "\t" + getId() + "\t" + getSource() + "\t";
+                String answer = getCat() + "\t" + getSubcat() + "\t" + getName() + "\t" + getDesc() + "\t" + getCost() + "\t" + getPn() + "\t" + getVendor() + "\t" + getUrlLink() + "\t" + getId() + "\t" + getSourceLink() + "\t";
 
                 if(tags != null) {
                     for(String s : tags) {
