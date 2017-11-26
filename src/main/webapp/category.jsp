@@ -23,7 +23,10 @@
 		<div class="pure-u-1-2">
 			<jsp:include page="header.html" />
 			<style scoped>
-				th {text-align: left;}
+				th {
+					text-align: left;
+					padding: 10px;
+				}
 			</style>
             <%= partsbean.getCategory(request.getParameter("cat")) %>
 		</div>
