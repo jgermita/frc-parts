@@ -24,6 +24,7 @@ public class HtmlHelper {
 			int i = 0;
 			
             for(String s : split) {
+				if(s.isEmpty()) s = "-";
                 answer = answer + "<td>" + s + "</td> ";
 				i++;
             }
