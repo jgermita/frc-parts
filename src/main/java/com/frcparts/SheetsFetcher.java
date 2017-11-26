@@ -49,7 +49,8 @@ public class SheetsFetcher {
             
             while ((s = br.readLine()) != null) {
                 
-				if(s.split("\t")[0].isEmpty()) {
+				if(	s.split("\t")[0].isEmpty() ||
+					s.split("\t")[0].equals("Category")) {
 					continue;
 				}
 				
@@ -63,7 +64,7 @@ public class SheetsFetcher {
 				
             	parts.add(new Part(s1));
             }
-			parts.remove(1);
+			
         } catch(Exception e) {
             
         }
