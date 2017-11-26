@@ -1,10 +1,97 @@
 <!DOCTYPE html>
-	
+<!--[if lte IE 8]>
+	  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+	  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <style>
+  .custom-wrapper {
+	  background-color: #ffd390;
+	  margin-bottom: 1em;
+	  -webkit-font-smoothing: antialiased;
+	  height: 2.1em;
+	  overflow: hidden;
+	  -webkit-transition: height 0.5s;
+	  -moz-transition: height 0.5s;
+	  -ms-transition: height 0.5s;
+	  transition: height 0.5s;
+  }
+
+  .custom-wrapper.open {
+	  height: 14em;
+  }
+
+  .custom-menu-3 {
+	  text-align: right;
+  }
+
+  .custom-toggle {
+	  width: 34px;
+	  height: 34px;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  display: none;
+  }
+
+  .custom-toggle .bar {
+	  background-color: #777;
+	  display: block;
+	  width: 20px;
+	  height: 2px;
+	  border-radius: 100px;
+	  position: absolute;
+	  top: 18px;
+	  right: 7px;
+	  -webkit-transition: all 0.5s;
+	  -moz-transition: all 0.5s;
+	  -ms-transition: all 0.5s;
+	  transition: all 0.5s;
+  }
+
+  .custom-toggle .bar:first-child {
+	  -webkit-transform: translateY(-6px);
+	  -moz-transform: translateY(-6px);
+	  -ms-transform: translateY(-6px);
+	  transform: translateY(-6px);
+  }
+
+  .custom-toggle.x .bar {
+	  -webkit-transform: rotate(45deg);
+	  -moz-transform: rotate(45deg);
+	  -ms-transform: rotate(45deg);
+	  transform: rotate(45deg);
+  }
+
+  .custom-toggle.x .bar:first-child {
+	  -webkit-transform: rotate(-45deg);
+	  -moz-transform: rotate(-45deg);
+	  -ms-transform: rotate(-45deg);
+	  transform: rotate(-45deg);
+  }
+
+  @media (max-width: 47.999em) {
+
+	  .custom-menu-3 {
+		  text-align: left;
+	  }
+
+	  .custom-toggle {
+		  display: block;
+	  }
+
+  }
+  </style>	
+
+
+
 	<center>
 		<a href="index.jsp"><img src="https://i.imgur.com/j6wCeGr.png"></a><br>
 		
 
-		<div class="pure-menu pure-menu-horizontal">
+		<div class="custom-wrapper pure-g" id="menu">
 			<ul class="pure-menu-list">
 				<li class="pure-menu-item"><a href="category.jsp?cat=all" class="pure-menu-link">All Parts</a></li>
 				<li class="pure-menu-item"><a href="category.jsp?cat=electrical" class="pure-menu-link">Electrical</a></li>
@@ -12,10 +99,6 @@
 				<li class="pure-menu-item"><a href="category.jsp?cat=hardware" class="pure-menu-link">Hardware</a></li>
 				<li class="pure-menu-item"><a href="category.jsp?cat=materials" class="pure-menu-link">Materials</a></li>
 				<li class="pure-menu-item"><a href="category.jsp?cat=misc" class="pure-menu-link">Misc</a></li>
-			</ul>
-		</div><br>
-		<div class="pure-menu pure-menu-horizontal">
-			<ul class="pure-menu-list">
 				<li class="pure-menu-item"><a href="category.jsp?cat=pneumatics" class="pure-menu-link">Pneumatics</a></li>
 				<li class="pure-menu-item"><a href="category.jsp?cat=Pulleys%2FBelt" class="pure-menu-link">Pulleys/Belt</a></li>
 				<li class="pure-menu-item"><a href="category.jsp?cat=Sprockets%2FChain" class="pure-menu-link">Sprockets/Chain</a></li>
