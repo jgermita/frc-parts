@@ -33,12 +33,12 @@
     </head>
     
     <body>
-       
+        <center>
         <div>
             <jsp:setProperty property="*" name="partsbean"/> 
-            <%= partsbean.toTable() %>
+            <%= partsbean.getSearchListings() %>
             <jsp:setProperty property="query" value="" name="partsbean"/> 
         </div>
-            
+        </center>
     </body>
 </html>

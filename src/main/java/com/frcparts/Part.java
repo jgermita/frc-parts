@@ -17,6 +17,10 @@ public class Part {
 	
 	private String s		= "";
 	
+        /**
+         * Constructor. 
+         * @param in line from the parsed tsv file from the google sheet
+         */
 	public Part(String in) {
 		s = in;
 		
@@ -48,10 +52,18 @@ public class Part {
 		}
 	}
 	
+        /**
+         * Gets the category of the part listing
+         * @return 
+         */
 	public String getCat() {
 		return cat;
 	}
 
+        /**
+         * Gets the subcategory of the part listing
+         * @return 
+         */
 	public String getSubcat() {
 		return subcat;
 	}

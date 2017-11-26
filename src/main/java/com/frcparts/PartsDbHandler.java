@@ -107,4 +107,25 @@ public class PartsDbHandler {
         return data.getCacheTimestamp();
     }
     
+    public String getSearchListings() {
+        ArrayList<Part> results = data.getSearchResults();
+        String answer = "<div id=\"searchresults\">";
+        if(results.size() == 0) {
+            answer = answer + "<b>Nothing found!</b>";
+        } else {
+            for(Part p : results) {
+                answer = answer + "<h2>" + p.getName() + "</h2><br>";
+                answer = answer + "<h3>" + p.getCat() + " / " + p.getSubcat() + "</h3><br>";
+                answer = answer + "<i>" + p.getDesc() + "</i><br>";
+            }
+            
+            answer = answer + "\n";
+        }
+        
+        answer = answer + "</div>";
+        
+        return answer;
+        
+    }
+    
 }
