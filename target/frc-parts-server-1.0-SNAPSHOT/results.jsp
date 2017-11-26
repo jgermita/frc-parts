@@ -9,18 +9,18 @@
 <html>
     <link rel="shortcut icon" href="/favicon.ico" />
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
-    
-    
-    
+
+
+
     <head>
-        <title>frcparts - search results - <%= partsbean.getQuery() %><></title>
-        <center>
-            <a href="index.jsp"><img src="https://github.com/jgermita/frc-parts/raw/master/partslogo_small.png"></a>
-	<br>
-	<h>soon&trade;</h><br><br>
-        
+        <title>frcparts - search results - <%= partsbean.getQuery()%><></title>
+	<center>
+		<a href="index.jsp"><img src="https://github.com/jgermita/frc-parts/raw/master/partslogo_small.png"></a>
+		<br>
+		<h>soon&trade;</h><br><br>
+
         <a href="category.jsp?cat=electrical">Electrical</a>
-        
+
         <br><br>
         <div>
             <form action="results.jsp" method="post"> 
@@ -28,17 +28,17 @@
                 <input type="submit" value="Search"> 
             </form> 
         </div>
-        
-        </center>
-    </head>
-    
-    <body>
-        <center>
-        <div>
-            <jsp:setProperty property="*" name="partsbean"/> 
-            <%= partsbean.getSearchListings() %>
-            <jsp:setProperty property="query" value="" name="partsbean"/> 
-        </div>
-        </center>
-    </body>
+
+	</center>
+</head>
+
+<body>
+<center>
+	<div>
+		<jsp:setProperty property="*" name="partsbean"/> 
+		<%= partsbean.getSearchListings()%>
+		<jsp:setProperty property="query" value="" name="partsbean"/> 
+	</div>
+</center>
+</body>
 </html>
