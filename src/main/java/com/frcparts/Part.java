@@ -97,10 +97,10 @@ public class Part {
 		return url;
 	}
         
-        public String getUrlLink() {
-            
-            return "<a href=\"" + this.getUrl() + "\">Link</a>";
-        }
+	public String getUrlLink() {
+
+		return "<a href=\"" + this.getUrl() + "\">Link</a>";
+	}
 
 	public String getId() {
 		return id;
@@ -108,6 +108,11 @@ public class Part {
 	
 	public String getSource() {
 		return source;
+	}
+	
+	public String getSourceLink() {
+
+		return "<a href=\"" + this.getSource() + "\">Link</a>";
 	}
 
 	public String[] getTags() {
