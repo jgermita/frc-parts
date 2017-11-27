@@ -24,6 +24,7 @@
 		<div class="pure-g">
 			<div class="pure-u-1-6"></div>
 			<div class="pure-u-2-3">
+				<h1>Search Results:</h1>
 
 				<jsp:setProperty property="*" name="partsbean"/> 
 				<%= partsbean.getSearchListings()%>
