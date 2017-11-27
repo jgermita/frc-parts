@@ -128,7 +128,7 @@ public class PartsDbHandler {
 				answer = answer + "<h2 class=\"post-title\">Nothing found!</h2>";
 			} else {
 				for(Part p : results) {
-					answer = answer + "<h2 class=\"post-title\">" + p.getName() + "</h2>\n";
+					answer = answer + "<h2 class=\"post-title\"><a href=\"part.jsp?p=" + p.getId() + "\">"  + p.getName() + "</a></h2>\n";
 					answer = answer + "<p class=\"post-meta\">" + p.getCat() + " / " + p.getSubcat() + "</p>\n";
 					answer = answer + "<div class=\"post-description\"><p>" + p.getDesc() + "</p></div><br>\n";
 				}
