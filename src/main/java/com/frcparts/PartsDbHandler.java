@@ -22,10 +22,11 @@ public class PartsDbHandler {
     String results;
     String query;
     String category = "electrical";
+	public Part searched;
     
     public PartsDbHandler() {
         data = new SheetsData(new SheetsFetcher("https://docs.google.com/spreadsheets/d/1x07PQ0yxtrQXogLbfGt5_W_RXgm1O1TL-T5Hijq8WTM/pub?gid=0&single=true&output=tsv"));
-        
+        searched = data.empty;
     } 
     
     public String getSearchResults() {
@@ -101,7 +102,7 @@ public class PartsDbHandler {
         
         return answer;
     }
-	public Part searched = data.empty;
+	
 	
 	public void searchPart(String id) {
 		for(Part p : data.cache) {
