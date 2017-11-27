@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <footer>
 
+	<script>
+		var $form = $('form#makeawish'),
+    url = 'https://script.google.com/macros/u/0/s/AKfycbykKxvTLMlCoWAqPDhGnXjQx_APctltCPP795pYQ0FqUdxBwM4/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
+	</script>
+	
 	<div class="pure-g">
 	<div class="pure-u-1-6"></div>
 	<div class="pure-u-2-3" style="text-align: left">
@@ -11,9 +28,9 @@
 				<small>http://jgermita.me</small>
 			</div>
 			<div class="pure-u-1-2" style="text-align: right">
-				<form action="index.jsp" class="pure-form pure-form-aligned"> 
-					<input type="text" name="query" placeholder="make a wish!" value="" autocomplete="off" required>
-					<input type="submit" value="go!" class="pure-button"> 
+				<form id="makeawish" class="pure-form pure-form-aligned"> 
+					<input type="text" name="makeawish" placeholder="make a wish!" value="" autocomplete="off" required>
+					<input type="submit" id="submit-form" value="go!" class="pure-button"> 
 				</form> 
 			</div>
 		</div>
