@@ -111,7 +111,7 @@ public class Part {
 		if(this.getUrl().isEmpty()) {
 			return "";
 		}
-		return "<a href=\"" + this.getUrl() + "\">" + this.getPn() + "</a>";
+		return "<a href=\"" + this.getUrl() + "\"  target=\"_blank\">" + this.getPn() + "</a>";
 	}
 
 	public String getId() {
@@ -127,7 +127,7 @@ public class Part {
 		if(this.getSource().isEmpty()) {
 			return "";
 		}
-		return "<a href=\"" + this.getSource() + "\">Source</a>";
+		return "<a href=\"" + this.getSource() + "\" target=\"_blank\">Source</a>";
 	}
 
 	public String[] getTags() {
