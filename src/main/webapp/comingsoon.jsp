@@ -21,9 +21,8 @@ and open the template in the editor.
     </head>
     
     <body>
-        <center><small>
-			Cache was last updated at: <%= partsbean.getCacheTimestamp() %> UTC
-		</small></center>
+        <center>
+			This feature is coming soon!</center>
     </body>
     
 	
