@@ -13,6 +13,7 @@
 				<small>http://jgermita.me</small>
 			</div>
 			<div class="pure-u-1-2" style="text-align: right">
+				<script src="form.js"></script>
 				<form id="makeawish" class="pure-form pure-form-aligned">
 					<input type="text" name="makeawish" placeholder="make a wish!" autocomplete="off" required>
 					<button type="submit" id="submit-form" class="pure-button">go!</button>
@@ -23,21 +24,6 @@
 	<div class="pure-u-1-6"></div>
 	</div>
 	<br><br>
-<script>
-		var $form = $('form#makeawish'),
-    url = 'https://script.google.com/macros/u/0/s/AKfycbykKxvTLMlCoWAqPDhGnXjQx_APctltCPP795pYQ0FqUdxBwM4/exec'
 
-$('#submit-form').on('click', function(e) {
-  e.preventDefault();
-  var jqxhr = $.ajax({
-    url: url,
-    method: "GET",
-    dataType: "json",
-    data: $form.serializeObject()
-  }).success(
-    // do something
-  );
-})
-	</script>
 
 </footer>
