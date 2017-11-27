@@ -135,7 +135,7 @@ public class Part {
 	}
 	
 	public String toString() {
-                String answer = getCat() + "\t" + getSubcat() + "\t<a href=\"part.jsp?p=" + getId() + "\">" + getName() + "</a>\t" + getDesc() + "\t" + getUrlLink() + "\t" + getSourceLink() + "\t";
+                String answer = getCat() + "\t" + getSubcat() + "\t<a href=\"part.jsp?p=" + getId() + "\">" + getName() + "</a>\t<small>" + getDesc() + "</small>\t" + getUrlLink() + "\t" + getSourceLink() + "\t";
 
                 if(tags != null) {
                     for(String s : tags) {
