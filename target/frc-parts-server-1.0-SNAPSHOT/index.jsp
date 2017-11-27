@@ -16,18 +16,8 @@ and open the template in the editor.
     <head>
 		
         <title>frcparts</title>
-		<div class="pure-g">
-			<div class="pure-u-1-6"></div>
-			<div class="pure-u-2-3">
-				<jsp:include page="header.html" />
-				<center><small>
-					Cache was last updated at: <%= partsbean.getCacheTimestamp() %> UTC
-				</small></center>
-
-			</div>
-			<div class="pure-u-1-6"></div>
-		</div>
-        
+		<jsp:include page="header.html" />
+		
     </head>
     
     <body>
