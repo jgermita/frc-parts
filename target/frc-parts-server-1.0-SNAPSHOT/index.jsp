@@ -15,14 +15,15 @@ and open the template in the editor.
     
     <head>
 		
-        <title>frcparts - coming soon!</title>
+        <title>frcparts</title>
 		<jsp:include page="header.html" />
 		
     </head>
     
     <body>
-        <center>
-			This feature is coming soon!</center>
+        <center><small>
+			Cache was last updated at: <%= partsbean.getCacheTimestamp() %> UTC
+		</small></center>
     </body>
     
 	
