@@ -101,6 +101,16 @@ public class PartsDbHandler {
         
         return answer;
     }
+	public Part searched = data.empty;
+	
+	public void searchPart(String id) {
+		for(Part p : data.cache) {
+			if(p.getId().equals(id)) {
+				searched = p;
+			}
+		}
+		
+	}
     
     
     public String getCacheTimestamp() {

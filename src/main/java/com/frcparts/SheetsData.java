@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SheetsData {
-	private ArrayList<Part> cache;
+	public ArrayList<Part> cache;
 	
 	public SheetsFetcher sheet = null;
 	public Part empty = new Part("\t\t\t\t\t\t\t\t\t");
