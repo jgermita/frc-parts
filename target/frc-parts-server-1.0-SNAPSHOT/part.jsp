@@ -11,7 +11,9 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width">
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
-	<%= partsbean.searchPart(request.getParameter("p")) %>
+	<% 
+		partsbean.searchPart(request.getParameter("p"));
+	%>
     
 	
     <head>
