@@ -21,11 +21,22 @@ and open the template in the editor.
     </head>
     
     <body>
-		<section class="post">
-			<h2>About this project</h2>
-			<p class="post-meta">"What was that part that team ABCD used on their 20XX robot?"</p>
-			<div class="post-description">This project is an extension the work that many FIRST teams do every year: document the common parts that they order. This project has grown into an archive of the neat and nifty parts that teams use every year. </div>
-		</section>>
+		<div class="pure-g">
+		<div class="pure-u-1-6"></div>
+		<div class="pure-u-2-3">
+			
+			<div class="main">
+				<section class="post">
+					<h2>About this project</h2>
+					<p class="post-meta">"What was that part that team ABCD used on their 20XX robot?"</p>
+					<div class="post-description">This project is an extension the work that many FIRST teams do every year: document the common parts that they order. This project has grown into an archive of the neat and nifty parts that teams use every year. </div>
+				</section>
+			</div>
+			<br>
+		</div>
+		<div class="pure-u-1-6"></div>
+		
+		
 		 
     </body>
     
