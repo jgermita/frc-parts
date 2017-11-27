@@ -1,36 +1,8 @@
 <!DOCTYPE html>
 
-	  <div class="pure-menu pure-menu-horizontal">
-
-            <ul class="pure-menu-list">
-			<li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-				<a href="category.jsp?cat=all" class="pure-menu-link">Parts</a>
-				<ul class="pure-menu-children">
-					<li class="pure-menu-item"><a href="category.jsp?cat=electrical" class="pure-menu-link">Electrical</a></li>
-					<li class="pure-menu-item"><a href="category.jsp?cat=gears" class="pure-menu-link">Gears</a></li>
-					<li class="pure-menu-item"><a href="category.jsp?cat=hardware" class="pure-menu-link">Hardware</a></li>
-					<li class="pure-menu-item"><a href="category.jsp?cat=materials" class="pure-menu-link">Materials</a></li>
-					<li class="pure-menu-item"><a href="category.jsp?cat=misc" class="pure-menu-link">Misc</a></li>
-					<li class="pure-menu-item"><a href="category.jsp?cat=pneumatics" class="pure-menu-link">Pneumatics</a></li>
-					<li class="pure-menu-item"><a href="category.jsp?cat=Pulleys%2FBelt" class="pure-menu-link">Pulleys/Belt</a></li>
-					<li class="pure-menu-item"><a href="category.jsp?cat=Sprockets%2FChain" class="pure-menu-link">Sprockets/Chain</a></li>
-					<li class="pure-menu-item"><a href="category.jsp?cat=tools" class="pure-menu-link">Tools</a></li>
-					<li class="pure-menu-item"><a href="category.jsp?cat=wheels" class="pure-menu-link">Wheels</a></li>	
-				</ul>
-			</li>
-            </ul>
-        </div>
+	  
   
-		
-      <script>
-      (function (window, document) {
-      document.getElementById('toggle').addEventListener('click', function (e) {
-          document.getElementById('tuckedMenu').classList.toggle('custom-menu-tucked');
-          document.getElementById('toggle').classList.toggle('x');
-      });
-      })(this, this.document);
-      </script>
-		
+
 
 		
 	  
@@ -39,9 +11,31 @@
 		<div class="pure-g">
 		<div class="pure-u-1-6"></div>
 		<div class="pure-u-2-3">
-			
+			<div class="pure-menu pure-menu-horizontal">
+				<ul class="pure-menu-list">
+					
+					<li class="pure-menu-item"><a href="index.jsp"><img src="https://i.imgur.com/j6wCeGr.png" height="125" width="125"></a></li>
+					<li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+						<a href="category.jsp?cat=all" class="pure-menu-link">Parts</a>
+						<ul class="pure-menu-children">
+							<li class="pure-menu-item"><a href="category.jsp?cat=electrical" class="pure-menu-link">Electrical</a></li>
+							<li class="pure-menu-item"><a href="category.jsp?cat=gears" class="pure-menu-link">Gears</a></li>
+							<li class="pure-menu-item"><a href="category.jsp?cat=hardware" class="pure-menu-link">Hardware</a></li>
+							<li class="pure-menu-item"><a href="category.jsp?cat=materials" class="pure-menu-link">Materials</a></li>
+							<li class="pure-menu-item"><a href="category.jsp?cat=misc" class="pure-menu-link">Misc</a></li>
+							<li class="pure-menu-item"><a href="category.jsp?cat=pneumatics" class="pure-menu-link">Pneumatics</a></li>
+							<li class="pure-menu-item"><a href="category.jsp?cat=Pulleys%2FBelt" class="pure-menu-link">Pulleys/Belt</a></li>
+							<li class="pure-menu-item"><a href="category.jsp?cat=Sprockets%2FChain" class="pure-menu-link">Sprockets/Chain</a></li>
+							<li class="pure-menu-item"><a href="category.jsp?cat=tools" class="pure-menu-link">Tools</a></li>
+							<li class="pure-menu-item"><a href="category.jsp?cat=wheels" class="pure-menu-link">Wheels</a></li>	
+						</ul>
+					</li>
+					<li class="pure-menu-item"><a href="index.jsp" class="pure-menu-link">Power Transmission Search</a></li>
+					
+				</ul>
+			</div>
 			<a href="index.jsp"><img src="https://i.imgur.com/j6wCeGr.png"></a><br>
-		
+		/i.imgur.com/j6wCeGr.png"><
 			<div>
 				<form action="results.jsp" method="post" class="pure-form pure-form-aligned"> 
 					<input type="text" name="query" value="" autocomplete="off" required>
