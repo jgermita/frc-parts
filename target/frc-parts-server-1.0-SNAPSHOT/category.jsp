@@ -20,8 +20,8 @@
     
     <body>
 		<div class="pure-g">
-			<div class="pure-u-1-6"></div>
-			<div class="pure-u-2-3">
+			<div class="pure-u-1-8"></div>
+			<div class="pure-u-3-4">
 				<style scoped>
 					th {
 						text-align: left;
@@ -33,7 +33,7 @@
 				</style>
 				<%= partsbean.getCategory(request.getParameter("cat")) %>
 			</div>
-			<div class="pure-u-1-6"></div>
+			<div class="pure-u-1-8"></div>
 		</div>
             
     </body>
