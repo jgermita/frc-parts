@@ -16,7 +16,7 @@ public class HtmlHelper {
     public static String toTable(ArrayList<Part> in) {
         String answer =  "<table class=\"pure-table pure-table-horizontal\" pure-table-odd>\n";
         answer =  answer + "\t<tr> <th style=\"width:10%\">Category</th> <th style=\"width:10%\">Subcat</th> <th style=\"width:20%\">Name</th> <th style=\"width:20%\">Description</th> <th style=\"width:15%\">P/N</th> <th>Source</th> <th style=\"width:10%\">Tags</th> <tr>\n";
-        
+        answer = answer + "\n<small>\n";
         for(Part p : in) {
             answer = answer + "\t<tr> ";
             String[] split = p.toString().split("\t");
@@ -37,7 +37,7 @@ public class HtmlHelper {
             
             answer = answer + "</tr>\n	";
         }
-        
+        answer = answer + "\n</small>\n";
         answer = answer + "</table>";
         return answer;
     }
