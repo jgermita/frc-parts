@@ -15,14 +15,14 @@ public class Part {
 	private String id		= "";
 	private String[] tags;
 	private String source	= "";
-	
-	
+
+
 	private String s		= "";
-	
-	
-	
+
+
+
         /**
-         * Constructor. 
+         * Constructor.
          * @param in line from the parsed tsv file from the google sheet
          */
 	public Part(String in) {
@@ -42,20 +42,20 @@ public class Part {
 				vendor	= params[6];
 				url		= params[7];
 				id		= params[8];
-				
+
 
 				if(id.equals("id")) {
 					id = "-1";
 				}
 			}
-			
+
 			// extra part metadata
 			if(params.length > 9) {
 				source	= params[9];
 				if(params.length > 10) {
 					tags = Arrays.copyOfRange(params, 9, params.length-1);
 
-					if(tags == null) { 
+					if(tags == null) {
 						tags = new String[0];
 					}
 				}
@@ -64,10 +64,10 @@ public class Part {
 			e.printStackTrace();
 		}
 	}
-	
+
         /**
          * Gets the category of the part listing
-         * @return 
+         * @return
          */
 	public String getCat() {
 		return cat;
@@ -75,7 +75,7 @@ public class Part {
 
         /**
          * Gets the subcategory of the part listing
-         * @return 
+         * @return
          */
 	public String getSubcat() {
 		return subcat;
@@ -102,11 +102,11 @@ public class Part {
 	}
 
 	public String getUrl() {
-		
-		
+
+
 		return url;
 	}
-        
+
 	public String getUrlLink() {
 		if(this.getUrl().isEmpty()) {
 			return "";
@@ -117,11 +117,11 @@ public class Part {
 	public String getId() {
 		return id;
 	}
-	
+
 	public String getSource() {
 		return source;
 	}
-	
+
 	public String getSourceLink() {
 
 		if(this.getSource().isEmpty()) {
@@ -133,17 +133,17 @@ public class Part {
 	public String[] getTags() {
 		return tags;
 	}
-	
+
 	public String toString() {
-                String answer = getCat() + "\t" + getSubcat() + "\t<a href=\"part.jsp?p=" + getId() + "\">" + getName() + "</a>\t" + getDesc() + "\t" + getUrlLink() + "\t" + getSourceLink() + "\t";
+                String answer = "<small>" + getCat() + "</small>\t<small>" + getSubcat() + "</small>\t<small><a href=\"part.jsp?p=" + getId() + "\">" + getName() + "</a></small>\t<small>" + getDesc() + "</small>\t<small>" + getUrlLink() + "</small>\t<small>" + getSourceLink() + "</small>\t";
 
                 if(tags != null) {
                     for(String s : tags) {
-						
+
 						if(s.isEmpty()) {
 							continue;
 						}
-						
+
                         answer = answer + s + ", ";
                     }
                 }
