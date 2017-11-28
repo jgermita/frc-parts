@@ -54,15 +54,15 @@ public class SheetsFetcher {
           }
 
           line.add(s);
-          parts.add(new Part(s));
+          //parts.add(new Part(s));
 
           //System.out.println(s.split("\t").length);
           contents = contents.concat(s + "\n");
         }
 
-        // for(String s1 : line) {
-        //   parts.add(new Part(s1));
-        // }
+        for(String s1 : line) {
+          parts.add(new Part(s1));
+        }
 
       } catch(Exception e) {
 
