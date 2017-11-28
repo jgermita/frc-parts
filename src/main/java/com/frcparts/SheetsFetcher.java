@@ -54,7 +54,7 @@ public class SheetsFetcher {
           }
 
           line.add(s);
-          parts.add(new Part(s));
+          //parts.add(new Part(s));
 
           //System.out.println(s.split("\t").length);
           contents = contents.concat(s + "\n");
@@ -68,7 +68,7 @@ public class SheetsFetcher {
 
       }
 
-      System.out.println("Get time ms: " + lastGet);
+      System.out.println("Get time ms: " + (System.currentTimeMillis() - lastGet));
 
     }
 
