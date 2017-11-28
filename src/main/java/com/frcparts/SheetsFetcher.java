@@ -22,72 +22,73 @@ public class SheetsFetcher {
     public ArrayList<String> line;
     public ArrayList<Part> parts;
     String url = null;
-    
+
     long lastGet = 0;
-    long timeout = 600000;	// do not update sheet within timeout ms of last update. 
-    
+    long timeout = 600000;	// do not update sheet within timeout ms of last update.
+
     // "https://docs.google.com/spreadsheets/d/1x07PQ0yxtrQXogLbfGt5_W_RXgm1O1TL-T5Hijq8WTM/pub?gid=0&single=true&output=tsv";
-    
+
     public SheetsFetcher(String url) {
     	this.url = url;
         this.line = new ArrayList<String>();
         this.parts = new ArrayList<Part>();
         contents = null;
     }
-    
+
     private void getSheet() {
-    	
-    	lastGet = System.currentTimeMillis();
-    	
-    	
-        contents = "";
-        line.clear();
-        parts.clear();
-        try {
-            BufferedReader br = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
-            String s = "";
-            
-            while ((s = br.readLine()) != null) {
-                
-				if(	s.split("\t")[0].isEmpty() ||
-					s.split("\t")[0].equals("Category")) {
-					continue;
-				}
-				
-				line.add(s);
-                
-                //System.out.println(s.split("\t").length);
-                contents = contents.concat(s + "\n");
-            }
-            
-            for(String s1 : line) {
-				
-            	parts.add(new Part(s1));
-            }
-			
-        } catch(Exception e) {
-            
+
+      lastGet = System.currentTimeMillis();
+
+
+      contents = "";
+      line.clear();
+      parts.clear();
+      try {
+        BufferedReader br = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
+        String s = "";
+
+        while ((s = br.readLine()) != null) {
+          if(	s.split("\t")[0].isEmpty() ||
+            s.split("\t")[0].equals("Category")) {
+            continue;
+          }
+
+          line.add(s);
+          parts.add(new Part(s));
+
+          //System.out.println(s.split("\t").length);
+          contents = contents.concat(s + "\n");
         }
-        
+
+        for(String s1 : line) {
+          parts.add(new Part(s1));
+        }
+
+      } catch(Exception e) {
+
+      }
+
+      System.out.println("Get time ms: " + lastGet);
+
     }
-    
+
     public boolean isCacheStale() {
     	return (System.currentTimeMillis() - lastGet > timeout);
     }
-    
+
     public ArrayList<Part> getCache() {
     	return parts;
     }
-    
+
     public String update() {
     	getSheet();
     	return contents;
     }
-    
+
     public String getCacheTimestamp() {
-        SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy HH:mm");    
+        SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy HH:mm");
         Date resultdate = new Date(lastGet);
         return (sdf.format(resultdate));
     }
-    
+
 }
