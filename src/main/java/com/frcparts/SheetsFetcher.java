@@ -50,19 +50,19 @@ public class SheetsFetcher {
         while ((s = br.readLine()) != null) {
           if(	s.split("\t")[0].isEmpty() ||
             s.split("\t")[0].equals("Category")) {
-            continue;
+            break;
           }
 
           line.add(s);
-          //parts.add(new Part(s));
+          parts.add(new Part(s));
 
           //System.out.println(s.split("\t").length);
           contents = contents.concat(s + "\n");
         }
 
-        for(String s1 : line) {
-          parts.add(new Part(s1));
-        }
+        // for(String s1 : line) {
+        //   parts.add(new Part(s1));
+        // }
 
       } catch(Exception e) {
 
