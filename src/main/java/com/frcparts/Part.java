@@ -141,6 +141,8 @@ public class Part {
 				answer = answer + s + ", ";
 			}
 		}
+
+		return answer;
 	}
 
 	public String toString() {
