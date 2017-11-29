@@ -134,19 +134,28 @@ public class Part {
 		return tags;
 	}
 
+	public String getTagsList() {
+		String answer = "";
+		if(tags == null) {
+			for(String s : tags) {
+				answer = answer + s + ", ";
+			}
+		}
+	}
+
 	public String toString() {
-                String answer = "<small>" + getCat() + "</small>\t<small>" + getSubcat() + "</small>\t<small><a href=\"part.jsp?p=" + getId() + "\">" + getName() + "</a></small>\t<small>" + getDesc() + "</small>\t<small>" + getUrlLink() + "</small>\t<small>" + getSourceLink() + "</small>\t";
+		String answer = "<small>" + getCat() + "</small>\t<small>" + getSubcat() + "</small>\t<small><a href=\"part.jsp?p=" + getId() + "\">" + getName() + "</a></small>\t<small>" + getDesc() + "</small>\t<small>" + getUrlLink() + "</small>\t<small>" + getSourceLink() + "</small>\t";
 
-                if(tags != null) {
-                    for(String s : tags) {
+		if(tags != null) {
+			for(String s : tags) {
 
-						if(s.isEmpty()) {
-							continue;
-						}
+			if(s.isEmpty()) {
+				continue;
+			}
 
-                        answer = answer + s + ", ";
-                    }
-                }
+			answer = answer + s + ", ";
+			}
+		}
 
 		return answer;
 	}

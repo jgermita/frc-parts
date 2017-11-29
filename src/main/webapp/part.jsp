@@ -1,4 +1,4 @@
-<%-- 
+<%--
     Document   : results
     Created on : Nov 22, 2017, 10:54:00 PM
     Author     : Jeremy
@@ -11,38 +11,45 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width">
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
-	<% 
+	<%
 		partsbean.searchPart(request.getParameter("p"));
 	%>
-    
-	
+
+
     <head>
-        <title>frcparts - category - <%= partsbean.getCategory() %></title>
+        <title>frcparts - part- <%= partsbean.searched.getName() %></title>
 		<jsp:include page="header.html" />
     </head>
-    
+
     <body>
 		<div class="pure-g">
 			<div class="pure-u-1-8"></div>
 			<div class="pure-u-3-4">
-				
+
 				<div class="pure-g">
 					<div class="pure-u-1-2">
-						<%= partsbean.searched.getName() %><br>
-						<%= partsbean.searched.getPn() %><br>
-						<%= partsbean.searched.getId() %><br>
+						<h1><%= partsbean.searched.getName() %></h1>
+            <small>
+                <%= partsbean.searched.getCat() %> / <%= partsbean.searched.getSubcat() %>
+            </small><br>
+            <p>
+              <%= partsbean.searched.getDesc() %>
+            </p>
 					</div>
 					<div class="pure-u-1-2">
-
+						<%= partsbean.searched.getVendor() %><br>
+						<%= partsbean.searched.getPn() %><br>
+            <%= partsbean.searched.getCost() %><br>
+            <%= partsbean.searched.getTagsList() %><br>
 
 					</div>
 				</div>
-				
+
 			</div>
 			<div class="pure-u-1-8"></div>
 		</div>
-            
+
     </body>
-	
+
 	<jsp:include page="footer.html" />
 </html>
