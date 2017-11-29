@@ -136,7 +136,7 @@ public class Part {
 
 	public String getTagsList() {
 		String answer = "";
-		if(tags == null) {
+		if(tags != null) {
 			for(String s : tags) {
 				answer = answer + s + ", ";
 			}
