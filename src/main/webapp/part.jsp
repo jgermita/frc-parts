@@ -46,7 +46,7 @@
               <tr><td><b>Cost(USD)</b></td> <td><%= partsbean.searched.getCost() %></td>
               <tr><td><b>Tags</b></td> <td><%= partsbean.searched.getTagsList() %></td>
               <tr><td><b>ID</b></td> <td><%= partsbean.searched.getId() %></td>
-              <tr><td><b>Recommendation Source</b></td> <td><a href="<%= partsbean.searched.getSource()>">Source</a></td>
+              <tr><td><b>Recommendation Source</b></td> <td><a href="<%= partsbean.searched.getSource() %>">Source</a></td>
             </table>
 
 					</div>
