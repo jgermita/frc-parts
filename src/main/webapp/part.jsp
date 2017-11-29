@@ -37,10 +37,15 @@
             </p>
 					</div>
 					<div class="pure-u-1-2">
-						<%= partsbean.searched.getVendor() %><br>
-						<%= partsbean.searched.getPn() %><br>
-            <%= partsbean.searched.getCost() %><br>
-            <%= partsbean.searched.getTagsList() %><br>
+            <br><br>
+
+            <table class="pure-table pure-table-horizontal pure-table-odd">
+  						<tr><td><b>Vendor</b></td> <td><%= partsbean.searched.getVendor() %></td>
+  						<tr><td><b>P/N</b></td> <td><%= partsbean.searched.getPn() %></td>
+              <tr><td><b>Cost(USD)</b></td> <td><%= partsbean.searched.getCost() %></td>
+              <tr><td><b>Tags</b></td> <td><%= partsbean.searched.getTagsList() %></td>
+              <tr><td><b>ID</b></td> <td><%= partsbean.searched.getId() %></td>
+            </table>
 
 					</div>
 				</div>
