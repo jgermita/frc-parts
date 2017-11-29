@@ -138,6 +138,9 @@ public class Part {
 		String answer = "";
 		if(tags != null) {
 			for(String s : tags) {
+				if(s.isEmpty()) {
+					continue;
+				}
 				answer = answer + s + ", ";
 			}
 		}
