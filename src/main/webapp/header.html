@@ -10,7 +10,7 @@
 	.main {
 		margin-top: 50px; /* Add a top margin to avoid content overlay */
 	}
-	
+
 	.dropdown {
 	}
 </style>
@@ -20,7 +20,7 @@
 			<nav>
 				<div class="pure-menu pure-menu-horizontal navbar">
 				<ul class="pure-menu-list">
-					
+
 					<li class="pure-menu-item"><a href="index.jsp"><img class="pure-img" src="https://i.imgur.com/j6wCeGr.png" height="48" width="200" style="padding-top: 10px"></a></li>
 					<li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover dropdown">
 						<a href="category.jsp?cat=all" class="pure-menu-link">Parts</a>
@@ -34,7 +34,7 @@
 							<li class="pure-menu-item"><a href="category.jsp?cat=Pulleys%2FBelt" class="pure-menu-link">Pulleys/Belt</a></li>
 							<li class="pure-menu-item"><a href="category.jsp?cat=Sprockets%2FChain" class="pure-menu-link">Sprockets/Chain</a></li>
 							<li class="pure-menu-item"><a href="category.jsp?cat=tools" class="pure-menu-link">Tools</a></li>
-							<li class="pure-menu-item"><a href="category.jsp?cat=wheels" class="pure-menu-link">Wheels</a></li>	
+							<li class="pure-menu-item"><a href="category.jsp?cat=wheels" class="pure-menu-link">Wheels</a></li>
 						</ul>
 					</li>
 					<li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover dropdown">
@@ -48,23 +48,22 @@
 					</li>
 					<li class="pure-menu-item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeWyY8v3RgOty-MyWmh9U0iivNYN_molChYyS-0U-o-kOAv_g/viewform" target="_blank" class="pure-menu-link">Suggest A Part!</a></li>
 					<li class="pure-menu-item"><a href="about.jsp" class="pure-menu-link">About</a></li>
-					
+
 				</ul>
+
+				<div style="float:right;">
+							<form action="results.jsp" method="post" class="pure-form pure-form-aligned">
+								<input type="text" name="query" value="" autocomplete="off" required>
+								<input type="submit" value="Search" class="pure-button">
+							</form>
+				</div>
 				</div>
 			</nav>
-			<div style="float:right;">
-						<form action="results.jsp" method="post" class="pure-form pure-form-aligned"> 
-							<input type="text" name="query" value="" autocomplete="off" required>
-							<input type="submit" value="Search" class="pure-button"> 
-						</form> 
-			</div>
-			
+
 			<div class="main">
-			
+
 			</div>
 			<br>
 		</div>
 		<div class="pure-u-1-8"></div>
 	</div>
-	
-
