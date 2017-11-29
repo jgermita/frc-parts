@@ -29,10 +29,10 @@ public class SheetsFetcher {
     // "https://docs.google.com/spreadsheets/d/1x07PQ0yxtrQXogLbfGt5_W_RXgm1O1TL-T5Hijq8WTM/pub?gid=0&single=true&output=tsv";
 
     public SheetsFetcher(String url) {
-    	this.url = url;
-        this.line = new ArrayList<String>();
-        this.parts = new ArrayList<Part>();
-        contents = null;
+      this.url = url;
+      this.line = new ArrayList<String>();
+      this.parts = new ArrayList<Part>();
+      contents = null;
     }
 
     private void getSheet() {

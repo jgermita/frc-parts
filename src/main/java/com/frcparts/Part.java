@@ -119,7 +119,6 @@ public class Part {
 	}
 
 	public String getSource() {
-		return source;
 	}
 
 	public String getSourceLink() {
