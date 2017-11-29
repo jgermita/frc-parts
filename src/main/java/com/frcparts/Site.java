@@ -47,7 +47,7 @@ public class Site {
 
     }
 
-    public void getSha() {
+    public String getSha() {
       return sha;
     }
 }
