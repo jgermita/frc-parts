@@ -30,7 +30,7 @@
 					<div class="pure-u-1-2">
 						<h1><%= partsbean.searched.getName() %></h1>
             <small>
-                <%= partsbean.searched.getCat() %> / <%= partsbean.searched.getSubcat() %>
+                <a href="category.jsp?cat=<%= partsbean.searched.getCat() %>"><%= partsbean.searched.getCat() %></a> / <%= partsbean.searched.getSubcat() %>
             </small><br>
             <p>
               <%= partsbean.searched.getDesc() %>
