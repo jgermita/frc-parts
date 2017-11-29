@@ -32,10 +32,10 @@ public class Site {
 
               if(contents != null) {
                 contents = contents.split("\"sha\": \"")[1];
-                contents = contents.split("\",");
+                contents = contents.split("\",")[0];
 
                 sha = contents.substring(0, 8);
-                
+
               }
 
             } catch(Exception e) {
