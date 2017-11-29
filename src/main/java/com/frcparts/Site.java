@@ -19,30 +19,35 @@ public class Site {
 
     public Site() {
 
-            String contents = "";
+                  String contents = "";
 
-            try {
-              BufferedReader br = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
-              String s = "";
+                  try {
+                    BufferedReader br = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
+                    String s = "";
 
-              while ((s = br.readLine()) != null) {
-                contents = contents.concat(s + "\n");
-                if(s.contains("\"sha\"")) {
-                  break;
-                }
-              }
+                    while ((s = br.readLine()) != null) {
+                      contents = contents.concat(s + "\n");
+                      System.out.println("Sha: " + contents);
+                      if(s.contains("\"sha\"")) {
+                        break;
+                      }
+                    }
 
-              if(contents != null) {
-                contents = contents.split("\"sha\": \"")[1];
-                contents = contents.split("\",")[0];
+                    if(contents != null) {
+                      contents = contents.split("\"sha\": \"")[1];
+                      contents = contents.split("\",")[0];
 
-                sha = contents.substring(0, 8);
+                      sha = contents.substring(0, 8);
 
-              }
+                    }
 
-            } catch(Exception e) {
+                  } catch(Exception e) {
 
-            }
+                  }
 
+    }
+
+    public void getSha() {
+      return sha;
     }
 }

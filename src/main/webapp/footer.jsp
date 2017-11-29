@@ -21,7 +21,7 @@
 				<small>
 					<a href="https://docs.google.com/forms/d/e/1FAIpQLSeWyY8v3RgOty-MyWmh9U0iivNYN_molChYyS-0U-o-kOAv_g/viewform" target="_blank">send feedback</a><br>
 
-					Current app build: <code><%= sitebean.sha %></code>
+					Current app build: <code><%= sitebean.getSha() %></code>
 
 				</small>
 			</div>
