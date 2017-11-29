@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <footer>
 
-	<jsp:useBean id="sitebean" scope="application" class="com.frcparts.Site" />
 
 
 	<div class="pure-g">
@@ -20,7 +19,8 @@
 			<div class="pure-u-1-2" style="text-align: right">
 				<small>
 					<a href="https://docs.google.com/forms/d/e/1FAIpQLSeWyY8v3RgOty-MyWmh9U0iivNYN_molChYyS-0U-o-kOAv_g/viewform" target="_blank">send feedback</a><br>
-					Current app build: <code><%= sitebean.sha %></code>
+
+						<jsp:include page="build.jsp" />
 				</small>
 			</div>
 		</div>
