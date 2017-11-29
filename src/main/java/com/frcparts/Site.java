@@ -16,7 +16,7 @@ public class Site {
 
     public Site() {
 
-            contents = "";
+            String contents = "";
 
             try {
               BufferedReader br = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
