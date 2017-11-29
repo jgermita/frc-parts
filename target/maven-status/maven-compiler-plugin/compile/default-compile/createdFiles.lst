@@ -1,5 +1,5 @@
+com\frcparts\Part.class
+com\frcparts\HtmlHelper.class
 com\frcparts\PartsDbHandler.class
 com\frcparts\SheetsData.class
-com\frcparts\Part.class
 com\frcparts\SheetsFetcher.class
-com\frcparts\HtmlHelper.class

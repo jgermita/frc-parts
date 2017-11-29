@@ -26,20 +26,18 @@ public class Site {
                     String s = "";
 
                     while ((s = br.readLine()) != null) {
-                      contents = contents.concat(s + "\n");
-                      System.out.println("Sha: " + contents);
-                      if(s.contains("\"sha\"")) {
-                        break;
-                      }
+                      contents = s;
+                      contents = contents.split("\"sha\":\"")[1];
+					  contents = contents.split("\",\"commit\"")[0];
+					  sha = contents.substring(0, 8);
+					  //contents = contents.split("\"sha\": \"")[1];
+					  //contents = contents.split("{")[1];
+                      //System.out.println("Sha: " + sha);
+                      
+                      
+					  break;
                     }
 
-                    if(contents != null) {
-                      contents = contents.split("\"sha\": \"")[1];
-                      contents = contents.split("\",")[0];
-                      System.out.println("\n\nSha: " + contents);
-                      sha = contents.substring(0, 8);
-
-                    }
 
                   } catch(Exception e) {
 
