@@ -41,7 +41,7 @@
             <br><br>
 
             <table class="pure-table pure-table-horizontal pure-table-odd">
-  						<tr><td><b>Vendor</b></td> <td><a href=""<%= partsbean.searched.getUrl()>""><%= partsbean.searched.getVendor() %></a></td>
+  						<tr><td><b>Vendor</b></td> <td><a href=""<%= partsbean.searched.getUrl() %>""><%= partsbean.searched.getVendor() %></a></td>
   						<tr><td><b>P/N</b></td> <td><%= partsbean.searched.getPn() %></td>
               <tr><td><b>Cost(USD)</b></td> <td><%= partsbean.searched.getCost() %></td>
               <tr><td><b>Tags</b></td> <td><%= partsbean.searched.getTagsList() %></td>
