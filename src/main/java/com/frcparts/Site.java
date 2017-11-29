@@ -1,5 +1,6 @@
 package com.frcparts;
 
+import org.apache.commons.lang3.StringUtils;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -32,7 +33,7 @@ public class Site {
               contents = contents.split("\"sha\": \"")[1];
               contents = contents.split("\",");
 
-              sha = contents.left(8);
+              sha = StringUtils.left(contents, 8);
 
             } catch(Exception e) {
 
