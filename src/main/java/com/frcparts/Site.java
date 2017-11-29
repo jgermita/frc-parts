@@ -30,10 +30,13 @@ public class Site {
                 }
               }
 
-              contents = contents.split("\"sha\": \"")[1];
-              contents = contents.split("\",");
+              if(contents != null) {
+                contents = contents.split("\"sha\": \"")[1];
+                contents = contents.split("\",");
 
-              sha = StringUtils.left(contents, 8);
+                sha = contents.substring(0, 8);
+                
+              }
 
             } catch(Exception e) {
 
