@@ -28,7 +28,6 @@ public class PartsDbHandler {
         init();
     }
 
-    @PostConstruct
     public void init() {
       data = new SheetsData(new SheetsFetcher("https://docs.google.com/spreadsheets/d/e/2PACX-1vTBWVWKUQK8WMiqk0m34zccY3wuvS7QmmkSZXZtQ_5gh675xN4zslR2vOdPpftjLVFZIpg9WqY55XGX/pub?gid=1184988672&single=true&output=tsv"));
       searched = data.empty;
