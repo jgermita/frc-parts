@@ -28,6 +28,6 @@ and open the template in the editor.
 	
 	
 	
-	<jsp:include page="footer.html" />
+	<jsp:include page="footer.jsp" />
 	
 </html>

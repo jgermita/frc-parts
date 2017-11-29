@@ -11,13 +11,13 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width">
     <jsp:useBean id="partsbean" scope="application" class="com.frcparts.PartsDbHandler" />
-    
-	
+
+
     <head>
         <title>frcparts - category - <%= partsbean.getCategory() %></title>
 		<jsp:include page="header.html" />
     </head>
-    
+
     <body>
 		<div class="pure-g">
 			<div class="pure-u-1-8"></div>
@@ -35,8 +35,8 @@
 			</div>
 			<div class="pure-u-1-8"></div>
 		</div>
-            
+
     </body>
-	
-	<jsp:include page="footer.html" />
+
+	<jsp:include page="footer.jsp" />
 </html>
