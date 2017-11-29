@@ -36,7 +36,7 @@ public class Site {
                     if(contents != null) {
                       contents = contents.split("\"sha\": \"")[1];
                       contents = contents.split("\",")[0];
-
+                      System.out.println("\n\nSha: " + contents);
                       sha = contents.substring(0, 8);
 
                     }
