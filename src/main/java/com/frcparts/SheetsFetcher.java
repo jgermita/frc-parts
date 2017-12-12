@@ -46,7 +46,7 @@ public class SheetsFetcher {
 	  
 	  Object[] lines;
       //line.clear();
-      this.parts = new ArrayList<Part>();
+      parts.clear();
 	  
       try {
 		InputStreamReader isr = new InputStreamReader(new URL(url).openStream());
