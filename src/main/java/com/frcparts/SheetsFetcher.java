@@ -46,7 +46,7 @@ public class SheetsFetcher {
 	  
 	  Object[] lines;
       //line.clear();
-      parts.clear();
+      this.parts = new ArrayList<Part>();
 	  
       try {
 		InputStreamReader isr = new InputStreamReader(new URL(url).openStream());
@@ -79,7 +79,7 @@ public class SheetsFetcher {
 	  //System.out.println(s.split("\t").length);
 	  //contents = contents.concat(s + "\n");
 	}
-
+	
       System.out.println("Get time ms: " + (System.currentTimeMillis() - lastGet));
 
     }
