@@ -96,8 +96,10 @@ public class SheetsData {
 		cache = this.sheet.getCache();
 
 		if(category.toLowerCase().equals("all")) {
+			System.out.println("Returning all");
 			return cache;
 		} else {
+			System.out.println("Returning " + category);
 			for(Part p : cache) {
 				if(p.getCat().toLowerCase().equals(category)) {
 					answer.add(p);
