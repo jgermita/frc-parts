@@ -42,41 +42,43 @@ public class SheetsFetcher {
 
       lastGet = System.currentTimeMillis();
 
-
       contents = "";
+	  
+	  Object[] lines;
       //line.clear();
       parts.clear();
+	  
       try {
-        BufferedReader br = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
-        //String s = "";
+		InputStreamReader isr = new InputStreamReader(new URL(url).openStream());
+        BufferedReader br = new BufferedReader(isr);
 		
-		Object[] lines = br.lines().toArray();
+		lines = br.lines().toArray();
 		
 		line = Arrays.copyOf(lines, lines.length, String[].class);
-
-        for(String s : line) {
-          if(	s.split("\t")[0].isEmpty()) {
-            break;
-          }
-
-          if(s.split("\t")[0].equals("Category")) {
-            continue;
-          }
-
-          //line.add(s);
-          parts.add(new Part(s));
-
-          //System.out.println(s.split("\t").length);
-          //contents = contents.concat(s + "\n");
-        }
-
-        // for(String s1 : line) {
-        //   parts.add(new Part(s1));
-        // }
-
+		
+		br.close();
+		isr.close();
+		
       } catch(Exception e) {
 
       }
+	  
+	  
+	for(String s : line) {
+	  if(	s.split("\t")[0].isEmpty()) {
+		break;
+	  }
+
+	  if(s.split("\t")[0].equals("Category")) {
+		continue;
+	  }
+
+	  //line.add(s);
+	  parts.add(new Part(s));
+
+	  //System.out.println(s.split("\t").length);
+	  //contents = contents.concat(s + "\n");
+	}
 
       System.out.println("Get time ms: " + (System.currentTimeMillis() - lastGet));
 
