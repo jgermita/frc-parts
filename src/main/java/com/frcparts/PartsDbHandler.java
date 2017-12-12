@@ -40,7 +40,7 @@ public class PartsDbHandler {
 
     public String getCategory(String cat) {
         this.setCategory(cat);
-        return this.toTable(data.getCategoryAsArray(category));
+        return this.toTable(data.getCategory(category));
         //return "test";
     }
 
