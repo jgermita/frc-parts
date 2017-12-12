@@ -84,14 +84,14 @@ public class SheetsDataTest {
         
         int min = 9;
         
-        for(int i = 0; i < data.sheet.line.size(); i++) {
+        for(int i = 0; i < data.sheet.line.length; i++) {
             
             int testIndex = i;
             
             //System.out.println("Testing index " + testIndex);
 			//System.out.println(data.sheet.line.get(testIndex));
             
-            int actual = data.sheet.line.get(testIndex).split("\t", 19).length;
+            int actual = data.sheet.line[i].split("\t", 19).length;
             
             //System.out.println("Expected size: " + min);
             //System.out.println("Actual   size: " + actual + "\n\n");

@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 
 /*
@@ -19,7 +20,8 @@ import java.util.Date;
  */
 public class SheetsFetcher {
     String contents;
-    public ArrayList<String> line;
+    //public ArrayList<String> line;
+	public String[] line;
     public ArrayList<Part> parts;
     String url = null;
 
@@ -30,7 +32,8 @@ public class SheetsFetcher {
 
     public SheetsFetcher(String url) {
       this.url = url;
-      this.line = new ArrayList<String>();
+      //this.line = new ArrayList<String>();
+	  this.line = new String[0];
       this.parts = new ArrayList<Part>();
       contents = null;
     }
@@ -41,13 +44,17 @@ public class SheetsFetcher {
 
 
       contents = "";
-      line.clear();
+      //line.clear();
       parts.clear();
       try {
         BufferedReader br = new BufferedReader(new InputStreamReader(new URL(url).openStream()));
-        String s = "";
+        //String s = "";
+		
+		Object[] lines = br.lines().toArray();
+		
+		line = Arrays.copyOf(lines, lines.length, String[].class);
 
-        while ((s = br.readLine()) != null) {
+        for(String s : line) {
           if(	s.split("\t")[0].isEmpty()) {
             break;
           }
@@ -56,7 +63,7 @@ public class SheetsFetcher {
             continue;
           }
 
-          line.add(s);
+          //line.add(s);
           parts.add(new Part(s));
 
           //System.out.println(s.split("\t").length);
