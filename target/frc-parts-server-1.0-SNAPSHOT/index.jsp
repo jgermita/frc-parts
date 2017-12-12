@@ -20,6 +20,9 @@ and open the template in the editor.
 
     </head>
 
+	<div class="pure-g" style="padding-top: 10px">
+	<div class="pure-u-1-8"></div>
+	<div class="pure-u-3-4">
     <body>
 		<img class="pure-img" src="https://i.imgur.com/KmBb3ai.jpg">
 
@@ -27,6 +30,10 @@ and open the template in the editor.
 			Cache was last updated at: <%= partsbean.getCacheTimestamp() %> UTC
 		</small></center>
     </body>
+	</div>
+	<div class="pure-u-1-8"></div>
+
+	</div>
 
 
 
