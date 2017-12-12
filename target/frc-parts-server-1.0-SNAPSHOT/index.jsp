@@ -24,11 +24,12 @@ and open the template in the editor.
 	<div class="pure-u-1-8"></div>
 	<div class="pure-u-3-4">
     <body>
-		<img class="pure-img" src="https://i.imgur.com/KmBb3ai.jpg">
+		<img class="pure-img" src="https://i.imgur.com/YebEVKt.jpg">
 
-        <center><small>
+<br><br>
+        <right><small>
 			Cache was last updated at: <%= partsbean.getCacheTimestamp() %> UTC
-		</small></center>
+		</small></right>
     </body>
 	</div>
 	<div class="pure-u-1-8"></div>
