@@ -1,6 +1,7 @@
 package com.frcparts;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class SheetsData {
@@ -109,6 +110,37 @@ public class SheetsData {
 		}
 
 		return answer;
+	}
+	
+	
+	public Part[] getCategoryAsArray(String category) {
+		ArrayList<Part> answer = new ArrayList<Part>();
+
+		category = category.toLowerCase();
+
+		if(sheet.isCacheStale()) {
+			sheet.update();
+		}
+
+		cache = this.sheet.getCache();
+		Object[] c = cache.toArray();
+		
+
+		if(category.toLowerCase().equals("all")) {
+			//System.out.println("Returning all");
+			
+			return Arrays.copyOf(c, c.length, Part[].class);
+		} else {
+			//System.out.println("Returning " + category);
+			for(Object o : c) {
+				Part p = (Part)o;
+				if(p.getCat().toLowerCase().equals(category)) {
+					answer.add(p);
+				}
+			}
+		}
+
+		return Arrays.copyOf(answer.toArray(), answer.toArray().length, Part[].class);
 	}
 
 	public String getCacheTimestamp() {

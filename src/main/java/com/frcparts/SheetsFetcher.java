@@ -65,7 +65,7 @@ public class SheetsFetcher {
 	  
 	  
 	for(String s : line) {
-	  if(	s.split("\t")[0].isEmpty()) {
+	  if(s.split("\t")[0].isEmpty()) {
 		break;
 	  }
 

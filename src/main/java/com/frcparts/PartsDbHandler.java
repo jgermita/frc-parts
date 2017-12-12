@@ -40,7 +40,7 @@ public class PartsDbHandler {
 
     public String getCategory(String cat) {
         this.setCategory(cat);
-        return this.toTable(data.getCategory(category));
+        return this.toTable(data.getCategoryAsArray(category));
         //return "test";
     }
 
@@ -90,6 +90,13 @@ public class PartsDbHandler {
 
         return HtmlHelper.toTable(p);
     }
+	
+	public String toTable(Part[] p) {
+
+        return HtmlHelper.toTable(p);
+    }
+	
+	
     public String toString(ArrayList<Part> res) {
 
         String answer = "";
