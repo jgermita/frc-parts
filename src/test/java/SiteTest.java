@@ -16,28 +16,28 @@ import org.junit.Test;
  * @author Jeremy
  */
 public class SiteTest {
-    
+
     public Site site = null;
-    
-    
-    
+
+
+
     public SiteTest() {
         site = new Site();
-        
+
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
@@ -47,11 +47,11 @@ public class SiteTest {
     //
     @Test
     public void getShaTest() {
-        
-        
+
+
         assert(false);
     }
-	
-    
-    
+
+
+
 }
